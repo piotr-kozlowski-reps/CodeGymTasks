@@ -1,0 +1,19 @@
+taskKey="pl.codegym.task.task15.task1519"\n\nRóżne metody dla różnych typów
+
+1. Odczytuj dane z konsoli do momentu wprowadzenia słowa "exit".
+2. Dla każdej wartości (za wyjątkiem "exit"), wywołaj metodę print. Jeśli wartość:
+2.1. zawiera kropkę („.”), wówczas wywołaj metodę print dla Double;
+2.2. jest większa od zera, ale mniejsza niż 128, wówczas wywołaj metodę print dla short;
+2.3. mniejsza lub równa zero lub większa lub równa 128, wówczas wywołaj metodę print dla Integer;
+2.4. w przeciwnym razie wywołaj metodę print dla String.
+
+
+Requirements:
+1.	Program musi odczytywać dane z klawiatury.
+2.	Program powinien zakończyć odczytywanie danych z klawiatury po wprowadzeniu &quot;exit&quot;.
+3.	Jeżeli wprowadzony ciąg zawiera kropkę (&bdquo;.&rdquo;) i można go poprawnie przekonwertować na typ Double, to należy wywołać metodę print(Double value).
+4.	Jeżeli wprowadzony ciąg można poprawnie przekonwertować na typ short, a otrzymana liczba jest większa niż 0, lecz mniejsza niż 128, to należy wywołać metodę print(short value).
+5.	Jeżeli wprowadzony ciąg można poprawnie przekonwertować na typ Integer i otrzymana liczba jest mniejsza lub r&oacute;wna 0 lub większa lub r&oacute;wna 128, to należy wywołać metodę print(Integer value).
+6.	We wszystkich innych przypadkach należy wywołać metodę print(String value).
+
+

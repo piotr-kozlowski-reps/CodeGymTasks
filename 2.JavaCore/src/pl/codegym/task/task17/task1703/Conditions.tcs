@@ -1,0 +1,18 @@
+taskKey="pl.codegym.task.task17.task1703"\n\nZsynchronizowane notatki
+
+1. Wątki będą używać klasy Note. Dlatego też upewnij się, że próby dostępu do listy notes blokują notes, a nie this
+2. Wywołania do System.out.println nie mogą być synchronized, tzn. nie mogą znajdować się w bloku synchronized
+
+
+Requirements:
+1.	 Metoda addNote() powinna dodawać notatki do listy notes.
+2.	 Metoda removeNote() musi usuwać notatkę z listy notes.
+3.	 Metoda addNote() musi mieć blok synchronized.
+4.	 Metoda removeNote() musi mieć blok synchronized.
+5.	 Blok synchronized w metodzie addNote() musi blokować notes.
+6.	 Blok synchronized w metodzie removeNote() musi blokować notes.
+7.	 Blok synchronized metody addNote() musi wywoływać metodę add na notes.
+8.	 Blok synchronized metody removeNote() musi wywoływać metodę remove na notes.
+9.	 W bloku synchronized nie powinno być komend wyjścia na ekran.
+
+

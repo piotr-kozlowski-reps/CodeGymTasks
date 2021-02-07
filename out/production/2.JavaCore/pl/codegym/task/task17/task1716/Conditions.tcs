@@ -1,0 +1,17 @@
+taskKey="pl.codegym.task.task17.task1716"\n\nMetody zsynchronizowane
+
+Ustaw modyfikator synchronized tylko względem tych metod, które go potrzebują.
+Obiekt Solution będzie wykorzystywany przez wątki.
+
+
+Requirements:
+1.	 Jeśli to konieczne, użyj synchronized w method0.
+2.	 Jeśli to konieczne, użyj synchronized w method1.
+3.	 Jeśli to konieczne, użyj synchronized w method2.
+4.	 Jeśli to konieczne, użyj synchronized w method3.
+5.	 Jeśli to konieczne, użyj synchronized w method4.
+6.	 Jeśli to konieczne, użyj synchronized w method5.
+7.	 Jeśli to konieczne, użyj synchronized w method6.
+8.	 Jeśli to konieczne, użyj synchronized w method7.
+
+

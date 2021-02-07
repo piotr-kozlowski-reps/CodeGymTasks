@@ -1,0 +1,15 @@
+taskKey="pl.codegym.task.task16.task1608"\n\nZdobywanie poparcia podczas debat politycznych
+
+1. Dowiedz się, co robi program.
+2. Musimy być pewni, że podczas debaty politycznej Chump mówi najwięcej.
+3. Pomyśl jaką metodę możesz wywołać na obiekcie chump, aby sprawić, że Chump będzie mówił tak długo, aż wykorzysta cały dostępny czas.
+
+
+Requirements:
+1.	Wywołaj metodę join na odpowiednim obiekcie.
+2.	Metoda toString klasy Politician powinna wyświetlać, ile razy wypowiadał się dany polityk, na przykład: &quot;Chump wypowiadał się 35 razy&quot;.
+3.	Program powinien utworzyć 3 obiekty Politician.
+4.	Nie zmieniaj metod, kt&oacute;re są odpowiedzialne za wynik na ekranie.
+5.	Wynik programu powinien wskazywać, że podczas debaty politycznej Chump wypowiedział się najwięcej razy.
+
+

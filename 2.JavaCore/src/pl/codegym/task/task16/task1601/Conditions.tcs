@@ -1,0 +1,14 @@
+taskKey="pl.codegym.task.task16.task1601"\n\nMój pierwszy wątek
+
+Utwórz klasę public static TestThread, wątek z interfejsem Runnable.
+TestThread powinien wyświetlać "Mój pierwszy wątek".
+
+
+Requirements:
+1.	Do klasy Solution dodaj publiczną statyczną klasę o nazwie TestThread.
+2.	Klasa TestThread musi implementować interfejs Runnable.
+3.	Metoda run klasy TestThread powinna wyświetlać &quot;M&oacute;j pierwszy wątek&quot;.
+4.	Program powinien wyświetlać &quot;M&oacute;j pierwszy wątek&quot;.
+5.	Nie zmieniaj metody main.
+
+

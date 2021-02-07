@@ -1,0 +1,21 @@
+taskKey="pl.codegym.task.task14.task1409"\n\nMosty
+
+1. Utwórz interfejs Bridge przy użyciu metody int getCarsCount().
+2. Zapisz klasy WaterBridge i SuspensionBridge, które implementują interfejs Bridge.
+3. Metoda getCarsCount() musi zwracać dowolną stałą wartość int.
+4. Metoda getCarsCount() musi zwracać różne wartości dla różnych klas.
+5. Utwórz publiczną metodę println(Bridge bridge) w klasie Solution.
+6. W metodzie println wyświetl wynik wywołania metody getCarsCount() na obiekcie bridge.
+7. Każda klasa i interfejs muszą znajdować się w osobnych plikach.
+
+
+Requirements:
+1.	Interfejs Bridge musi znajdować się w osobnym pliku.
+2.	Klasy WaterBridge i SuspensionBridge muszą znajdować się w osobnych plikach.
+3.	Klasy WaterBridge i SuspensionBridge muszą implementować interfejs Bridge.
+4.	Metoda getCarsCount() musi zwracać r&oacute;żne wartości int dla r&oacute;żnych klas, ale zawsze tę samą wartość dla r&oacute;żnych obiekt&oacute;w tej samej klasy.
+5.	Klasa Solution musi implementować publiczną metodę println z jednym parametrem Bridge.
+6.	Metoda println musi wyświetlać liczbę samochod&oacute;w (wynik metody getCarsCount) dla przekazanego obiektu Bridge.
+7.	Interfejs Bridge musi definiować metodę int GetCarsCount().
+
+

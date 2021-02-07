@@ -1,0 +1,15 @@
+taskKey="pl.codegym.task.task16.task1616"\n\nLiczenie sekund
+
+1. Napisz implementację dla metody run w wątku Stopwatch.
+2. Klasa Stopwatch musi zliczać ilość sekund, które upłynęły od utworzenia wątku do wprowadzenia ciągu.
+3. Wyświetl liczbę sekund.
+
+
+Requirements:
+1.	Metoda run klasy Stopwatch musi mieć pętlę.
+2.	Metoda run powinna wywoływać Thread.sleep(1000).
+3.	Metoda run powinna zwiększać ilość sekund w polu co 1 sekundę.
+4.	Po przerwaniu wątku Stopwatch, metoda run musi wyświetlać liczbę sekund.
+5.	W klasie Stopwatch może być tylko jedna metoda run.
+
+

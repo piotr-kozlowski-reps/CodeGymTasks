@@ -1,0 +1,17 @@
+taskKey="pl.codegym.task.task18.task1823"\n\nWątki i bajty
+
+Odczytuj nazwy plików z konsoli do momentu wprowadzenia słowa "exit".
+Przekaż nazwę pliku do ReadThread thread.
+ReadThread thread powinien odnajdywać bajt, który występuje w pliku najczęściej i dodawać go do resultMap,
+gdzie parametr String jest nazwą pliku, a parametr Integer jest odpowiednim bajtem.
+Zamknij strumienie.
+
+
+Requirements:
+1.	Program musi odczytywać nazwy plik&oacute;w z konsoli do momentu wprowadzenia słowa &quot;exit&quot;.
+2.	Dla każdego pliku należy utworzyć i uruchomić ReadThread thread.
+3.	Po uruchomieniu każdego z wątk&oacute;w, ReadThread powinien tworzyć własny strumień wejściowy pliku.
+4.	Następnie każdy z wątk&oacute;w musi odnajdywać w swoim pliku najczęściej występujący bajt i dodawać go do resultMap.
+5.	Strumień wejściowy pliku w każdym z wątk&oacute;w musi zostać zamknięty.
+
+

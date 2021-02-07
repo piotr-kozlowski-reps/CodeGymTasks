@@ -1,0 +1,16 @@
+taskKey="pl.codegym.task.task18.task1810"\n\nDownloadException
+
+1 Odczytaj nazwy plików z konsoli.
+2 Jeśli rozmiar pliku jest mniejszy niż 1000 bajtów, wówczas:
+2.1 Zamknij strumień pliku.
+2.2. Wyrzuć DownloadException.
+
+
+Requirements:
+1.	Program powinien odczytywać nazwy plik&oacute;w z konsoli.
+2.	Użyj FileInputStream do odczytu z plik&oacute;w.
+3.	Program powinien pracować tak długo, dop&oacute;ki wielkość pliku nie przekroczy 1000 bajt&oacute;w.
+4.	Program powinien zakończyć się wystąpieniem DownloadException.
+5.	The FileInputStream musi zostać zamknięty.
+
+

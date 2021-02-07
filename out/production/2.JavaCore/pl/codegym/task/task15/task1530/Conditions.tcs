@@ -1,0 +1,33 @@
+taskKey="pl.codegym.task.task15.task1530"\n\nMetoda szablonowa
+
+1. Utwórz w osobnym pliku klasę DrinkMaker z trzema metodami abstrakcyjnymi:
+- void getRightCup() - wybiera odpowiedni kubek
+- void addIngredients() - dodaje składniki
+- void pour() - wlewa płyn
+2. W klasie DrinkMaker zadeklaruj i implementuj metodę void makeDrink(), która przygotowuje napój w następującej kolejności: wybiera kubek, dodaje składniki, wlewa płyn.
+3. Utwórz w osobnych plikach klasy LatteMaker i TeaMaker, które dziedziczą DrinkMaker.
+4. Przypisz poniższe frazy do wszystkich metod w klasach LatteMaker i TeaMaker, stosując różne frazy dla różnych metod.
+5. Każda metoda powinna wyświetlać swoją własną frazę, nie wyświetlając przy tym frazy przypisanej do jakiejkolwiek innej metody.
+6. Frazy:
+"Napełnij wrzątkiem"
+"Weź kubek na latte"
+"Nalej herbaty"
+"Weź kubek na herbatę"
+"Napełnij spienionym mlekiem"
+"Zrób kawę"
+
+
+Requirements:
+1.	Klasa DrinkMaker musi znajdować się w osobnym pliku i musi być abstrakcyjna.
+2.	Klasa DrinkMaker musi posiadać trzy metody abstrakcyjne: getRightCup, addIngredients i pour.
+3.	Klasa DrinkMaker musi implementować metodę makeDrink, kt&oacute;ra wywołuje metody abstrakcyjne tej klasy w kolejności określonej przez warunki zadania.
+4.	Klasa LatteMaker musi znajdować się w osobnym pliku być obiektem podrzędnym klasy DrinkMaker.
+5.	Klasa TeaMaker musi znajdować się w osobnym pliku i musi być obiektem podrzędnym klasy DrinkMaker.
+6.	Metoda getRightCup klasy LatteMaker powinna wyświetlać &quot;Weź kubek na latte&quot;.
+7.	Metoda addIngredients  klasy LatteMaker powinna wyświetlać &quot;Zr&oacute;b kawę&quot;.
+8.	Metoda pour klasy LatteMaker powinna wyświetlać &quot;Napełnij spienionym mlekiem&quot;.
+9.	Metoda getRightCup klasy TeaMaker powinna wyświetlać &quot;Weź kubek na herbatę&quot;.
+10.	Metoda addIngredients klasy TeaMaker powinna wyświetlać &quot;Nalej herbaty&quot;.
+11.	Metoda pour klasy TeaMaker powinna wyświetlać &quot;Napełnij wrzątkiem&quot;.
+
+

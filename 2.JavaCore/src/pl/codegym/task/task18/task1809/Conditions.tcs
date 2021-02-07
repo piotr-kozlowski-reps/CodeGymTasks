@@ -1,0 +1,14 @@
+taskKey="pl.codegym.task.task18.task1809"\n\nOdwracanie pliku
+
+Odczytaj 2 nazwy plików z konsoli: file1, file2.
+Zapisz wszystkie bajty z file1 do file2,, ale w odwrotnej kolejności.
+Zamknij strumienie.
+
+
+Requirements:
+1.	Program powinien dwukrotnie odczytywać nazwę pliku z konsoli.
+2.	Użyj FileInputStream do odczytu z pliku, a FileOutputStream do zapisu do pliku.
+3.	W drugim pliku należy zapisać wszystkie bajty z pierwszego pliku w odwrotnej kolejności.
+4.	FileInputStream i FileOutputStream muszą zostać zamknięte.
+
+

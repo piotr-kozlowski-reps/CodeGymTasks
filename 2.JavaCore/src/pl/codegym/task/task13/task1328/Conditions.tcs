@@ -1,0 +1,22 @@
+taskKey="pl.codegym.task.task13.task1328"\n\nWalki robotów
+
+1. Zapoznaj się z kodem.
+2. Zaakceptuj swój los i postaraj się zrozumieć kod.
+3. ...
+4. Ciesz się, że go rozgryzłeś.
+5. Przystosuj kod do kształtu poniższej architektury i dodaj do niego nową logikę:
+5.1. Spraw, aby klasa AbstractRobot była abstrakcyjna. Następnie przenieś logikę działań attack i defend z klasy Robot do klasy AbstractRobot.
+5.2. Edytuj klasę Robot, aby użyć klasy AbstractRobot.
+5.3. Rozszerz klasę BodyPart o nową część ciała (element) robota: BodyPart.CHEST.
+5.4. Dodaj nową część ciała do implementacji interfejsów CanAttack i CanDefend (w klasie AbstractRobot).
+
+
+Requirements:
+1.	Klasa AbstractRobot musi być abstrakcyjna.
+2.	Klasa AbstractRobot musi implementować interfejsy CanAttack i CanDefend.
+3.	Klasa Robot musi dziedziczyć klasę AbstractRobot.
+4.	Logika definiująca to, jak zachowuje się Robot, musi być w klasie AbstractRobot.
+5.	Klasa BodyPart musi zawierać i inicjalizować finalną, statyczną zmienną BodyPart o nazwie CHEST.
+6.	Nowa część musi zostać dodana do logiki metod logic i attack w klasie AbstractRobot.
+
+

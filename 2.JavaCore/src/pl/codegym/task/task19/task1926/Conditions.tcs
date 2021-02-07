@@ -1,0 +1,23 @@
+taskKey="pl.codegym.task.task19.task1926"\n\nLustrzane odbicie
+
+1. Wczytaj nazwę pliku z konsoli. Odczytaj zawartość pliku.
+2. Dla każdego wiersza w pliku:
+2.1. odwróć kolejność wszystkich znaków.
+2.2. wyświetl wynik.
+3. Zamknij strumienie.
+Przykładowy plik wejściowy:
+Jestem programistą.
+Amigo
+Przykładowy wynik:
+.ątsimargorp metseJ
+ogimA
+
+
+Requirements:
+1.	Program musi odczytywać nazwę pliku z konsoli (użyj BufferedReader).
+2.	BufferedReader używany do odczytu danych wejściowych z konsoli musi zostać zamknięty po jego zastosowaniu.
+3.	Program musi odczytywać zawartość pliku (użyj konstruktora FileReader).
+4.	Strumień wejściowy pliku (FileReader) musi zostać zamknięty.
+5.	Program powinien wyświetlać wszystkie znaki z pliku w odwrotnej kolejności.
+
+

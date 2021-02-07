@@ -1,0 +1,16 @@
+taskKey="pl.codegym.task.task15.task1505"\n\nOOP: Rozwiązanie problemów związanych z dziedziczeniem
+
+Popraw metodę containsBones i całą związaną z nią logikę tak, aby:
+1. Program działał bez zmian.
+2. Metoda containsBones musi zwracać instancję Object i wartość "Tak" zamiast true, i "Nie" zamiast false
+
+
+Requirements:
+1.	Metoda containsBones klasy BodyPart musi zwracać instancję Object.
+2.	Klasa Finger musi być obiektem podrzędnym klasy BodyPart.
+3.	Metoda containsBones klasy Finger musi zwracać instancję Object.
+4.	Metoda containsBones klasy BodyPart powinna zwracać &quot;Tak&quot;.
+5.	Metoda containsBones klasy Finger powinna zwracać &quot;Tak&quot;, jeśli metoda containsBones klasy BodyPart zwraca &quot;Tak&quot;, a flaga isArtificial przyjmuje wartość false. Jeśli ten warunek nie jest spełniony, w&oacute;wczas zwraca &quot;Nie&quot;.
+6.	Metoda toString klasy BodyPart powinna zwracać ciąg sformatowany w następujący spos&oacute;b &quot;&lt;nazwa&gt; (nazwa części ciała) zawiera kości&quot;, jeżeli metoda containsBones zwraca &quot;Tak&quot; dla danej części ciała. Jeżeli zwraca &quot;Nie&quot;, w&oacute;wczas ciąg powinien być sformatowany jako &quot;&lt;nazwa&gt; (nazwa części ciała) nie zawiera kości&quot;.
+
+

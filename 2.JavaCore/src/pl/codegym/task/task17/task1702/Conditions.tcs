@@ -1,0 +1,13 @@
+taskKey="pl.codegym.task.task17.task1702"\n\nRazem szybciej? Zobaczymy :)
+
+1. Dowiedz się, czym się zajmujemy i jak to działa.
+2. Utwórz klasę public static SortThread, której metoda run używa metody sort, aby posortować statyczną tablicę testArray.
+
+
+Requirements:
+1.	 Klasa Solution musi zawierać publiczną statyczną klasę SortThread.
+2.	 Klasa SortThread musi być wątkiem.
+3.	 Metoda run klasy SortThread musi wywoływać metodę sort(), przekazując testArray jako argument.
+4.	 Program powinien wyświetlać tekst na ekranie.
+
+

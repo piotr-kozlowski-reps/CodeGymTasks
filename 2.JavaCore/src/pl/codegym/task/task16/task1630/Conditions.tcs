@@ -1,0 +1,25 @@
+taskKey="pl.codegym.task.task16.task1630"\n\nWynik pliku sekwencyjnego
+
+1. Dowiedz się, co robi program.
+2. W bloku statycznym wczytaj 2 nazwy plików: firstFileName i secondFileName.
+3. Wewnątrz klasy Solution utwórz klasę public static ReadFileThread, która implementuje interfejs ReadFileInterface (Pomyśl o tym, co jest bardziej odpowiednie: Thread czy Runnable).
+3.1. Metoda setFileName musi podać nazwę pliku, którego zawartość zostanie wczytana.
+3.2. Metoda getFileContents musi zwracać zawartość pliku.
+3.3. W metodzie run wczytaj zawartość pliku i zamknij strumień. Wiersze pliku należy oddzielić spacjami.
+4. Zastanów się, gdzie należy poczekać na zakończenie wątku, aby zapewnić, że pliki będą wyświetlane po kolei.
+4.1. Aby to zrobić, dodaj wywołanie do odpowiedniej metody.
+Spodziewany wynik:
+[cała zawartość pierwszego pliku]
+[cała zawartość drugiego pliku]
+
+
+Requirements:
+1.	Blok statyczny klasy Solution powinien wczytywać z konsoli nazwy dw&oacute;ch plik&oacute;w i przechowywać je w zmiennych firstFileName i secondFileName.
+2.	W klasie Solution, zadeklaruj publiczną statyczną klasę ReadFileThread.
+3.	Klasa ReadFileThread musi implementować interfejs ReadFileInterface.
+4.	Klasa ReadFileThread musi dziedziczyć odpowiednią klasę.
+5.	Metoda run klasy ReadFileThread powinna wczytywać linie z pliku określonego przez metodę setFileName. Metoda getFileContents tej samej klasy musi zwracać zawartość pliku. Zwracana wartość to jeden ciąg składający się z linii pliku, oddzielonych spacjami.
+6.	Metoda systemOutPrintln musi wywoływać metodę join na utworzonym obiekcie f.
+7.	Wynik programu powinien składać się z 2 linii. Każda z tych linii zawiera zawartość jednego pliku.
+
+

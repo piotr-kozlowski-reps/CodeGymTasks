@@ -1,0 +1,18 @@
+taskKey="pl.codegym.task.task16.task1628"\n\nKto rano wstaje, temu Pan Bóg daje
+
+1. Dowiedz się, co robi program.
+1.1. Każdy wątek powinien wczytywać linie z konsoli. Wykorzystaj istniejący static BufferedReader reader.
+1.2. Użyj AtomicInteger readStringCount, aby obliczyć, ile linii zostało wczytanych z konsoli przez wszystkie wątki.
+2. Zaimplementuj metodę run:
+2.1. Tak długo, jak wątek nie zostanie przerwany (!IsInterrupted), wczytuj linie z konsoli i dodawaj je do List<String> result.
+2.2. Użyj readStringCount do zliczania ciągów wczytanych z konsoli.
+
+
+Requirements:
+1.	Metoda run musi być wykonywana aż do zakończenia wątku (!IsInterrupted).
+2.	Metoda run NIE może tworzyć własnych instancji InputStreamReader ani BufferedReader.
+3.	Metoda run musi wczytywać słowa z czytnika i dodawać je do listy wynik&oacute;w.
+4.	Po wczytaniu każdego ciągu, metoda run musi zwiększać readStringCount o 1.
+5.	Program powinien wyświetlać dane wczytane przez każdy z wątk&oacute;w.
+
+

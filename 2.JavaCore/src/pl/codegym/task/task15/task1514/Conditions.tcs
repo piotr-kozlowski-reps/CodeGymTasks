@@ -1,0 +1,12 @@
+taskKey="pl.codegym.task.task15.task1514"\n\nModyfikatory statyczne: część 1
+
+Inicjuj w bloku statycznym etykiety z 5 różnymi parami klucz-wartość.
+
+
+Requirements:
+1.	Klasa Solution musi mieć tylko jedną metodę (main).
+2.	Klasa Solution powinna zadeklarować statyczne pole labels typu Map.
+3.	Pola labels muszą być wypełnione 5 r&oacute;żnymi parami klucz-wartość w bloku statycznym.
+4.	Metoda main powinna wyświetlać zawartość labels.
+
+

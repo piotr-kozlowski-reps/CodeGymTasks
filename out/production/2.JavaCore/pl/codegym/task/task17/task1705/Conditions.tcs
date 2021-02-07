@@ -1,0 +1,22 @@
+taskKey="pl.codegym.task.task17.task1705"\n\nWizyta w ogrodzie
+
+1. Utwórz metodę public void addFruit(int index, String fruit), która dodaje parametr fruit do listy fruits w pozycji index.
+2. Utwórz metodę public void removeFruit(int index), która usuwa element w pozycji index z fruits.
+3. Utwórz metodę public void addVegetable(int index, String vegetable), która dodaje parametr vegetable do listy vegetables w pozycji index.
+4. Utwórz metodę public void removeVegetable(int index), która usuwa element w pozycji index z vegetables.
+5. Klasa Garden będzie używana przez wątki. Upewnij się więc, że wszystkie metody blokują this.
+6. Zaimplementuj to przy użyciu jak najkrótszego kodu.
+
+
+Requirements:
+1.	 Klasa Garden musi zawierać publiczną metodę addFruit(int index, String fruit) typu void.
+2.	 Klasa Garden musi zawierać publiczną metodę removeFruit(int index) typu void.
+3.	 Klasa Garden musi zawierać publiczną metodę addVegetable(int index, String vegetable) typu void.
+4.	 Klasa Garden musi zawierać publiczną metodę removeVegetable(int index) typu void.
+5.	 Metoda addFruit(int index, String fruit) musi dodawać parametr fruit do listy fruits w pozycji index.
+6.	 Metoda removeFruit(int index) musi usuwać z fruits element z pozycji w index.
+7.	 Metoda addVegetable(int index, String vegetable) powinna dodawać parametr vegetable do listy vegetables do pozycji w index.
+8.	 Metoda removeVegetable(int index) musi usuwać z vegetables element z pozycji w index.
+9.	 Wszystkie metody klasy Garden muszą blokować this (tzn. muszą być synchronized).
+
+

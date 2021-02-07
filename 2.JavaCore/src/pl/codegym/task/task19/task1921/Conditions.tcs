@@ -1,0 +1,24 @@
+taskKey="pl.codegym.task.task19.task1921"\n\nJohn Johnson
+
+Pierwszym parametrem metody main jest nazwa pliku.
+Każdy wiersz określonego pliku ma następujący format:
+name month day year
+gdzie [name] to String, który może zawierać kilka słów oddzielonych spacjami.
+[month] to int, [day] to int i [year] to int.
+Dane są oddzielone spacjami.
+Wypełnij listę PEOPLE na podstawie danych z pliku.
+Zamknij strumienie.
+Przykładowy plik wejściowy:
+John Jack Johnson 12 31 1987
+Vincent 5 15 2013
+
+
+Requirements:
+1.	Klasa Solution musi zawierać publiczną stałą List&lt;Person&gt; o nazwie PEOPLE, kt&oacute;ra musi być natychmiastowo inicjalizowana.
+2.	Program NIE może wczytywać danych z klawiatury.
+3.	Program musi odczytywać zawartość pliku (użyj konstruktora FileReader).
+4.	Strumień wejściowy pliku (FileReader) musi zostać zamknięty.
+5.	Program musi wypełniać listę PEOPLE danymi z pliku.
+6.	Program powinien prawidłowo obsługiwać nazwy z łącznikami, takie jak Mary-Jo.
+
+

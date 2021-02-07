@@ -1,0 +1,26 @@
+taskKey="pl.codegym.task.task17.task1721"\n\nTransakcyjność
+
+Spraw, aby metoda joinData była transakcyjna, tzn. jeżeli zakończy się niepowodzeniem, to dane nie mogą zostać zmienione.
+1. Wczytaj 2 nazwy plików z konsoli.
+2. Wczytaj po kolei linie z pliku. Wczytaj linie z pierwszego pliku do allLines, a z drugiego pliku do linesForRemoval.
+W metodzie joinData:
+3. Jeśli lista allLines zawiera wszystkie linie z linesForRemoval, wówczas usuń z listy allLines wszystkie linie znajdujące się w linesForRemoval.
+4. Jeśli warunek w Punkcie 3 nie jest spełniony, wówczas:
+4.1. wyczyść dane w allLines
+4.2. wyrzuć CorruptedDataException
+Metoda joinData powinna być wywoływana w main. Zajmij się wszystkimi wyjątkami w metodzie main.
+Nie zapomnij o zamknięciu strumieni.
+
+
+Requirements:
+1.	 Klasa Solution musi zawierać publiczne statyczne pole List&lt;String&gt; o nazwie allLines.
+2.	 Klasa Solution musi zawierać publiczne statyczne pole List&lt;String&gt; o nazwie linesForRemoval.
+3.	 Klasa Solution musi posiadać publiczną metodę joinData() typu void, kt&oacute;ra może wyrzucać CorruptedDataException.
+4.	 Program powinien wczytywać nazwy dw&oacute;ch plik&oacute;w z konsoli.
+5.	 Program musi wczytywać kolejno linie z pierwszego pliku do listy allLines.
+6.	 Program musi wczytywać kolejno linie z drugiego pliku do listy linesForRemoval.
+7.	 Metoda joinData musi usuwać z listy allLines wszystkie linie znajdujące się na liście linesForRemoval, jeżeli allLines zawiera wszystkie linie znajdujące się na liście linesForRemoval.
+8.	 Metoda joinData musi czyścić listę allLines i wyrzucać CorruptedDataException, jeżeli allLines nie zawiera wszystkich linii znajdujących się na liście linesForRemoval.
+9.	 Metoda joinData powinna być wywoływana w main.
+
+

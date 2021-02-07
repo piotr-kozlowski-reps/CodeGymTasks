@@ -1,0 +1,17 @@
+taskKey="pl.codegym.task.task18.task1813"\n\nAmigoOutputStream
+
+1 Zmień klasę AmigoOutputStream tak, aby opakowywała klasę FileOutputStream. Użyj dziedziczenia.
+2 Gdy wywoływana jest metoda close(), wykonaj kolejno następujące operacje:
+2.1 Wywołaj metodę flush().
+2.2 Dodaj następujący tekst "CodeGym © All rights reserved." Użyj metody getBytes().
+2.3 Zamknij strumień używając metody close().
+
+
+Requirements:
+1.	Nie zmieniaj metody main.
+2.	Klasa AmigoOutputStream musi dziedziczyć klasę FileOutputStream.
+3.	Konstruktor klasy AmigoOutputStream powinien przyjmować obiekt FileOutputStream.
+4.	Wszystkie metody write(), flush() i close() w klasie AmigoOutputStream muszą być delegowane do obiektu FileOutputStream.
+5.	Metoda close() musi najpierw wywoływać metodę flush(), dołączać dodatkowy tekst, a następnie zamykać strumień.
+
+

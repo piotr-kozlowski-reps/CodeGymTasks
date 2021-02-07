@@ -1,0 +1,28 @@
+taskKey="pl.codegym.task.task16.task1623"\n\nRekurencyjne tworzenie wątków
+
+1. Zmień klasę GenerateThread, aby uczynić z niej wątek.
+2. Stwórz konstruktor GenerateThread, który musi:
+2.1. Wywoływać konstruktor klasy nadrzędnej, podając numer utworzonego wątku jako String. Użyj createdThreadCount.
+2.2. Uruchomić bieżący wątek.
+2.3. Numery wątków muszą zaczynać się od 1.
+3. Nadpisz metodę toString: wewnątrz GenerateThread użyj Alt+Insert -> Override Methods. Zacznij wpisywać "toString".
+3.1. Metoda toString musi zwracać aktualny numer wątku i słowo "utworzony". Użyj getName().
+Przykład:
+8 utworzony
+4. Jeżeli liczba utworzonych wątków jest mniejsza niż Solution.count, metoda run musi:
+4.1. Tworzyć nową instancję GenerateThread.
+4.2. Wyświetlać utworzony wątek w punkcie 4.1.
+5. Ostatecznie wyjście z konsoli powinno liczyć 15 linii.
+
+
+Requirements:
+1.	Klasa GenerateThread powinna dziedziczyć klasę Thread.
+2.	Klasa GenerateThread musi zawierać publiczny konstruktor bez argument&oacute;w.
+3.	Konstruktor klasy GenerateThread powinien dokonywać inkrementacji createdThreadCount i przekazywać ją jako ciąg do konstruktora klasy nadrzędnej.
+4.	Konstruktor klasy GenerateThread musi uruchamiać wątek.
+5.	Metoda toString klasy GenerateThread musi zwracać nazwę wątku i słowo &quot; utworzony&quot;. Przykład: &quot;8 utworzony&quot;.
+6.	Jeżeli liczba utworzonych wątk&oacute;w jest mniejsza niż Solution.count, metoda run musi tworzyć nowy GenerateThread.
+7.	Jeżeli liczba utworzonych wątk&oacute;w jest mniejsza niż Solution.count, metoda run musi wyświetlać utworzony wątek.
+8.	Wynik programu musi odpowiadać warunkom zadania i wskazywać, że wszystkie 15 wątk&oacute;w zostało utworzonych.
+
+

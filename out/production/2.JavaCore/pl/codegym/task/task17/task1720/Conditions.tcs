@@ -1,0 +1,23 @@
+taskKey="pl.codegym.task.task17.task1720"\n\nBankomat
+
+Dowiedz się, jak działa program.
+Podczas testów stwierdzono, że log zawierał następujące informacje:
+.....
+Wpłata 100, saldo konta 1100
+Wpłata 100, saldo konta 1200
+Wypłata 1000, saldo konta 100
+Brak wystarczających środków
+.....
+Mamy do czynienia z błędem:
+W momencie obciążania konta pieniądze przepadają.
+Znajdź błąd i napraw go.
+
+
+Requirements:
+1.	 Klasa BankAccount musi zawierać prywatne pole BigDecimal o nazwie balance.
+2.	 Metoda deposit(String money) klasy BankAccount musi delegować zadanie do metody deposit(BigDecimal money).
+3.	 Metoda withdraw(String money) klasy BankAccount musi delegować zadanie do metody withdraw(BigDecimal money).
+4.	 Jeśli to konieczne, użyj synchronized w metodzie withdraw(BigDecimal money).
+5.	 Jeśli to konieczne, użyj synchronized w metodzie deposit(BigDecimal money).
+
+

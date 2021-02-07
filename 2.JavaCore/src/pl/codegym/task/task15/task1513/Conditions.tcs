@@ -1,0 +1,16 @@
+taskKey="pl.codegym.task.task15.task1513"\n\nNajprostszy kod: część 3
+
+Uprość kod:
+- usuń wszystko, co zostanie wygenerowane automatycznie przez kompilator
+- usuń wszystkie dziedziczenia klas, które zostaną dodane automatycznie przez kompilator
+- usuń wszystkie konstruktory, które zostaną automatycznie utworzone i dodane.
+
+
+Requirements:
+1.	Klasa Car nie powinna mieć jawnych konstruktor&oacute;w bez argument&oacute;w.
+2.	Klasa Machine nie powinna mieć jawnych konstruktor&oacute;w bez argument&oacute;w.
+3.	Klasa Car musi być obiektem podrzędnym klasy Machine.
+4.	W kodzie nie powinno być bezpośredniego dziedziczenia obejmującego klasę Object (extends Object).
+5.	Klasa Car nie powinna bezpośrednio dziedziczyć interfejsu Runnable.
+
+

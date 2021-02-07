@@ -1,0 +1,20 @@
+taskKey="pl.codegym.task.task19.task1904"\n\nJeszcze jeden adapter
+
+Dostosuj Scanner do interfejsu PersonScanner.
+Klasa adaptera to PersonScannerAdapter.
+Utwórz prywatne pole final Scanner o nazwie fileScanner w klasie adaptera. Inicjalizuj pole w konstruktorze z jednym parametrem Scanner.
+Plik przechowuje dane w następującym formacie:
+John Michael Peterson 12 31 1950
+Larry Thomas Gates 12 31 1957
+Plik zawiera informacje o wielu osobach. W każdej linii znajdują się dane dotyczące jednej osoby. Metoda read() musi odczytywać informacje dotyczące tylko jednej osoby.
+
+
+Requirements:
+1.	PersonScanner musi być interfejsem.
+2.	Klasa PersonScannerAdapter musi implementować interfejs PersonScanner.
+3.	Klasa PersonScannerAdapter musi posiadać prywatne pole Scanner o nazwie fileScanner.
+4.	Klasa PersonScannerAdapter musi posiadać konstruktor z parametrem Scanner.
+5.	Metoda close() klasy PersonScannerAdapter musi delegować wywołanie do fileScanner.
+6.	Metoda read() klasy PersonScannerAdapter powinna odczytywać linię z pliku, parsować ją i zwracać dane tylko jednej osoby jako obiekt Person.
+
+

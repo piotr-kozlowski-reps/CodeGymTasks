@@ -1,0 +1,31 @@
+taskKey="pl.codegym.task.task16.task1629"\n\nTeraz Twoja kolej!
+
+1. W klasie Solution utwórz publiczną statyczną klasę Read3Strings, która dziedziczy Thread.
+2. W metodzie run, wczytaj trzy linie z konsoli.
+3. Trzy linie powinny być wczytywane po kolei w jednym wątku i łączone w jeden ciąg poddzielony spacjami.
+4. W metodzie main wyświetl wynik dla każdego wątku.
+5. Użyj join.
+Przykład:
+Dane wejściowe:
+a
+b
+c
+d
+e
+f
+Wyjście:
+a b c
+d e f
+
+
+Requirements:
+1.	W klasie Solution zadeklaruj publiczną statyczną klasę Read3Strings.
+2.	Klasa Read3Strings powinna dziedziczyć klasę Thread.
+3.	Metoda run klasy Read3Strings musi wczytywać trzy linie.
+4.	Klasa Read3Strings musi mieć publiczną metodę printResult.
+5.	Metoda printResult powinna wyświetlać 3 wczytane linie, oddzielając je spacjami.
+6.	Metoda main powinna wywoływać metody start utworzonych wątk&oacute;w.
+7.	Metoda main powinna wywoływać metody join utworzonych wątk&oacute;w.
+8.	Wynik programu powinien wskazywać, że wątki wczytują linie po kolei, a nie r&oacute;wnolegle.
+
+

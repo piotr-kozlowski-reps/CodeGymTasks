@@ -1,0 +1,23 @@
+taskKey="pl.codegym.task.task16.task1631"\n\nMetoda wytwórcza
+
+1. Uważnie przyjrzyj się posiadanym klasom.
+2. W osobnych plikach we wspólnym pakiecie utwórz klasy JpgReader, PngReader i BmpReader, które implementują interfejs ImageReader.
+3. W osobnym pliku w pakiecie main utwórz klasę ImageReaderFactory z jedną metodą.
+3.1. Zastanów się, jak powinna się ona nazywać.
+3.2. Zastanów się, jakie modyfikatory powinna posiadać ta metoda.
+4. Ta metoda powinna:
+4.1. Dla każdej wartości w ImageTypes, zwracać odpowiedni Reader. Na przykład dla ImageTypes.JPG zwracać będzie JpgReader;
+4.2. Jeśli zostanie podany błędny argument, wyrzucać wyjątek:
+IllegalArgumentException("Nieznany typ obrazu").
+
+
+Requirements:
+1.	Utw&oacute;rz klasę JpgReader we wsp&oacute;lnym pakiecie. Musi ona implementować interfejs ImageReader.
+2.	Utw&oacute;rz klasę PngReader we wsp&oacute;lnym pakiecie. Musi ona implementować interfejs ImageReader.
+3.	Utw&oacute;rz klasę BmpReader we wsp&oacute;lnym pakiecie. Musi ona implementować interfejs ImageReader.
+4.	Utw&oacute;rz publiczną klasę o nazwie ImageReaderFactory.
+5.	Dodaj publiczną statyczną metodę getImageReader z parametrem ImageTypes do klasy ImageReaderFactory.
+6.	Metoda getImageReader musi tworzyć i zwracać odpowiedni Reader.
+7.	Metoda getImageReader musi wyrzucać IllegalArgumentException, jeżeli zostanie podany błędny argument.
+
+

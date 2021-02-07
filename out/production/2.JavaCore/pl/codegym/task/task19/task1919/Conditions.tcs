@@ -1,0 +1,27 @@
+taskKey="pl.codegym.task.task19.task1919"\n\nObliczanie wynagrodzeń
+
+Pierwszym parametrem metody main jest nazwa pliku.
+Każdy wiersz określonego pliku ma następujący format:
+name value
+gdzie [name] to String, a [value] to double. [name] i [value] są oddzielone spacją.
+Znajdź sumę wszystkich wartości dla każdego nazwiska.
+Wyświetl wszystkie dane, posortowane według nazwisk w kolejności rosnącej.
+Zamknij strumienie.
+Przykładowy plik wejściowy:
+Peterson 2
+Smith 6
+Baxter 1.35
+Peterson 3.1
+Przykładowy wynik:
+Baxter 1.35
+Peterson 5.1
+Smith 6.0
+
+
+Requirements:
+1.	Program NIE może wczytywać danych z klawiatury.
+2.	Program musi odczytywać zawartość pliku (użyj konstruktora FileReader).
+3.	Strumień wejściowy pliku (FileReader) musi zostać zamknięty.
+4.	Program powinien zapisywać w konsoli każde nazwisko, posortowane w kolejności rosnącej oraz sumę wszystkich jego wartości.
+
+

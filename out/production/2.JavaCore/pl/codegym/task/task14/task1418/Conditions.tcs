@@ -1,0 +1,20 @@
+taskKey="pl.codegym.task.task14.task1418"\n\nNapraw cztery błędy
+
+1. Pomyśl, co robi metoda main.
+2. Utwórz statyczne metody initList(List<Number&gt list), printListValues (List<Number> list) oraz processCastObjects(List<Number> list) w klasie Solution.
+3. Znajdź blok kodu, który wypełnia listę wartościami i przenieś go do metody initList.
+4. Znajdź blok kodu, który używa pętli for do wyświetlenia zawartości listy i przenieś go do metody printListValues.
+5. Znajdź blok kodu, który sprawdza typ każdego obiektu listy i wyświetla komunikaty na ekranie i przenieś go do metody processCastObjects.
+6. Popraw 2 błędy w metodzie printListValues tak, aby metoda poprawnie wyświetlała zawartość listy przekazanej jako argument.
+7. Popraw 2 błędy związane z rzutowaniem typu w metodzie processCastObjects
+- dla obiektu Float musisz wyświetlić "Czy zdefiniowano float? " + !(<Float object>.isNaN()).
+- dla obiektu Double musisz wyświetlić "Czy double jest nieskończony? " + <obiekt Double>.isInfinite().
+
+
+Requirements:
+1.	Klasa Solution musi implementować metody statyczne initList(List&lt;Number&gt; list), printListValues​​(List&lt;Number&gt; list) oraz processCastObjects(List&lt;Number&gt; list).
+2.	Metoda initList musi wypełniać powstałą listę losowymi wartościami.
+3.	Metoda printListValues powinna wyświetlać zawartość powstałej listy.
+4.	Metoda processCastObjects powinna analizować elementy listy i wyświetlać tekst dla obiekt&oacute;w Float i Double zgodnie z warunkami zadania.
+
+

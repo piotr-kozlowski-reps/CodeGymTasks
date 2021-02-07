@@ -1,0 +1,15 @@
+taskKey="pl.codegym.task.task15.task1521"\n\nOOP: przeciążanie metod
+
+1. W klasie Tree, zastosuj dwukrotne przeciążanie metody info(Object s), aby uzyskać trzy metody: info(Object s), info(Number s) i info(String s).
+1.1. Przeanalizuj metodę info(Object s). Stwórz podobną funkcjonalność w nowych metodach.
+1.2. Na przykład wynikiem zastosowania metody info(Number s) mogłoby być "Drzewo nr 123, metoda Number, parametr typu Short".
+
+
+Requirements:
+1.	Klasa Tree musi implementować metodę info(Object s).
+2.	Klasa Tree musi implementować metodę info(Number s).
+3.	Klasa Tree musi implementować metodę info(String s).
+4.	Metoda info(Number s) powinna wyświetlać linię podobną do linii dla metody info(Object s), zastępując jedynie &quot;metoda Object&quot; &quot;metoda Number&quot;.
+5.	Metoda info(String s) powinna wyświetlać linię podobną do linii dla metody info(Object s), zastępując jedynie &quot;metoda Object&quot; &quot;metoda String&quot;.
+
+

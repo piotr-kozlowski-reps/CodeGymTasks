@@ -1,0 +1,23 @@
+taskKey="pl.codegym.task.task20.task2014"\n\nSerializowane rozwiązanie
+
+Serializuj klasę Solution.
+Zastanów się, które pola nie muszą być serializowane. Zaznacz niepotrzebne pola za pomocą modyfikatora transient.
+Obiekt musi zawsze zawierać aktualne dane podsumowujące.
+Metoda main nie jest testowana.
+Wpisz samodzielnie kod weryfikacyjny w metodzie main:
+1) utwórz plik, otwórz strumień wejściowy i strumień wyjścowy;
+2) utwórz instancję klasy Solution (savedObject);
+3) zapisz savedObject do strumienia wyjściowego (upewnij się, że naprawdę tam są);
+4) utwórz kolejną instancję klasy Solution z innym argumentem;
+5) załaduj obiekt ze strumienia wejściowego (loadedObject);
+6) sprawdź, czy savedObject.string jest taki sam jak loadedObject.string;
+7) obsłuż wyjątki.
+
+
+Requirements:
+1.	Pole pattern musi być oznaczone za pomocą modyfikatora transient.
+2.	Pole currentDate musi być oznaczone za pomocą modyfikatora transient.
+3.	Pole temperature musi być oznaczone za pomocą modyfikatora transient.
+4.	Pole string nie może być oznaczone za pomocą modyfikatora transient.
+
+

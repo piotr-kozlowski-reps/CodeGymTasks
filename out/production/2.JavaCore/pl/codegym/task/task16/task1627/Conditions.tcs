@@ -1,0 +1,27 @@
+taskKey="pl.codegym.task.task16.task1627"\n\nZagramy?
+
+Jest to gra dla trzech osób. Każdy gracz (Gamer) posiada dwa parametry: nazwisko (name) oraz liczba działań na sekundę (rating).
+Wyświetl przeprowadzone działania oraz określ zwycięzcę i przegranych.
+Zaczynajmy.
+1. Dowiedz się, co robi program.
+1.1. List<String> actions przechowuje sekwencję działań przeprowadzonych przez każdego z graczy od 0 do ostatniej.
+1.2. isWinnerFound wskazuje, czy wyłoniono zwycięzcę.
+1.3. Metoda sleep wyrzuca InterruptedException i przyjmuje argument long.
+1.4. Gracze grają niezależnie od siebie.
+2. Zaimplementuj metodę run w taki sposób, aby dla każdego gracza:
+2.1. W regularnych odstępach czasu (1000ms/rating), wyświetlane były działania określone na liście actions.
+2.2. Wszystkie komunikaty zaczynały się od nazwiska gracza (getName()), po którym następuje dwukropek, a następnie sam tekst.
+Przykład:[Smith:Rozpoczęcie gry].
+2.3. Gdy gracz wykona wszystkie actions z listy działań, wygrywa. Wyświetl [getName() + ":wygrał!"].
+2.4. Gdy zostanie wyłoniony zwycięzca, gra się kończy, a pozostali gracze przegrywają. Dla tych graczy, wyświetl [getName() + ":przegrał"].
+Nie wyświetlaj nawiasów kwadratowych ("[]").
+
+
+Requirements:
+1.	Metoda run klasy Gamer powinna w regularnych odstępach czasu (1000ms/rating) wyświetlać nazwisko gracza (getName()), po nim dwukropek, a następnie tekst w OnlineGame.actions. Przykład: [Smith:Rozpoczęcie gry].
+2.	Kiedy wszystkie działania zostaną zakończone, a zwycięzca nie zostanie jeszcze wyłoniony, metoda run musi ustawić flagę OnlineGame.isWinnerFound na wartość true (aby poinformować innych, że to jest zwycięzca).
+3.	Jeśli gracz wygra, jego/jej metoda run powinna wyświetlać [getName() + &quot;:wygrał!&quot;]. Na przykład: [Jones:wygrał!]
+4.	Metody run wszystkich graczy, kt&oacute;rzy nie wygrali (te, kt&oacute;re zostały przerwane) powinny wyświetlać [getName() + &quot;:przegrał&quot;]. Na przykład: [Gates:przegrał]
+5.	Metoda run nie może wyrzucać wyjątku, gdy zostanie przerwana.
+
+

@@ -1,0 +1,15 @@
+taskKey="pl.codegym.task.task18.task1818"\n\nDwa w jednym
+
+Odczytaj 3 nazwy plików z konsoli.
+Zapisz zawartość drugiego pliku do pierwszego, a następnie dołącz zawartość trzeciego pliku do pliku pierwszego.
+Zamknij strumienie.
+
+
+Requirements:
+1.	Program powinien trzykrotnie odczytywać nazwę pliku z konsoli.
+2.	Utw&oacute;rz strumień wyjściowy dla pierwszego pliku. Dla dw&oacute;ch pozostałych utw&oacute;rz strumienie wejściowe.
+3.	Zawartość drugiego pliku musi zostać skopiowana do pierwszego.
+4.	Zawartość trzeciego pliku musi zostać dołączona do pierwszego (po zapisaniu drugiego pliku do pierwszego pliku).
+5.	Strumienie pliku muszą zostać zamknięte.
+
+

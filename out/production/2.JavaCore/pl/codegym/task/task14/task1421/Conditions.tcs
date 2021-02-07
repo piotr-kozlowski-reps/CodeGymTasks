@@ -1,0 +1,21 @@
+taskKey="pl.codegym.task.task14.task1421"\n\nSingleton
+
+Klasa określana jest jako singleton, jeżeli pozwala utworzyć tylko jeden obiekt tego typu.
+
+Zaimplementuj wzorzec projektowy Singleton:
+1. Utwórz klasę Singleton w oddzielnym pliku.
+2. Dodaj do tego statyczną metodę getInstance().
+3. Metoda getInstance musi zwracać ten sam obiekt Singleton za każdym razem, gdy wywoływana jest metoda getInstance.
+4. Zastanów się, jak możesz zapobiec tworzeniu dodatkowych instancji tej klasy.
+5. Zdefiniuj wszystkie konstruktory klasy Singleton jako prywatne.
+6. W rezultacie utworzenie obiektu (instancji tej klasy) powinno być możliwe TYLKO przy użyciu metody getInstance.
+
+
+Requirements:
+1.	Klasa Singleton musi znajdować się w osobnym pliku.
+2.	Klasa Singleton powinna zapobiegać tworzeniu obiekt&oacute;w Singleton poza klasą.
+3.	Klasa Singleton musi mieć prywatne statyczne pole instance typu Singleton.
+4.	Klasa Singleton musi implementować publiczną statyczną metodę getInstance, kt&oacute;ra zwraca wartość pola instance.
+5.	Metoda getInstance musi ZAWSZE zwracać ten sam obiekt.
+
+

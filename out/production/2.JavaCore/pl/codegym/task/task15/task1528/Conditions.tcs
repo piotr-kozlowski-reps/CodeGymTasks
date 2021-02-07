@@ -1,0 +1,12 @@
+taskKey="pl.codegym.task.task15.task1528"\n\nOOP: euro to też pieniądze
+
+Popraw klasę Euro tak, aby uniknąć błędu StackOverflowError.
+
+
+Requirements:
+1.	Klasa Euro musi być obiektem podrzędnym klasy Money.
+2.	Klasa Euro class musi implementować metodę getAmount.
+3.	Metoda getAmount klasy Euro musi zwracać wartość pola amount.
+4.	Nie powinny wystąpić żadne wyjątki ani błędy podczas pracy programu.
+
+

@@ -1,0 +1,24 @@
+taskKey="pl.codegym.task.task19.task1914"\n\nRozwiązywanie problemów
+
+Zastąp obiekt System.outx metody main Twoim własnym reader wrapperem, podobnym do tego pokazanego na lekcji.
+Twój reader wrapper powinien wyświetlać tylko cyfry.
+Wywołaj istniejącą metodę printSomething() testString.
+Przywróć zmienną System.out z powrotem do oryginalnego strumienia.
+Możliwe operacje: + - *
+Format wejścia i wyjścia: a [operator] b = c
+Liczby ujemne, ułamki i działania jednoargumentowe (takie jak silnie i pierwiastki kwadratowe) nie są dozwolone.
+Przykładowy wynik:
+3 + 6 = 9
+
+
+Requirements:
+1.	Klasa Solution musi zawierać klasę TestString.
+2.	Klasa Solution musi mieć publiczne statyczne pole testString o nazwie TestString, kt&oacute;re jest natychmiastowo inicjalizowane.
+3.	Klasa TestString musi posiadać publiczną metodę printSomething() typu void.
+4.	Metoda printSomething() klasy TestString musi wyświetlać ciąg &quot;3 + 6 = &quot;.
+5.	Metoda main(String[] args) klasy Solution musi tworzyć obiekt PrintStream (użyj konstruktora PrintStream z parametrem ByteArrayOutputStream).
+6.	Metoda main(String[] args) klasy Solution powinna zastępować, a następnie przywracać strumień wyjściowy konsoli (System.out).
+7.	Metoda main(String[] args) klasy Solution musi wywoływać metodę printSomething() testString.
+8.	Metoda main(String[] args) klasy Solution musi modyfikować linię wydrukowaną za pomocą metody printSomething(), zgodnie z warunkami zadania i wyprowadzać ją do konsoli.
+
+

@@ -1,0 +1,17 @@
+taskKey="pl.codegym.task.task14.task1407"\n\nGraj i tańcz
+
+1. Pomyśl o tym, co ten program robi.
+2. Zmień metodę haveFun tak, aby wywoływała:
+- metodę play, w przypadku gdy person to Player.
+- metodę dance, w przypadku gdy person to Dancer.
+
+
+Requirements:
+1.	Klasa Player musi implementować interfejs Person.
+2.	Klasa Dancer musi implementować interfejs Person.
+3.	Jeżeli przekazany obiekt to Player, w&oacute;wczas metoda haveFun powinna wywołać metodę play.
+4.	Jeżeli przekazany obiekt to Dancer, w&oacute;wczas metoda haveFun powinna wywołać metodę dance.
+5.	Metoda main musi wczytywać dane z klawiatury.
+6.	Metoda main powinna zakończyć wczytywanie danych z klawiatury, jeżeli wprowadzony ciąg to &quot;exit&quot;.
+
+

@@ -1,0 +1,21 @@
+taskKey="pl.codegym.task.task16.task1622"\n\nNieprzerwane wątki
+
+1. W metodzie run dodaj opóźnienie 10 milisekund po wykonaniu wszystkich operacji. Wyświetl "Wątek przerwany", jeśli wątek zostanie przerwany.
+2. Spraw, aby wszystkie wątki były wykonywane po kolei: najpierw, dla wątku 1, odlicz od COUNT do 1; następnie dla wątku 2 - od COUNT do 1, itd.
+Przykład:
+#1: 4
+#1: 3
+...
+#1: 1
+#2: 4
+...
+
+
+Requirements:
+1.	Program powinien utworzyć 4 obiekty SleepingThread.
+2.	Metoda main powinna wywołać metodę join na każdym utworzonym obiekcie SleepingThread.
+3.	Metoda run powinna używać Thread.sleep(10).
+4.	Wynik programu musi odpowiadać warunkom zadania.
+5.	Jeśli wątek SleepingThread zostanie przerwany, powinien wyświetlać komunikat &quot;Wątek przerwany&quot;.
+
+

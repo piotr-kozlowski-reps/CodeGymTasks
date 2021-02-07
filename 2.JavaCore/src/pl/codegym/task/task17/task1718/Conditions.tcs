@@ -1,0 +1,17 @@
+taskKey="pl.codegym.task.task17.task1718"\n\nPrasowanie
+
+Wróćmy do szarej codzienności...
+Dodaj jedno słowo kluczowe synchronized tak, aby diana i steve prasowali na zmianę, ponieważ mają tylko jedno żelazko!
+Wskazówka:
+Użyj blokady na poziomie klasy.
+
+
+Requirements:
+1.	 Klasa Solution musi zawierać publiczną statyczną klasę Clothes.
+2.	 Klasa Solution musi zawierać publiczną statyczną klasę Iron.
+3.	 Klasa Solution musi zawierać publiczną statyczną klasę Person.
+4.	 Klasa Person musi być wątkiem.
+5.	 Metoda run() klasy Person musi mieć blok synchronized.
+6.	 Blok synchronized musi mieć blokadę na poziomie klasy.
+
+

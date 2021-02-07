@@ -1,0 +1,13 @@
+taskKey="pl.codegym.task.task15.task1508"\n\nOOP: przeciążanie metod - eliminacja zbędnych implementacji
+
+1. Zastanów się, która implementacja metody print zostanie wywołana.
+2. Usuń wszelkie zbędne implementacje metody print.
+
+
+Requirements:
+1.	Inaczej niż w przypadku metody gł&oacute;wnej, klasa Solution powinna mieć tylko jedną metodę print (z odpowiednim parametrem!).
+2.	Metoda print musi być publiczna.
+3.	Metoda print musi być statyczna.
+4.	Program powinien wyświetlać &quot;Zostanę programistą Javy!&quot;.
+
+

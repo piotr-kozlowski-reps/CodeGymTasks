@@ -1,0 +1,26 @@
+taskKey="pl.codegym.task.task14.task1413"\n\nKomputer
+
+1. Utwórz interfejs CompItem.
+2. Dodaj do niego metodę String getName().
+3. Utwórz klasy Keyboard, Mouse i Monitor, które implementują interfejs CompItem.
+4. Metoda getName() musi zwracać nazwę klasy. Na przykład, zwracać "Keyboard" dla klasy Keyboard.
+5. Utwórz klasę Computer.
+6. Dodaj prywatne pole Keyboard keyboard do klasy Computer.
+7. Dodaj prywatne pole Mouse mouse do klasy Computer.
+8. Dodaj prywatne pole Monitor monitor do klasy Computer.
+9. Użyj kombinacji klawiszy Alt+Insert (komenda Constructor), aby utworzyć konstruktor klasy Computer z trzema parametrami.
+10. Wewnątrz konstruktora użyj parametrów, aby zainicjować wszystkie trzy pola klasy (zmienne).
+11. Utwórz gettery dla pól w Computer (używając w klasie kombinacji klawiszy Alt+Insert i wybierając komendę Getter).
+12. Wszystkie klasy i interfejsy powinny znajdować się w osobnych plikach.
+
+
+Requirements:
+1.	Interfejs CompItem musi znajdować się w osobnym pliku.
+2.	Interfejs CompItem musi definiować metodę getName(), kt&oacute;ra zwraca String i nie ma parametr&oacute;w.
+3.	Klasy Keyboard, Monitor i Mouse muszą implementować interfejs CompItem i znajdować się w osobnych plikach.
+4.	Metoda getName w klasach implementujących interfejs CompItem powinna zwr&oacute;cić prostą nazwę klasy, np. &quot;Keyboard&quot; dla klasy Keyboard.
+5.	Klasa Computer musi znajdować się w osobnym pliku i mieć jedno prywatne pole każdego z poniższych typ&oacute;w: Keyboard, Mouse i Monitor.
+6.	Konstruktor klasy Computer powinien mieć 3 parametry (keyboard, mouse, monitor) i poprawnie inicjować odpowiednie pola klasy.
+7.	Dla p&oacute;l klasy Computer - keyboard, mouse i monitor, należy utworzyć gettery (getKeyboard, getMouse, getMonitor), kt&oacute;re zwracają odpowiednie pola klasy Computer.
+
+

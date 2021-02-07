@@ -1,0 +1,16 @@
+taskKey="pl.codegym.task.task17.task1706"\n\nZsynchronizowany prezydent
+
+Ze wzorcem projektowym singleton spotykamy się ponownie podczas synchronizacji w bloku statycznym.
+Utwórz blok synchronized w bloku statycznym wewnątrz klasy OurPresident.
+Wewnątrz bloku synchronized zainicjalizuj president.
+
+
+Requirements:
+1.	 Klasa OurPresident musi mieć prywatne statyczne pole president typu OurPresident.
+2.	 Klasa OurPresident musi zawierać publiczną statyczną metodę OurPresident getOurPresident().
+3.	 Klasa OurPresident musi zawierać prywatny konstruktor.
+4.	 Klasa OurPresident musi posiadać blok statyczny.
+5.	 Blok statyczny klasy OurPresident musi posiadać blok synchronized.
+6.	 Blok synchronized musi inicjalizować president.
+
+

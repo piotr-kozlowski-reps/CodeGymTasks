@@ -1,0 +1,14 @@
+taskKey="pl.codegym.task.task16.task1626"\n\nPostępowanie według wzoru
+
+Dowiedz się, jak działa program.
+Podobnie jak w przypadku CountdownRunnable, utwórz wątek CountUpRunnable, który wyświetla wartości w następującej kolejności: od 1 do number.
+
+
+Requirements:
+1.	Klasa CountUpRunnable musi implementować interfejs Runnable.
+2.	Klasa CountUpRunnable musi mieć publiczną metodę run bez parametr&oacute;w.
+3.	Metoda run klasy CountUpRunnable powinna być wykonywana przez około 2.5 sekundy.
+4.	Co p&oacute;ł sekundy, metoda run klasy CountUpRunnable powinna wyświetlać nazwę wątku, dwukropek i wartość licznika od 1 do 5 (na przykład: &quot;Zwiększ: 1&quot;).
+5.	Metoda run klasy CountUpRunnable powinna wywoływać Thread.sleep(500).
+
+

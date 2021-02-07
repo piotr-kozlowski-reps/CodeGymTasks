@@ -1,0 +1,15 @@
+taskKey="pl.codegym.task.task19.task1902"\n\nAdapter
+
+Użyj klasy AdapterFileOutputStream, aby dostosować FileOutputStream do nowego interfejsu AmigoStringWriter.
+
+
+Requirements:
+1.	AmigoStringWriter musi być interfejsem.
+2.	Klasa AdapterFileOutputStream musi implementować interfejs AmigoStringWriter.
+3.	Klasa AdapterFileOutputStream musi posiadać prywatne pole FileOutputStream o nazwie fileOutputStream.
+4.	Klasa AdapterFileOutputStream musi posiadać konstruktor z parametrem FileOutputStream.
+5.	Metoda flush() klasy AdapterFileOutputStream musi delegować wywołanie do fileOutputStream.
+6.	Metoda writeString(String s) klasy AdapterFileOutputStream musi delegować wywołanie do odpowiedniej metody write() pola fileOutputStream.
+7.	Metoda close() klasy AdapterFileOutputStream musi delegować wywołanie do fileOutputStream.
+
+

@@ -1,0 +1,18 @@
+taskKey="pl.codegym.task.task14.task1416"\n\nNaprawianie błędów
+
+1. Zastanów się, jak interfejsy CanSwim i CanWalk odnoszą się do klasy SeaCreature.
+2. Utwórz poprawną relację dziedziczenia między interfejsami a klasą SeaCreature.
+3. Zastanów się, jak klasy Orca, Whale i RiverOtter mogą odnosić się do klasy SeaCreature.
+4. Utwórz poprawną relację dziedziczenia między klasami Orca, Whale i RiverOtter a klasą SeaCreature.
+5. Zastanów się, która klasa powinna implementować interfejs CanWalk i dodaj do tej klasy interfejs.
+6. Zastanów się, które zwierzę nie jest jeszcze w stanie pływać i dodaj do niego interfejs CanSwim.
+
+
+Requirements:
+1.	Orka jest stworzeniem morskim (obiektem podrzędnym SeaCreature) i umie pływać (obsługuje interfejs CanSwim).
+2.	Wieloryb jest stworzeniem morskim (obiektem podrzędnym SeaCreature) i umie pływać (obsługuje interfejs CanSwim).
+3.	Obiekt RiverOtter potrafi chodzić (obsługuje interfejs CanWalk) i pływać (obsługuje interfejs CanSwim).
+4.	Wydra rzeczna (river otter) NIE jest stworzeniem morskim (obiektem podrzędnym SeaCreature).
+5.	Wieloryby i orki NIE wiedzą, jak chodzić (nie obsługują interfejsu CanWalk).
+
+

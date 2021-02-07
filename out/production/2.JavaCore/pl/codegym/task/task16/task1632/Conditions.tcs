@@ -1,0 +1,23 @@
+taskKey="pl.codegym.task.task16.task1632"\n\nNić Ariadny
+
+1. Utwórz 5 różnych wątków, które różnią się od Thread:
+1.1. Wątek 1 musi być wykonywany nieprzerwanie;
+1.2. Wątek 2 powinien wyświetlać "InterruptedException", gdy wystąpi InterruptedException;
+1.3. Wątek 3 powinien wyświetlać "Hurra" co pół sekundy";
+1.4. Wątek 4 musi implementować interfejs Message. Po wywołaniu metody showWarning, wątek powinien się zatrzymać;
+1.5. Wątek 5 powinien wczytywać liczby z konsoli do momentu wprowadzenia "N". Program powinien wyświetlać sumę wprowadzonych liczb.
+2. W bloku statycznym dodaj swoje wątki do List<Thread> threads w określonej kolejności.
+3. Wątki nie powinny uruchamiać się automatycznie.
+Wskazówka: Wątek 4 może być sprawdzony za pomocą isAlive()
+
+
+Requirements:
+1.	Blok statyczny klasy Solution musi tworzyć 5 wątk&oacute;w i dodawać je do listy wątk&oacute;w.
+2.	Wątki na liście wątk&oacute;w nie powinny uruchamiać się automatycznie.
+3.	Wątek 1 na liście wątk&oacute;w musi być wykonywany w nieskończoność.
+4.	Wątek 2 na liście wątk&oacute;w powinien wyświetlać &quot;InterruptedException&quot;, gdy wystąpi InterruptedException.
+5.	Wątek 3 na liście wątk&oacute;w powinien wyświetlać &quot;Hurra&quot; co p&oacute;ł sekundy.
+6.	Wątek 4 na liście wątk&oacute;w musi implementować interfejs Message. Po wywołaniu metody showWarning wątek powinien się zatrzymać.
+7.	Wątek 5 na liście wątk&oacute;w powinien wczytywać numery z konsoli do momentu wprowadzenia &quot;N&quot;. Program powinien wyświetlać sumę wprowadzonych liczb.
+
+

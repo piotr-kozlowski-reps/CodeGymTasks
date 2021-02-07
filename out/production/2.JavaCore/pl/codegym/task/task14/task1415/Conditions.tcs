@@ -1,0 +1,20 @@
+taskKey="pl.codegym.task.task14.task1415"\n\nUsługi sprzątające
+
+1. Implementuj metodę cleanAllApartments.
+Dla każdego obiektu w apartments:
+2. Dla mieszkań z jedną sypialnią (OneRoomApt) wywołaj metodę clean1Room.
+np. jeżeli przekazywany jest obiekt OneRoomApt, wywołaj jego metodę clean1Room.
+3. Dla mieszkań z dwiema sypialniami (TwoRoomApt) wywołaj metodę clean2Rooms.
+np. jeżeli przekazywany jest obiekt TwoRoomApt, wywołaj jego metodę clean2Rooms.
+4. Dla mieszkań z trzema sypialniami (ThreeRoomApt) wywołaj metodę clean3Rooms.
+np. jeżeli przekazywany jest obiekt ThreeRoomApt, wywołaj jego metodę clean3Rooms.
+
+
+Requirements:
+1.	Metoda cleanAllApartments musi przyjąć listę apartments jako argument.
+2.	Dla wszystkich mieszkań z jedną sypialnią (OneRoomApt) na liście metoda cleanAllApartments musi wywoływać metodę clean1Room.
+3.	Dla wszystkich mieszkań z dwiema sypialniami (TwoRoomApt) na liście metoda cleanAllApartments musi wywoływać metodę clean2Rooms.
+4.	Dla wszystkich mieszkań z trzema sypialniami (ThreeRoomApt) na liście metoda cleanAllApartments musi wywoływać metodę clean3Rooms.
+5.	Klasy OneRoomApt, TwoRoomApt i ThreeRoomApt powinny obsługiwać (implementować) interfejs Apartament.
+
+

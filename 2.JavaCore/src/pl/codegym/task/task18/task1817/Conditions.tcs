@@ -1,0 +1,18 @@
+taskKey="pl.codegym.task.task18.task1817"\n\nSpacje
+
+Pierwszym parametrem metody main jest nazwa pliku.
+Wyświetl stosunek ilości spacji do ilości wszystkich znaków. Na przykład, 10.45.
+1. Policz wszystkie znaki (n1).
+2. Policz spacje (n2).
+3. Wyświetl n2/n1*100, zaokrąglając do 2 miejsc po przecinku.
+4. Zamknij strumienie.
+
+
+Requirements:
+1.	Nie musisz niczego odczytywać z konsoli.
+2.	Utw&oacute;rz strumień do odczytu z pliku przekazanego jako pierwszy argument metody main.
+3.	Policz i wyświetl stosunek spacji do wszystkich znak&oacute;w w pliku.
+4.	Wyświetlana wartość musi być zaokrąglona do 2 miejsc po przecinku.
+5.	Strumień wykorzystywany do odczytu pliku musi zostać zamknięty.
+
+

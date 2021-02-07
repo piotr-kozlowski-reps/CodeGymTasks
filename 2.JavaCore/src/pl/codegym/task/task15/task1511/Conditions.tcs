@@ -1,0 +1,13 @@
+taskKey="pl.codegym.task.task15.task1511"\n\nNajprostszy kod: część 1
+
+Uprość kod: usuń wszystkie dziedziczenia i implementacje, które zostaną dodane automatycznie przez kompilator
+P.S.: Obiekty me i zapp są powiązane relacją has-a: https://en.wikipedia.org/wiki/Has-a
+
+
+Requirements:
+1.	Interfejs SpecificSerializable powinien rozszerzać interfejs Serializable.
+2.	Klasa JavaDev musi implementować interfejs SpecificSerializable.
+3.	W kodzie nie powinno być bezpośredniego dziedziczenia obejmującego klasę Object (extends Object).
+4.	Klasa JuniorJavaDev nie powinna bezpośrednio dziedziczyć interfejsu SpecificSerializable.
+
+

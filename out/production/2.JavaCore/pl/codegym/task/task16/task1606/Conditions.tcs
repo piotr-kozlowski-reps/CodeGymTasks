@@ -1,0 +1,23 @@
+taskKey="pl.codegym.task.task16.task1606"\n\nŁączenie we właściwym czasie i we właściwym miejscu
+
+Pomyśl, gdzie i na jakim obiekcie musisz wywołać metodę join, aby wynik został wyświetlony:
+najpierw dla firstThread, a następnie dla secondThread.
+Wywołaj metodę join we właściwym miejscu.
+Przykładowy wynik:
+firstThread : String 1
+firstThread : String 2
+...
+firstThread : String 19
+firstThread : String 20
+secondThread : String 1
+...
+secondThread : String 20
+
+
+Requirements:
+1.	Metoda main musi wywoływać metodę join na firstThread.
+2.	Metoda main nie powinna wywoływać metody join na secondThread.
+3.	Metoda main nie powinna wywoływać System.out.println ani System.out.print.
+4.	Wynik działania programu musi być zgodny z przykładem w zadaniu.
+
+

@@ -1,0 +1,14 @@
+taskKey="pl.codegym.task.task20.task2013"\n\nExternalizable dla klasy Person
+
+Klasa Person musi być serializowana za pomocą interfejsu Externalizable.
+Popraw błąd serializacji.
+Nie zmieniaj sygnatur metody.
+
+
+Requirements:
+1.	Klasa Solution.Person powinna obsługiwać interfejs Externalizable.
+2.	Metody readExternal i writeExternal muszą umożliwiać poprawne serializowanie i deserializowanie obiekt&oacute;w Person.
+3.	Klasa Solution.Person musi posiadać konstruktor bez parametr&oacute;w.
+4.	Klasa Solution.Person musi posiadać konstruktor o trzech parametrach (String firstName, String lastName, int age).
+
+

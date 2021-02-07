@@ -1,0 +1,38 @@
+taskKey="pl.codegym.task.task17.task1711"\n\nCRUD 2
+
+Batch CrUD: wielokrotne tworzenie, aktualizowanie, usuwanie.
+Program jest wykonywany z jednym z następujących zestawów argumentów:
+-c name1 sex1 bd1 name2 sex2 bd2 ...
+-u id1 name1 sex1 bd1 id2 name2 sex2 bd2 ...
+-d id1 id2 id3 id4 ...
+-i id1 id2 id3 id4 ...
+Wartości argumentów:
+name (String)
+sex (płeć, "m" lub "f")
+bd (data urodzenia w następującym formacie: 04 15 1990)
+-c (dodaje osobę z określonymi argumentami na końcu allPeople; wyświetla id na ekranie)
+-u (aktualizuje odpowiednie dane osób o określonych numerach id)
+-d (wykonuje logiczne usunięcie osoby o określonym id; zastępuje wszystkie dane wartością null)
+-i (wyświetla informacje na temat wszystkich osób o określonych numerach id: name sex bd)
+Poszczególne id odpowiadają indeksom na liście.
+Format daty urodzenia to Apr 15 1990.
+Wszystkie osoby powinny być przechowywane w allPeople.
+Kolejność wyświetlania danych odpowiada kolejności, w jakiej są one wprowadzane.
+Upewnij się, że program jest bezpieczny dla wątków (działa poprawnie z wieloma wątkami, nie uszkadzając danych).
+Użyj Locale.ENGLISH jako drugiego argumentu dla SimpleDateFormat.
+Przykładowe dane wyjściowe dla dwóch id z argumentem -i:
+Washington m Apr 15 1990
+Ross f Apr 25 1997
+
+
+Requirements:
+1.	 Klasa Solution musi zawierać publiczne pole typu volatile List&lt;Person&gt; o nazwie allPeople.
+2.	 Klasa Solution musi posiadać blok statyczny, w kt&oacute;rym dwie osoby są dodawane do listy allPeople.
+3.	 Przy użyciu argumentu -c program musi dodawać wszystkie osoby o określonych argumentach na końcu listy allPeople i wyświetlać id każdej z nich.
+4.	 Przy użyciu argumentu -u program musi aktualizować dane os&oacute;b o określonych numerach id na liście allPeople.
+5.	 Przy użyciu argumentu -d program musi wykonywać logiczne usunięcie os&oacute;b o określonych numerach id na liście allPeople.
+6.	 Przy użyciu argumentu -i program powinien wyświetlać dane na temat wszystkich os&oacute;b o określonych numerach id w formacie określonym w zadaniu.
+7.	 Metoda main klasy Solution musi zawierać wyrażenie switch oparte o args[0].
+8.	 Etykieta każdego przypadku w poleceniu przełączania musi zawierać blok synchronizacji dla allPeople.
+
+

@@ -1,0 +1,16 @@
+taskKey="pl.codegym.task.task16.task1611"\n\nZegary
+
+1. Dowiedz się, co robi program.
+2. Zaimplementuj metodę printTickTock:
+2.1. W pierwszej połowie każdej sekundy powinna zostać wyświetlona następująca fraza: Tik
+2.2. W drugiej połowie każdej sekundy powinna zostać wyświetlona następująca fraza: Tak
+
+
+Requirements:
+1.	Metoda printTickTock powinna wyświetlać dwie linie: &quot;Tik&quot; i &quot;Tak&quot;.
+2.	Metoda printTickTock powinna być wykonywana przez około sekundę.
+3.	Metoda printTickTock powinna być dwukrotnie uśpiona na p&oacute;ł sekundy. Użyj Thread.sleep(500).
+4.	Po ponownym sprawdzeniu nie powinno być żadnych komunikat&oacute;w w konsoli.
+5.	Metoda main musi utworzyć obiekt Clock.
+
+

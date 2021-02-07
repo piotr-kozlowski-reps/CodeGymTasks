@@ -1,0 +1,34 @@
+taskKey="pl.codegym.task.task17.task1710"\n\nCRUD
+
+CrUD: Create, Update, Delete (PL: utwórz, aktualizuj, usuń).
+Program jest wykonywany z jednym z następujących zestawów argumentów:
+-c name sex bd
+-u id name sex bd
+-d id
+-i id
+Wartości argumentów:
+name (String)
+sex (płeć, "m" lub "f")
+bd (data urodzenia w następującym formacie: "04 15 1990")
+-c (dodaje osobę z określonymi argumentami na końcu allPeople; wyświetla id na ekranie)
+-u (aktualizuje dane osoby o określonym id)
+-d (wykonuje logiczne usunięcie osoby o określonym id; zastępuje wszystkie dane wartością null)
+-i (wyświetla informacje na temat osoby o określonym id: name sex (m/f) bd (format Apr 15 1990))
+Poszczególne id odpowiadają indeksom na liście.
+Wszystkie osoby powinny być przechowywane w allPeople.
+Użyj Locale.ENGLISH jako drugiego argumentu dla SimpleDateFormat.
+Przykładowy wynik:
+-c Washington m "04 15 1990"
+Przykładowy wynik dla argumentu -i:
+Washington m Apr 15 1990
+
+
+Requirements:
+1.	 Klasa Solution musi zawierać publiczne statyczne pole List&lt;Person&gt; o nazwie allPeople.
+2.	 Klasa Solution musi posiadać blok statyczny, w kt&oacute;rym dwie osoby są dodawane do listy allPeople.
+3.	 Po uruchomieniu programu z argumentem -c program powinien dodać osobę z określonymi argumentami na końcu listy allPeople i wyświetlić id (indeks).
+4.	 Po uruchomieniu programu z argumentem -u program musi zaktualizować dane osoby o określonym id na liście allPeople.
+5.	 Po uruchomieniu programu z argumentem -d program musi wykonać logiczne usunięcie osoby o określonym id na liście allPeople.
+6.	 Po uruchomieniu programu z argumentem -i program powinien wyświetlać dane na temat osoby o określonym id zgodnie z formatem podanym w zadaniu.
+
+

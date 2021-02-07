@@ -1,0 +1,16 @@
+taskKey="pl.codegym.task.task20.task2008"\n\nW jaki sposób serializujesz Singletona?
+
+Dwa zdeserializowane obiekty (singleton1 i singleton2) mają różne odwołania do pamięci, a powinny być one takie same.
+W klasie Singleton dodaj metodę tak, aby po deserializacji odwołania do obiektów były takie same (wyszukaj w Google jak to zrobić).
+Metoda main nie jest testowana.
+
+
+Requirements:
+1.	Klasa Solution.Singleton powinna obsługiwać interfejs Serializable.
+2.	Klasa Solution.Singleton musi implementować metodę readResolve bez parametr&oacute;w.
+3.	Metoda readResolve powinna zwracać singleton (ourInstance).
+4.	Metoda readResolve musi być prywatna.
+5.	Klasa Solution musi posiadać publiczną statyczną metodę serializeSingletonInstance.
+6.	Po deserializacji, odwołania do obiektu muszą być takie same.
+
+

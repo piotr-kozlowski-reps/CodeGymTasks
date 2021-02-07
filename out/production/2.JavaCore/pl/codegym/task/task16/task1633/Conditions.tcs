@@ -1,0 +1,22 @@
+taskKey="pl.codegym.task.task16.task1633"\n\nDebuguj wszystko, co się da
+
+Dowiedz się, co robi program.
+Przeczytaj o UncaughtExceptionHandler - to ważne.
+Jeszcze raz uważnie przyjrzyj się programowi.
+Dowiedz się, dlaczego nasz OurUncaughtExceptionHandler nie działa (użyj debuggera).
+Napraw błąd, tzn. zrób tak, aby wszystko działało. :)
+Oczekiwany wynik podany w dowolnej kolejności:
+Wątek 1: Mój komunikat o wyjątku
+Wątek 2: Mój komunikat o wyjątku
+
+
+Requirements:
+1.	Metoda main powinna utworzyć wątek z następującymi argumentami: commonThread i &quot;Thread 1&quot;.
+2.	Metoda main powinna utworzyć wątek z następującymi argumentami: commonThread i &quot;Thread 2&quot;.
+3.	Metoda main musi uruchamiać dwa wątki (obiekty Thread).
+4.	Metoda main musi przerywać dwa wątki (obiekty Thread).
+5.	Program musi zastosować metodę uncaughtException należącą do OurUncaughtExceptionHandler do wyświetlenia 2 komunikat&oacute;w.
+6.	Nie wywołuj bezpośrednio metody OurUncaughtExceptionHandler uncaughtException.
+7.	Wyjście programu powinno zawierać następujące linie: &quot;Thread 1: M&oacute;j komunikat o wyjątku&quot; i &quot;Thread 2: M&oacute;j komunikat o wyjątku&quot;.
+
+

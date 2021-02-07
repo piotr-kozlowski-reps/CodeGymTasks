@@ -1,0 +1,15 @@
+taskKey="pl.codegym.task.task16.task1609"\n\nSprawiedliwość
+
+1. Dowiedz się, co robi program.
+2. Upewnij się, że wszystkie myszy jedzą w tym samym czasie.
+3. Zastanów się, która metoda pozwala, aby mysi samiec alfa zjadł jako pierwszy i dlaczego inne myszy czekają.
+4. Usuń wywołanie tej metody.
+
+
+Requirements:
+1.	Wynik działania programu powinien na początku wskazywać, że wszystkie myszy zaczęły jeść, a następnie, że wszystkie skończyły.
+2.	Metoda join nie powinna być wywoływana na obiektach Mouse.
+3.	Program powinien utworzyć 3 obiekty Mouse.
+4.	Nie zmieniaj metod, kt&oacute;re są odpowiedzialne za wynik na ekranie.
+
+

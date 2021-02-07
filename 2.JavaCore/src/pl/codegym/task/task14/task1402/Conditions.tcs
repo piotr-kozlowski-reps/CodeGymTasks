@@ -1,0 +1,12 @@
+taskKey="pl.codegym.task.task14.task1402"\n\nBingo!
+
+Popraw linię „Cat cat = new Cat();” tak, aby program wyświetlił "Bingo!"
+
+
+Requirements:
+1.	Klasa Cat musi implementować interfejs CanMove.
+2.	Klasa Cat musi być klasą nadrzędną (klasą macierzystą) klasy Tomcat.
+3.	Zmienna cat powinna odnosić się do obiektu, kt&oacute;ry jednocześnie implementuje CanMove i należy do Cat oraz Tomcat.
+4.	Program musi wyświetlać: &quot;Bingo!&quot;
+
+

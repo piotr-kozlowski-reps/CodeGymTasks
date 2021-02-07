@@ -1,0 +1,19 @@
+taskKey="pl.codegym.task.task18.task1812"\n\nRozszerzanie AmigoOutputStream
+
+Korzystając z wzorca projektowego wrapper (dekorator), rozszerz funkcjonalność AmigoOutputStream.
+W klasie QuestionFileOutputStream należy zaimplementować następującą funkcjonalność dla metody close():
+1. Wyświetl "Czy naprawdę chcesz zamknąć strumień? T/N".
+2. Odczytaj linię.
+3. Jeśli odczytana linia to "T", wówczas zamknij strumień.
+4. Jeśli odczytana linia to nie "T", nie zamykaj strumienia.
+
+
+Requirements:
+1.	Nie zmieniaj AmigoOutputStream.
+2.	Klasa QuestionFileOutputStream musi implementować interfejs AmigoOutputStream.
+3.	Klasa QuestionFileOutputStream musi inicjalizować pole AmigoOutputStream w konstruktorze.
+4.	Wszystkie metody QuestionFileOutputStream muszą być delegowane do obiektu AmigoOutputStream.
+5.	Metoda close() powinna pytać użytkownika: &quot;Czy naprawdę chcesz zamknąć strumień? T/N&quot;.
+6.	Metoda close() powinna zamykać strumień tylko wtedy, gdy odczytuje z konsoli odpowiedź &quot;T&quot;.
+
+

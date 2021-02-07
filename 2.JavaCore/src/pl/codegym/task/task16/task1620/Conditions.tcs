@@ -1,0 +1,18 @@
+taskKey="pl.codegym.task.task16.task1620"\n\nJeden za wszystkich, wszyscy za jednego
+
+1. Dowiedz się, jak działa program.
+1.1. Zauważ, że obiekt Water jest taki sam dla wszystkich wątków.
+2. Zaimplementuj metodę ourInterrupt() tak, aby przerywała wszystkie wątki na liście wątków.
+3. Popraw wartości zmiennych w metodzie run():
+3.1. isCurrentThreadInterrupted musi być taka sama jak wartość metody isInterrupted() dla bieżącego wątku.
+3.2. threadName musi być taka sama jak wartość metody getName() (zaimplementowanej w klasie Thread) dla bieżącego wątku.
+
+
+Requirements:
+1.	Metoda ourInterrupt() musi przerywać wszystkie wątki na liście wątk&oacute;w.
+2.	Metoda run() musi pobierać bieżący wątek za pomocą Thread.currentThread.
+3.	Metoda run() musi wywoływać metodę isInterrupted() na bieżącym wątku.
+4.	Metoda run() musi wywoływać metodę getName() na bieżącym wątku.
+5.	Metoda main() powinna być wykonywana przez około 3 sekundy.
+
+

@@ -1,0 +1,12 @@
+taskKey="pl.codegym.task.task20.task2006"\n\nJak Ci idzie serializacja?
+
+Spraw, aby klasa Human mogła być serializowana.
+
+
+Requirements:
+1.	- Klasa Human musi być wewnątrz klasy Solution.
+2.	Klasa Human musi być statyczna.
+3.	- Klasa Human musi być publiczna.
+4.	Klasa Human powinna obsługiwać interfejs Serializable.
+
+

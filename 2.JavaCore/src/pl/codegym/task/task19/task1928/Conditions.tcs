@@ -1,0 +1,14 @@
+taskKey="pl.codegym.task.task19.task1928"\n\nNapraw błąd. Klasy i interfejsy
+
+Program ma tylko 1 błąd logiczny.
+Znajdź i napraw go.
+
+
+Requirements:
+1.	Klasa Solution musi zawierać interfejs Example.
+2.	Klasa Solution musi zawierać klasę A, kt&oacute;ra implementuje interfejs Example.
+3.	Klasa Solution musi zawierać klasę B, kt&oacute;ra implementuje interfejs Example.
+4.	Klasa Solution musi zawierać klasę C, kt&oacute;ra dziedziczy klasę A.
+5.	Popraw tylko jeden błąd w logice.
+
+

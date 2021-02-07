@@ -1,0 +1,12 @@
+taskKey="pl.codegym.task.task14.task1406"\n\nBrak błędów
+
+Ustaw obj jako równy innemu obiektowi tak, aby pozwoliło to na wykonanie metody main bez błędów.
+
+
+Requirements:
+1.	Klasa GrayMouse musi dziedziczyć klasę Mouse.
+2.	Klasa Jerry musi dziedziczyć klasę GrayMouse.
+3.	Zmienna obj powinna odnosić się do obiektu, kt&oacute;ry jest jednocześnie obiektem Mouse, GrayMouse i Jerry.
+4.	Metoda main musi wywoływać metodę printClasses.
+
+

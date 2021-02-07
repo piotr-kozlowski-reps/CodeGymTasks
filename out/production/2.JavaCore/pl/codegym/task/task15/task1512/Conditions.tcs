@@ -1,0 +1,15 @@
+taskKey="pl.codegym.task.task15.task1512"\n\nNajprostszy kod: część 2
+
+Zobacz jakie elementy związane z konstruktorem mogą być dodawane w trakcie kompilacji, ale są już obecne w tym programie.
+Uprość kod. Usuń wszystkie konstruktory i wywołania konstruktorów superklas, które są tworzone i dodawane automatycznie.
+
+P.S.: Klasy NakedCat, NormalCat i SiamCat są powiązane relacją is-a (dziedziczenie):http://en.wikipedia.org/wiki/Is-a
+
+
+Requirements:
+1.	Klasa NormalCat musi być obiektem podrzędnym klasy NakedCat.
+2.	Klasa SiamCat musi być obiektem podrzędnym klasy NormalCat.
+3.	Uprość kod w klasie NakedCat.
+4.	Uprość kod w klasie NormalCat.
+
+

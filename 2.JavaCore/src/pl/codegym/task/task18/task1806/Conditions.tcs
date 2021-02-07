@@ -1,0 +1,17 @@
+taskKey="pl.codegym.task.task18.task1806"\n\nPopraw błędy
+
+Popraw funkcjonalność zgodnie z wymaganiami.
+Program powinien:
+1. Za jednym razem zapisać wszystkie bajty z pierwszego pliku do drugiego.
+2. Zamknąć strumienie I/O.
+Wskazówka:
+Masz 4 błędy.
+
+
+Requirements:
+1.	Program musi korzystać z klas FileInputStream i FileOutputStream.
+2.	Program powinien za jednym razem zapisać wszystkie bajty z pierwszego pliku do drugiego.
+3.	FileInputStream i FileOutputStream muszą zostać zamknięte.
+4.	Trzeba poprawić 4 błędy.
+
+

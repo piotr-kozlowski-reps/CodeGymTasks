@@ -1,0 +1,20 @@
+taskKey="pl.codegym.task.task16.task1614"\n\nOdliczanie
+
+1. Dowiedz się, co robi program.
+2. Napisz logikę programu w metodzie printCountdown w taki sposób, aby co pół sekundy program wyświetlał obiekt ze zmiennej list. Wynik powinien być w odwrotnej kolejności: od wartości przekazanej do Countdown malejąco do zera.
+Przykład:
+Przekazywana wartość to 3
+Przykładowy wynik konsoli:
+Linia 2
+Linia 1
+Linia 0
+
+
+Requirements:
+1.	Metoda printCountdown powinna być wykonywana przez około p&oacute;ł sekundy.
+2.	Metoda printCountdown powinna zmniejszać (dekrementować) wartość zmiennej countFrom.
+3.	Metoda printCountdown musi wyświetlać pozycję listy z indeksem r&oacute;wnym nowej wartości countFrom.
+4.	Metoda main musi tworzyć obiekt Countdown.
+5.	Wynik programu musi być zgodny z przykładem podanym w warunkach zadania.
+
+

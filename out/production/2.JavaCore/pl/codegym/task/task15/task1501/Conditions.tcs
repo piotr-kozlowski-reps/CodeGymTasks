@@ -1,0 +1,15 @@
+taskKey="pl.codegym.task.task15.task1501"\n\nOOP: Utwórz interfejsy
+
+1. Jeśli to możliwe, dodaj interfejsy Movable, Sellable i Discountable do klasy Clothes.
+2. Zaimplementuj ich metody.
+
+
+Requirements:
+1.	Klasa Clothes musi obsługiwać interfejs Movable.
+2.	Klasa Clothes musi obsługiwać interfejs Sellable.
+3.	Klasa Clothes musi obsługiwać interfejs Discountable.
+4.	Klasa Clothes musi implementować metodę isMovable.
+5.	Klasa Clothes musi implementować metodę getAllowedAction bez parametr&oacute;w.
+6.	Klasa Clothes musi implementować metodę getAllowedAction z jednym parametrem typu String.
+
+

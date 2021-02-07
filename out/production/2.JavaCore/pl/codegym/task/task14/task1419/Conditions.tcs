@@ -1,0 +1,13 @@
+taskKey="pl.codegym.task.task14.task1419"\n\nInwazja wyjątków
+
+Wypełnij listę exceptions dziesięcioma (10) różnymi wyjątkami.
+Pierwszy wyjątek został już zaimplementowany w metodzie initExceptions.
+
+
+Requirements:
+1.	Lista wyjątk&oacute;w musi zawierać 10 element&oacute;w.
+2.	Wszystkie pozycje na liście wyjątk&oacute;w muszą być wyjątkami (obiekty podrzędne klasy Throwable).
+3.	Wszystkie elementy na liście wyjątk&oacute;w muszą być unikalne.
+4.	Metoda initExceptions musi być statyczna.
+
+

@@ -1,0 +1,12 @@
+taskKey="pl.codegym.task.task15.task1510"\n\nZnikajcie, to wszystko jest niepotrzebne!
+
+W metodzie main usuń zbędne linie, dla których nie jest zaimplementowana metoda add.
+
+
+Requirements:
+1.	W klasie Solution muszą być zaimplementowane trzy metody add().
+2.	Musisz usunąć dodatkowe linie w metodzie main().
+3.	Wszystkie metody klasy Solution muszą być statyczne.
+4.	Wszystkie metody klasy Solution muszą być publiczne.
+
+

@@ -1,0 +1,15 @@
+taskKey="pl.codegym.task.task20.task2004"\n\nOdczytywanie i zapisywanie pól statycznych do pliku
+
+Zaimplementuj logikę pliku IO w klasie ClassWithStatic.
+Metoda load musi inicjalizować obiekt, łącznie z polami statycznymi z danymi z pliku.
+Metoda main nie jest testowana.
+
+
+Requirements:
+1.	Powinno być możliwe zapisywanie/ładowanie obiekt&oacute;w Solution.ClassWithStatic za pomocą metod save/load.
+2.	Klasa Solution.Class nie powinna obsługiwać interfejsu Serializable.
+3.	Klasa Solution.ClassWithStatic nie powinna obsługiwać interfejsu Serializable.
+4.	Klasa Solution.ClassWithStatic musi być publiczna.
+5.	Klasa Solution.ClassWithStatic nie powinna obsługiwać interfejsu Externalizable.
+
+

@@ -1,0 +1,15 @@
+taskKey="pl.codegym.task.task18.task1815"\n\nTabela
+
+Zmień klasę TableInterfaceWrapper tak, aby opakowywała TableInterface.
+Metoda setModel powinna wyświetlać ilość elementów na nowej liście przed aktualizacją modelu.
+Metoda getHeaderText powinna zwracać tekst napisany wielkimi literami. Użyj metody toUpperCase().
+
+
+Requirements:
+1.	Klasa TableInterfaceWrapper musi implementować interfejs TableInterface.
+2.	Klasa TableInterfaceWrapper musi inicjalizować pole TableInterface w konstruktorze.
+3.	Metoda setModel() powinna wyświetlać liczbę element&oacute;w w nowej liście przed aktualizacją modelu.
+4.	Metoda getHeaderText() musi zwracać tekst pisany wielkimi literami.
+5.	Metoda setHeaderText() musi zwracać tekst nagł&oacute;wka bez dokonywania zmian.
+
+

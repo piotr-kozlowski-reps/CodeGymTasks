@@ -1,0 +1,28 @@
+taskKey="pl.codegym.task.task19.task1927"\n\nReklama kontekstowa
+
+Zamień obiekt System.out w metodzie main na swój wlasny reader wrapper.
+Twój reader wrapper powinien wyświetlać reklamę kontekstową po każdym kolejnym wywołaniu do println.
+Wywołaj istniejącą metodę printSomething() testString.
+Przywróć zmienną System.out z powrotem do oryginalnego strumienia.
+Tekst reklamy: "CodeGym - kursy Java online"
+Przykładowy wynik:
+pierwszy
+drugi
+CodeGym - kursy Java online
+trzeci
+czwarty
+CodeGym - kursy Java online
+piąty
+
+
+Requirements:
+1.	Klasa Solution musi zawierać klasę TestString.
+2.	Klasa Solution musi mieć publiczne statyczne pole testString o nazwie TestString, kt&oacute;re jest natychmiastowo inicjalizowane.
+3.	Klasa TestString musi posiadać publiczną metodę printSomething() typu void.
+4.	Metoda printSomething() klasy TestString musi wyświetlać następujące linie: &quot;pierwszy&quot;, &quot;drugi&quot;, &quot;trzeci&quot;, &quot;czwarty&quot;, &quot;piąty&quot;.
+5.	Metoda main(String[] args) klasy Solution musi tworzyć obiekt PrintStream (użyj konstruktora PrintStream z parametrem ByteArrayOutputStream).
+6.	Metoda main(String[] args) klasy Solution powinna zastępować, a następnie przywracać strumień wyjściowy konsoli (System.out).
+7.	Metoda main(String[] args) klasy Solution musi wywoływać metodę printSomething() testString.
+8.	Metoda main(String[] args) klasy Solution musi modyfikować i wyświetlać linie wyjściowe metodą printSomething() (poprzez dodanie reklam kontekstowych), zgodnie z warunkami zadania.
+
+

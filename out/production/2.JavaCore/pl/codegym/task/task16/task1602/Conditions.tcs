@@ -1,0 +1,16 @@
+taskKey="pl.codegym.task.task16.task1602"\n\nMój drugi wątek
+
+1. Utwórz klasę public static TestThread, która dziedziczy klasę Thread.
+2. Utwórz blok statyczny wewnątrz TestThread, który wyświetli komunikat "To jest blok statyczny wewnątrz TestThread".
+3. Metoda run powinna wyświetlać "To jest metoda run".
+
+
+Requirements:
+1.	Do klasy Solution dodaj publiczną statyczną klasę o nazwie TestThread.
+2.	Klasa TestThread musi dziedziczyć klasę Thread.
+3.	Klasa TestThread nie powinna implementować żadnych dodatkowych interfejs&oacute;w.
+4.	Utw&oacute;rz blok statyczny wewnątrz TestThread, kt&oacute;ry wyświetli komunikat &quot;To jest blok statyczny wewnątrz TestThread&quot;.
+5.	Metoda run klasy TestThread powinna wyświetlać &quot;To jest metoda run&quot;.
+6.	Nie zmieniaj metody main.
+
+

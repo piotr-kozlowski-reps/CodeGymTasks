@@ -1,0 +1,13 @@
+taskKey="pl.codegym.task.task16.task1603"\n\nLista i kilka wątków
+
+W metodzie main dodaj 5 wątków do statycznej listy. Każdy wątek musi być nowym obiektem Thread, który współpracuje z jego własnym obiektem SpecialThread.
+
+
+Requirements:
+1.	W metodzie main utw&oacute;rz 5 obiekt&oacute;w SpecialThread.
+2.	W metodzie main utw&oacute;rz 5 obiekt&oacute;w Thread.
+3.	Dodaj 5 r&oacute;żnych wątk&oacute;w do listy.
+4.	Każdy wątek z listy powinien pracować z własnym obiektem SpecialThread.
+5.	Metoda run klasy SpecialThread powinna wyświetlać &quot;To jest metoda run wewnątrz SpecialThread&quot;.
+
+

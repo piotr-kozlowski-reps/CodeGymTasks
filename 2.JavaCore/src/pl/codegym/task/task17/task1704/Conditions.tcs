@@ -1,0 +1,12 @@
+taskKey="pl.codegym.task.task17.task1704"\n\nZsynchronizowane notatki: część 2
+
+Wątki będą używać klasy Note. Dlatego też należy upewnić się, że wszystkie metody zostały zsynchronizowane.
+
+
+Requirements:
+1.	 Metoda addNote() powinna dodawać notatki do listy notes.
+2.	 Metoda removeNote() musi usuwać notatkę z listy notes.
+3.	 Metoda addNote() musi być synchronized.
+4.	 Metoda removeNote() musi być synchronized.
+
+

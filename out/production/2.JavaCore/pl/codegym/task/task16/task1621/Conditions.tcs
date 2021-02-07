@@ -1,0 +1,15 @@
+taskKey="pl.codegym.task.task16.task1621"\n\nThread.currentThread zawsze zwraca bieżący wątek
+
+1. W metodzie printMsg przypisz bieżący wątek do zmiennej t.
+2. W metodzie printMsg dodaj opóźnienie 1 millisekundy po wykonaniu wszystkich operacji.
+
+
+Requirements:
+1.	Metoda printMsg musi pobierać bieżący wątek za pomocą Thread.currentThread.
+2.	Metoda printMsg powinna uśpić wątek na 1 milisekundę.
+3.	Metoda printMsg powinna wywoływać metodę getName na bieżącym wątku.
+4.	Metoda main powinna 5-krotnie wywoływać metodę printMsg na obiekcie ThreadNamePrinter.
+5.	Metoda run musi 5-krotnie wywoływać metodę printMsg.
+6.	Metoda printMsg klasy ThreadNamePrinter musi być wywołana łącznie 10 razy.
+
+

@@ -1,0 +1,16 @@
+taskKey="pl.codegym.task.task16.task1619"\n\nBez przerywania, nic z tego?
+
+Dowiedz się, jak działa program.
+Spraw, aby metoda ourInterrupt pozwalała na samoczynne zakończenie TestThread.
+Nie używaj metody interrupt.
+
+
+Requirements:
+1.	Klasa Solution musi zawierać publiczną statyczną metodę o nazwie ourInterrupt bez żadnych parametr&oacute;w.
+2.	Metoda run powinna wyświetlać &quot;he, he&quot; co p&oacute;ł sekundy do momentu wywołania metody ourInterrupt.
+3.	Musisz zmienić warunek pętli while w metodzie run.
+4.	Metoda main musi tworzyć obiekt Thread poprzez przekazanie obiektu TestThread do konstruktora.
+5.	Metoda main musi wywoływać metodę start na obiekcie Thread.
+6.	Metoda main musi wywoływać metodę ourInterrupt.
+
+

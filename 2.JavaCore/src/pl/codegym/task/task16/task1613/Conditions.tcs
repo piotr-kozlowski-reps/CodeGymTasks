@@ -1,0 +1,19 @@
+taskKey="pl.codegym.task.task16.task1613"\n\nBig Ben
+
+1. Dowiedz się, co robi program.
+2. Zaimplementuj metodę printTime tak, aby czas był podawany co sekundę, zaczynając od czasu określonego w konstruktorze.
+Przykład:
+W Londynie jest teraz godzina 23:59:58!
+W Londynie jest teraz godzina 23:59:59!
+W Londynie właśnie wybiła północ!
+W Londynie jest teraz godzina 00:00:01!
+
+
+Requirements:
+1.	Metoda printTime powinna być wykonywana przez około sekundę.
+2.	Metoda printTime powinna zwiększać (inkrementować) liczbę sekund zapisaną w zmiennej seconds.
+3.	Po zwiększeniu czasu, liczba sekund nie może być większa niż 59. Liczba minut powinna się zwiększyć.
+4.	Po zwiększeniu czasu, liczba minut nie może być większa niż 59. Liczba godzin powinna się zwiększyć.
+5.	Po zwiększeniu czasu, liczba godzin nie może być większa niż 23.
+
+

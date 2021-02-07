@@ -1,0 +1,16 @@
+taskKey="pl.codegym.task.task14.task1404"\n\nKoty
+
+1. Wczytuj ciągi (parametry) z konsoli do momentu wprowadzenia przez użytkownika pustego ciągu (Enter).
+2. Każdy parametr odpowiada imieniu danego kota.
+Dla każdego parametru:
+3. Stwórz obiekt Cat, który jest równy kotu z getCatByKey(String parametr).
+4. Wyświetl wynik cat.toString().
+
+
+Requirements:
+1.	Program musi odczytywać dane z klawiatury.
+2.	Program powinien zakończyć odczytywanie danych po wprowadzeniu pustego ciągu.
+3.	Program powinien wyświetlać opis każdego kota (cat.toString).
+4.	Program musi używać metody getCatByKey, aby stworzyć obiekt Cat dla każdego wprowadzonego imienia kota (każdego ciągu wczytanego z klawiatury).
+
+

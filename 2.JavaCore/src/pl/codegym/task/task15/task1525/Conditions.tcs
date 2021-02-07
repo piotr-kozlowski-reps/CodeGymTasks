@@ -1,0 +1,13 @@
+taskKey="pl.codegym.task.task15.task1525"\n\nPlik w bloku statycznym
+
+1. Zainicjalizuj zmienną Statics.FILE_NAME do pełnej ścieżki do pliku z danymi zawierającego kilka linii.
+2. Następnie, w bloku statycznym, odczytaj wszystkie linie z pliku Statics.FILE_NAME i dodaj je oddzielnie do List lines.
+
+
+Requirements:
+1.	 Stała FILE_NAME nie może być pusta.
+2.	W bloku statycznym wszystkie linie z pliku o nazwie FILE_NAME muszą być dodane oddzielnie do List lines.
+3.	Pole FILE_NAME nie może być final.
+4.	Klasa Solution musi mieć listę linii.
+
+

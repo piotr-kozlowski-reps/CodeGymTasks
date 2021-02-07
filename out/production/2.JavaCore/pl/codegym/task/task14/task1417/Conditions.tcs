@@ -1,0 +1,22 @@
+taskKey="pl.codegym.task.task14.task1417"\n\nWaluty
+
+Rozbuduj funkcjonalność programu do manipulowania walutami.
+
+1. Utwórz prywatne pole double amount w abstrakcyjnej klasie Money.
+2. Utwórz publiczny getter dla pola amount (public double getAmount()), aby można było uzyskać do niego dostęp poza klasą Money.
+3. W osobnych plikach utwórz klasy Euro, Ruble i USD, które będą obiektami podrzędnymi klasy Money.
+4. W klasach Euro, Ruble i USD zaimplementuj metodę getCurrencyName, która zwróci skróconą nazwę waluty (String) (EUR, RUB, USD).
+5. W klasach Euro, Ruble i USD zaimplementuj konstruktor publiczny, który przyjmuje jeden argument i wywołuje konstruktor klasy podstawowej (klasę super) z tym argumentem.
+6. Wypełnij listę allMoney wszystkimi możliwymi obiektami walut zgodnie z warunkami zadania i funkcjonalnością programu.
+
+
+Requirements:
+1.	Klasa Money musi mieć prywatne pole amount typu double.
+2.	Klasa Money musi implementować konstruktor publiczny z jednym parametrem double, kt&oacute;ry ustawia zmienną amount na przekazywany parametr.
+3.	Klasa Money musi implementować publiczną metodę getAmount, kt&oacute;ra zwraca wartość pola amount.
+4.	Klasy Euro, Ruble i USD muszą być obiektami podrzędnymi klasy Money i znajdować się w osobnych plikach.
+5.	Klasy Euro, Ruble i USD muszą implementować metodę getCurrencyName.
+6.	Metoda getCurrencyName musi zwracać skr&oacute;coną nazwę odpowiedniej waluty (String).
+7.	Klasy Euro, Ruble i USD muszą implementować konstruktor publiczny z jednym parametrem double. Ten konstruktor musi ustawiać wartość pola amount klasy Money poprzez wywoływanie konstruktora klasy nadrzędnej z tym samym argumentem.
+
+

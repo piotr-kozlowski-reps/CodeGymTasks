@@ -1,0 +1,24 @@
+taskKey="pl.codegym.task.task15.task1516"\n\nWartości domyślne
+
+1. Utwórz 7 publicznych pól dla klasy. Upewnij się, że są one zainicjalizowane domyślnymi wartościami.
+int intVar
+double doubleVar
+Double DoubleVar
+boolean booleanVar
+Object ObjectVar
+Exception ExceptionVar
+String StringVar
+2. W metodzie main wyświetlaj ich wartości w określonej kolejności.
+
+
+Requirements:
+1.	Klasa Solution musi zdefiniować pole intVar typu int.
+2.	Klasa Solution musi zdefiniować pole doubleVar typu double.
+3.	Klasa Solution musi zdefiniować pole DoubleVar typu Double.
+4.	Klasa Solution musi zdefiniować pole booleanVar typu boolean.
+5.	Klasa Solution musi zdefiniować pole ObjectVar typu Object.
+6.	Klasa Solution musi zdefiniować pole ExceptionVar typu Exception.
+7.	Klasa Solution musi zdefiniować pole StringVar typu String.
+8.	Metoda main powinna wyświetlać wartości p&oacute;l na ekranie (każda w nowej linii lub oddzielona spacją) w określonej kolejności. Nie musisz inicjalizować zmiennych.
+
+

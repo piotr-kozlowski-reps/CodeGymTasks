@@ -1,0 +1,12 @@
+taskKey="pl.codegym.task.task14.task1401"\n\nBingo!
+
+Popraw linię „Object animal = new Pet();” w metodzie main, aby program wyświetlił "Bingo!"
+
+
+Requirements:
+1.	Klasa Cat musi dziedziczyć klasę Pet.
+2.	Klasa Tiger musi dziedziczyć klasę Cat.
+3.	Zmienna Object animal powinna odnosić się do obiektu, kt&oacute;ry jednocześnie należy do klas Pet, Cat i Tiger.
+4.	Program musi wyświetlać: &quot;Bingo!&quot;
+
+

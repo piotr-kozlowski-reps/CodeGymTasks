@@ -1,0 +1,18 @@
+taskKey="pl.codegym.task.task19.task1909"\n\nZmiana znaków interpunkcyjnych
+
+Wczytaj 2 nazwy plików z konsoli.
+Pierwszy plik zawiera tekst.
+Odczytaj zawartość pierwszego pliku i zmień wszystkie kropki (".") na wykrzykniki ("!").
+Następnie wyprowadź wynik do drugiego pliku.
+Zamknij strumienie.
+
+
+Requirements:
+1.	Program powinien odczytać nazwy plik&oacute;w z konsoli (użyj BufferedReader).
+2.	BufferedReader używany do odczytu danych wejściowych z konsoli musi zostać zamknięty po jego zastosowaniu.
+3.	Program musi odczytywać zawartość pliku (użyj konstruktora BufferedReader z parametrem FileReader).
+4.	Strumień wejściowy pliku (BufferedReader) musi zostać zamknięty.
+5.	Program musi zapisywać zawartość pierwszego pliku do drugiego pliku, zastępując wszystkie kropki (&quot;.&quot;) wykrzyknikami (&quot;!&quot;) (użyj konstruktora BufferedWriter, kt&oacute;ry przyjmuje argument FileWriter).
+6.	Strumień wyjściowy pliku (BufferedWriter) musi zostać zamknięty.
+
+

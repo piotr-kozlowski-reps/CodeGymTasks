@@ -1,0 +1,15 @@
+taskKey="pl.codegym.task.task15.task1526"\n\nDebuguj, debuguj i jeszcze raz debuguj
+
+Program wyświetla 0 9, a powinien wyświetlać 6 9. Znajdź (jeden!) błąd i popraw go.
+Użyj debuggera. Ustaw punkty wstrzymania (breakpointy) (Ctrl+F8), a następnie przejdź do Run -> Debug.
+F9 wykona kod do następnego punktu wstrzymania (breakpointu)
+F8 przejdzie do następnej linii kodu
+
+
+Requirements:
+1.	Program powinien wyświetlać dane na ekranie.
+2.	Wynik na monitorze musi być zgodny z warunkami zadania.
+3.	Metoda initialize klasy A musi mieć najbardziej restrykcyjny modyfikator dostępu.
+4.	Program nie może wczytywać danych z klawiatury.
+
+

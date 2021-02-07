@@ -1,0 +1,32 @@
+taskKey="pl.codegym.task.task18.task1827"\n\nCeny
+
+CrUD dla tabeli w pliku.
+Odczytaj z konsoli nazwę pliku dla operacji CrUD.
+Program jest uruchamiany z następującymi argumentami:
+-c productName price quantity
+Wartości argumentów:
+gdzie id to 8 znaków.
+productName to 30 znaków.
+price to 8 znaków.
+quantity to 4 znaki.
+-c dodaje produkt o określonych parametrach na końcu pliku i generuje id poprzez zwiększenie maksymalnej wartości id odnalezionej w pliku.
+Dane w pliku są przechowywane w następującej kolejności (bez spacji):
+id productName price quantity
+Każde pole danych jest uzupełniane spacjami na całej długości.
+Przed dodaniem nowej linii, ponownie zapisz całą jej zawartość do pliku.
+Przykład:
+19847   Swim trunks, blue             159.00  12  
+198479  Swim trunks, black with printe173.00  17  
+19847983Snowboard jacket with reflecti10173.991234
+
+
+Requirements:
+1.	Program powinien odczytywać z konsoli nazwę pliku dla operacji CrUD.
+2.	Klasa Solution nie powinna używać zmiennych statycznych.
+3.	W przypadku uruchamiania programu bez argument&oacute;w, lista produkt&oacute;w musi pozostać niezmieniona.
+4.	W przypadku uruchamiania programu z argumentami &quot;-c productName price quantity&quot;, na końcu pliku należy dodać nową linię z odpowiednim produktem.
+5.	Produkt musi mieć kolejny numer id następujący po maksymalnej wartości id odnalezionej w pliku.
+6.	Format linii nowego produktu musi dokładnie odpowiadać formatowi określonemu w zadaniu.
+7.	Strumienie pliku muszą zostać zamknięte.
+
+

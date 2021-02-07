@@ -1,0 +1,21 @@
+taskKey="pl.codegym.task.task17.task1701"\n\nNotatki
+
+Asynchroniczne wykonywanie wątków.
+1. Wątki będą używać klasy Note.
+2. Utwórz wątek public static NoteThread (interfejs Runnable nie czyni z klasy wątku), którego metoda run wykonuje poniższą operację 1000 razy (index = 0-999):
+2.1. Używając metody addNote, dodaj notatkę o nazwie [getName() + "-Note" + index]. Na przykład, dla index = 4:
+"Thread-0-Note4"
+2.2. Uśpij wątek na 1 milisekundę
+2.3. Używając metody removeNote, usuń notatkę
+2.4. Podaj nazwę wątku (getName()) jako argument dla removeNote
+
+
+Requirements:
+1.	 Klasa Solution musi zawierać publiczną statyczną klasę NoteThread.
+2.	 Klasa NoteThread musi być wątkiem.
+3.	 W metodzie run klasy NoteThread musi być pętla.
+4.	 Metoda run klasy NoteThread powinna wywoływać metodę addNote 1000 razy, przekazując jako argument [getName() + &quot;-Note&quot; + index].
+5.	 Metoda run klasy NoteThread powinna wywoływać metodę Thread.sleep(1) 1000 razy.
+6.	 Metoda run klasy NoteThread powinna wywoływać metodę removeNote 1000 razy, przekazując jako argument getName().
+
+

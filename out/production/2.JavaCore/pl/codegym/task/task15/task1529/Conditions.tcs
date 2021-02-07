@@ -1,0 +1,23 @@
+taskKey="pl.codegym.task.task15.task1529"\n\nPraktyka z blokami statycznymi
+
+1. Utwórz w osobnych plikach klasy Plane i Helicopter, które implementują interfejs CanFly.
+2. Klasa Plane musi mieć konstruktor z parametrem int (liczba pasażerów na pokładzie).
+3. W statycznej metodzie reset klasy Solution:
+3.1. Wczytaj ciąg z konsoli.
+3.2. Jeśli wartość to "helikopter", wówczas przypisz obiekt Helicopter do statycznego pola CanFly result.
+3.3. Jeśli wartość to "samolot", wówczas wczytaj drugą wartość (int, liczba pasażerów) i przypisz obiekt Plane do statycznego pola CanFly result.
+4. W bloku statycznym zainicjalizuj result pola CanFly poprzez wywołanie metody reset.
+5. Zamknij strumień wejściowy za pomocą metody close().
+
+
+Requirements:
+1.	Klasa Plane musi znajdować się w osobnym pliku i implementować interfejs CanFly.
+2.	Klasa Helicopter musi znajdować się w osobnym pliku i implementować interfejs CanFly.
+3.	Klasa Plane musi posiadać konstruktor z parametrem typu int.
+4.	Klasa Solution musi implementować publiczną statyczną metodę void reset().
+5.	Metoda reset powinna wczytywać linie z klawiatury.
+6.	Jeżeli danymi wejściowymi jest ciąg &quot;helikopter&quot;, obiekt Helicopter powinien być zapisany w zmiennej result.
+7.	Jeżeli danymi wejściowymi jest ciąg &quot;samolot&quot;, obiekt Plane powinien być zapisany w zmiennej result.
+8.	Zmienna result pola klasy Solution musi być inicjalizowana w bloku statycznym poprzez wywołanie metody reset.
+
+

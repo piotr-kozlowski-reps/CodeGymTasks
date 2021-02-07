@@ -1,0 +1,15 @@
+taskKey="pl.codegym.task.task17.task1713"\n\nLista współdzielona
+
+1. Zmień klasę Solution tak, aby stała się ona listą. (Musi ona implementować interfejs java.util.List).
+2. Lista Solution powinna działać tylko z typem Long.
+3. Użyj pola original.
+4. Lista będzie używana przez wątki, więc musisz się upewnić, że wszystkie metody są synchronized.
+
+
+Requirements:
+1.	 Klasa Solution musi implementować interfejs List&lt;Long&gt;.
+2.	 Klasa Solution musi posiadać prywatne pole ArrayList&lt;Long&gt; o nazwie original.
+3.	 Wszystkie nadpisane metody interfejsu List muszą delegować wywołania do metod oryginalnego obiektu.
+4.	 Wszystkie metody klasy Solution, za wyjątkiem metody main, muszą być synchronized
+
+

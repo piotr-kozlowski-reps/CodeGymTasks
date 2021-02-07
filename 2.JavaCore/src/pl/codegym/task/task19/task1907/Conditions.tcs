@@ -1,0 +1,16 @@
+taskKey="pl.codegym.task.task19.task1907"\n\nLiczenie słów
+
+Wczytaj nazwę pliku z konsoli.
+Plik zawiera słowa oddzielone znakami interpunkcyjnymi.
+Wyprowadź do konsoli liczbę wystąpień słowa "świat" w pliku.
+Zamknij strumienie.
+
+
+Requirements:
+1.	Program musi odczytywać nazwę pliku z konsoli (użyj BufferedReader).
+2.	BufferedReader używany do odczytu danych wejściowych z konsoli musi zostać zamknięty po jego zastosowaniu.
+3.	Program musi odczytywać zawartość pliku (użyj konstruktora FileReader z parametrem String).
+4.	Strumień wejściowy pliku (FileReader) musi zostać zamknięty.
+5.	Program musi wyprowadzić do konsoli liczbę powt&oacute;rzeń słowa &quot;świat&quot; w pliku.
+
+

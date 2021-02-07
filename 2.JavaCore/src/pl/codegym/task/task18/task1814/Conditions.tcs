@@ -1,0 +1,16 @@
+taskKey="pl.codegym.task.task18.task1814"\n\nUnsupportedFileName
+
+Zmień klasę TxtInputStream tak, aby działała tylko z plikami txt (* .txt).
+Na przykład, first.txt lub name.1.part3.txt.
+Jeśli przekazywany jest plik nie będący plikiem txt (np. file.txt.exe), wówczas konstruktor powinien wyrzucić
+UnsupportedFileNameException.
+Zastanów się, co jeszcze musisz zrobić, jeśli zostanie wyrzucony wyjątek.
+
+
+Requirements:
+1.	Klasa TxtInputStream musi dziedziczyć klasę FileInputStream.
+2.	Jeśli do konstruktora przekazywany jest plik txt, TxtInputStream powinien zachowywać się jak zwykły FileInputStream.
+3.	Jeśli do konstruktora przekazywany jest plik nie będący plikiem txt, powinien zostać wyrzucony UnsupportedFileNameException.
+4.	Jeśli zostanie wyrzucony wyjątek, w&oacute;wczas należy r&oacute;wnież wywołać super.close().
+
+

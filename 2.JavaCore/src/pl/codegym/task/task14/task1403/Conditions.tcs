@@ -1,0 +1,17 @@
+taskKey="pl.codegym.task.task14.task1403"\n\nBudynek i szkoła
+
+1. Stwórz prawidłową zależność dziedziczenia pomiędzy Building i School.
+2. Zastanów się, jaki typ obiektu powinien zostać zwrócony przez metody getSchool i getBuilding.
+3. Zmień null na obiekt Building lub School.
+
+P.S. Nie zmieniaj sygnatur metod getSchool i getBuilding.
+
+
+Requirements:
+1.	Klasa School powinna dziedziczyć klasę Building.
+2.	Metoda getSchool musi zwracać nową instancję obiektu School.
+3.	Metoda getBuilding musi zwracać nową instancję obiektu Building.
+4.	Klasa School musi być statyczna.
+5.	Klasa Building musi być statyczna.
+
+

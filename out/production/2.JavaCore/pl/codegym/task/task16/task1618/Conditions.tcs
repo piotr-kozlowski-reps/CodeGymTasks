@@ -1,0 +1,14 @@
+taskKey="pl.codegym.task.task16.task1618"\n\nKolejne przerwanie
+
+Utwórz TestThread.
+W metodzie main utwórz wątek, uruchom go, a następnie przerwij go przy pomocy metody interrupt().
+
+
+Requirements:
+1.	Klasa TestThread powinna dziedziczyć klasę Thread.
+2.	Klasa TestThread musi mieć publiczną metodę void run.
+3.	Metoda main musi tworzyć obiekt TestThread.
+4.	Metoda main musi wywoływać metodę start na obiekcie TestThread.
+5.	Metoda main musi wywoływać metodę interrupt na obiekcie TestThread.
+
+

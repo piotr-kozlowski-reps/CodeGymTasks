@@ -1,0 +1,14 @@
+taskKey="pl.codegym.task.task16.task1604"\n\nWyświetlanie śladu stosu
+
+1. Utwórz „zadanie” (klasa public static o nazwie SpecialThread , która implementuje interfejs Runnable ).
+2. SpecialThread powinna wyświetlać swój własny ślad stosu.
+Wskazówka: main thread już wyświetla swój ślad stosu.
+
+
+Requirements:
+1.	Dodaj publiczną statystyczną klasę o nazwie SpecialThread do klasy Solution.
+2.	Klasa SpecialThread nie powinna dziedziczyć żadnej dodatkowej klasy.
+3.	Klasa SpecialThread musi implementować interfejs Runnable.
+4.	Metoda run klasy SpecialThread powinna wyświetlać własny ślad stosu.
+
+

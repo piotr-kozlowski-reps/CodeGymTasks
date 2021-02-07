@@ -1,0 +1,22 @@
+taskKey="pl.codegym.task.task18.task1822"\n\nWyszukiwanie danych wewnątrz pliku
+
+Wczytaj nazwę pliku z konsoli.
+Przeszukaj plik w poszukiwaniu informacji związanych z podanym id. Wyświetl je w formacie używanym w pliku.
+Program jest uruchamiany z jednym argumentem: id (int).
+Zamknij strumienie.
+Dane w pliku są oddzielone spacjami i zapisane w następującej kolejności:
+id productName price quantity
+gdzie id to int
+productName to String — może zawierać spacje
+price to double
+quantity to int
+Informacje dotyczące każdego produktu są zapisane w osobnej linii.
+
+
+Requirements:
+1.	Program powinien odczytywać nazwę pliku z konsoli.
+2.	Utw&oacute;rz strumień wejściowy dla tego pliku.
+3.	Program powinien przeszukiwać plik i wyświetlać informacje związane z danym id przekazanym jako pierwszy argument.
+4.	Strumień wykorzystywany do odczytu pliku musi zostać zamknięty.
+
+

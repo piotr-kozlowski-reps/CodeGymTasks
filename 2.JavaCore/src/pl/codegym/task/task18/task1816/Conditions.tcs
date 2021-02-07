@@ -1,0 +1,16 @@
+taskKey="pl.codegym.task.task18.task1816"\n\nABC
+
+Pierwszym parametrem metody main jest nazwa pliku.
+Policz litery angielskiego alfabetu w pliku.
+Wyświetl liczbę liter.
+Zamknij strumienie.
+
+
+Requirements:
+1.	Nie musisz niczego odczytywać z konsoli.
+2.	Utw&oacute;rz strumień do odczytu z pliku przekazanego jako pierwszy argument metody main.
+3.	Musisz policzyć litery angielskiego alfabetu w pliku i wyświetlić ich liczbę.
+4.	Musisz policzyć zar&oacute;wno wielkie jak i małe litery.
+5.	Strumień wykorzystywany do odczytu pliku musi zostać zamknięty.
+
+

@@ -1,0 +1,16 @@
+taskKey="pl.codegym.task.task20.task2005"\n\nDziwne błędy
+
+Podczas odczytu/zapisu obiektów Human pojawiają się dziwne błędy.
+Dowiedz się, co jest nie tak i popraw to.
+
+
+Requirements:
+1.	Logika odczytu/zapisu w metodach save/load musi działać poprawnie, gdy lista assets jest pusta.
+2.	Logika odczytu/zapisu w metodach save/load musi działać poprawnie, gdy pole name i lista assets nie są puste.
+3.	Klasa Solution.Human nie powinna obsługiwać interfejsu Serializable.
+4.	Klasa Solution.Human musi być publiczna.
+5.	Klasa Solution.Human nie powinna obsługiwać interfejsu Externalizable.
+6.	Metoda equals musi zwracać wartość true dla dw&oacute;ch jednakowych obiekt&oacute;w Human i false dla r&oacute;żnych obiekt&oacute;w.
+7.	Metoda hashCode musi zawsze zwracać tę samą wartość dla tego samego obiektu Human.
+
+

@@ -1,0 +1,16 @@
+taskKey="pl.codegym.task.task15.task1518"\n\nModyfikatory statyczne i kociaki
+
+1. W klasie Solution utwórz klasę Cat z publicznym polem name typu String.
+2. W bloku statycznym utwórz obiekt Cat i przypisz go do zmiennej cat (nie zapomnij zainicjować pola name).
+3. W klasie Cat nie twórz konstruktorów z parametrami.
+4. W bloku statycznym wyświetl na ekranie utworzone imię kota.
+
+
+Requirements:
+1.	Klasa Cat musi być wewnątrz klasy Solution i musi być publiczna i statyczna.
+2.	Klasa Cat musi mieć publiczne pole name typu String.
+3.	Zmienna cat musi być zainicjowana w bloku statycznym klasy Solution.
+4.	W bloku statycznym utworzone imię kota powinno być wyświetlane na ekranie.
+5.	Klasa Cat nie może mieć konstruktor&oacute;w z parametrami.
+
+

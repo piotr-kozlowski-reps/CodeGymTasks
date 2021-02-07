@@ -1,0 +1,21 @@
+taskKey="pl.codegym.task.task19.task1908"\n\nWybieranie numerów
+
+Wczytaj 2 nazwy plików z konsoli.
+Wyprowadź do drugiego pliku wszystkie numery z pierwszego pliku.
+Oddziel numery spacją.
+Zamknij strumienie.
+Przykładowa zawartość pliku:
+12 text var2 14 8v 1
+Wynik:
+12 14 1
+
+
+Requirements:
+1.	Program powinien odczytać nazwy plik&oacute;w z konsoli (użyj BufferedReader).
+2.	BufferedReader używany do odczytu danych wejściowych z konsoli musi zostać zamknięty po jego zastosowaniu.
+3.	Program musi odczytywać zawartość pliku (użyj konstruktora BufferedReader z parametrem FileReader).
+4.	Strumień wejściowy pliku (BufferedReader) musi zostać zamknięty.
+5.	Program musi zapisywać wszystkie liczby z pierwszego pliku, oddzielone spacjami, do drugiego pliku (użyj konstruktora klasy BufferedWriter, kt&oacute;ry przyjmuje argument FileWriter).
+6.	Strumień wyjściowy pliku (BufferedWriter) musi zostać zamknięty.
+
+

@@ -1,0 +1,20 @@
+taskKey="pl.codegym.task.task16.task1612"\n\nStoper
+
+1. Dowiedz się, co robi program.
+2. Zaimplementuj strukturę logiczną w metodzie doStep tak, aby była brana pod uwagę prędkość biegacza.
+2.1. Klasa Runner posiada metodę getSpeed(), która wyświetla ile kroków na sekundę wykonuje dany biegacz.
+Biegacz musi rzeczywiście wykonać określoną ilość kroków na sekundę.
+Jeśli Usain wykonuje 4 kroki na sekundę, wówczas wykona 8 kroków w 2 sekundy.
+Jeśli Carl wykonuje 2 kroki na sekundę, wówczas wykona 4 kroki w 2 sekundy.
+2.2. Metoda sleep klasy Thread ma parametr long.
+WAŻNE! Użyj metody Thread.sleep(), a nie Stopwatch.sleep().
+
+
+Requirements:
+1.	Metoda getSpeed musi zwracać int.
+2.	Pole speed klasy Runner musi być typu int.
+3.	Konstruktor klasy Runner musi przyjmować typy String i int.
+4.	Metoda doStep musi uwzględniać prędkość biegacza. Jeżeli prędkość biegacza wynosi 2 kroki na sekundę, w&oacute;wczas metoda powinna być wykonywana przez p&oacute;ł sekundy; jeżeli prędkość biegacza wynosi 4 kroki na sekundę, w&oacute;wczas metoda powinna być wykonywana przez ćwierć sekundy.
+5.	Wynik programu powinien wskazywać, ile krok&oacute;w zrobili Usain i Carl w ciągu 2 sekund.
+
+

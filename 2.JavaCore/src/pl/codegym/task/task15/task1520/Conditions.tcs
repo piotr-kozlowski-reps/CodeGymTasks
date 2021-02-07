@@ -1,0 +1,18 @@
+taskKey="pl.codegym.task.task15.task1520"\n\nTrening mózgu
+
+Znajdź błąd w logice: Duck powinna prawidłowo implementować interfejs CanMove.
+Napraw błąd.
+Wynik powinien być następujący:
+Latanie
+Poruszanie się
+
+
+Requirements:
+1.	Wynik na monitorze musi być zgodny z warunkami zadania.
+2.	Klasa Duck musi implementować metodę doAnotherAction.
+3.	Metoda doAnotherAction() klasy Duck powinna wyświetlać &quot;Poruszanie się&quot;.
+4.	Metoda move klasy Util powinna wywołać metodę doAnotherAction na przekazanym do niej obiekcie.
+5.	Klasa Duck musi implementować interfejs CanMove.
+6.	Klasa Duck musi implementować interfejs CanFly.
+
+

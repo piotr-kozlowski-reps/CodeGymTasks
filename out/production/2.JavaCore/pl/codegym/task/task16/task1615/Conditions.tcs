@@ -1,0 +1,15 @@
+taskKey="pl.codegym.task.task16.task1615"\n\nLotnisko
+
+1. Dowiedz się, co robi program.
+2. Popraw metodę takeOff. Obecnie jej wykonanie trwa baaardzo długo. Start powinien trwać 100 milisekund.
+3. Zaimplementuj metodę waitForTakeoff przez analogię do metody takeOff. Czas oczekiwania nie powinien być dłuższy niż czas startu.
+
+
+Requirements:
+1.	Metoda takeOff powinna być wykonywana przez około 100 ms.
+2.	Metoda waitForTakeoff powinna być wykonywana przez około 100 ms.
+3.	Metoda main powinna tworzyć 3 samoloty.
+4.	Klasa Solution musi zawierać klasę wewnętrzną o nazwie Plane.
+5.	Klasa Solution musi zawierać klasę wewnętrzną o nazwie Runway.
+
+

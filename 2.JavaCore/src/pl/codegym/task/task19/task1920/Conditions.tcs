@@ -1,0 +1,25 @@
+taskKey="pl.codegym.task.task19.task1920"\n\nNajbogatszy
+
+Pierwszym parametrem metody main jest nazwa pliku.
+Każdy wiersz określonego pliku ma następujący format:
+name value
+gdzie [name] to String, a [value] to double. [name] i [value] są oddzielone spacją.
+Znajdź sumę wszystkich wartości dla każdego nazwiska.
+Wyświetl w porządku alfabetycznym nazwiska z najwyższą sumą.
+Oddziel nazwiska za pomocą spacji lub nowego wiersza.
+Zamknij strumienie.
+Przykładowy plik wejściowy:
+Peterson 0.501
+Smith 1.35
+Peterson 0.85
+Przykładowy wynik:
+Peterson
+
+
+Requirements:
+1.	Program NIE może wczytywać danych z klawiatury.
+2.	Program musi odczytywać zawartość pliku (użyj konstruktora FileReader).
+3.	Strumień wejściowy pliku (FileReader) musi zostać zamknięty.
+4.	Program powinien wypisywać w konsoli nazwiska z najwyższą sumą.
+
+

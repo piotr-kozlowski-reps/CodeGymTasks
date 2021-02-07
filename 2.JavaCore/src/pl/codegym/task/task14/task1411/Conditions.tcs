@@ -1,0 +1,28 @@
+taskKey="pl.codegym.task.task14.task1411"\n\nUser, loser, coder i programmer
+
+1. Wprowadź kilka ciągów (kluczy) z klawiatury [w pętli].
+Dostępne są nastepujące ciągi (klucze): "user", "loser", "coder", "programmer".
+Przestań wczytywać ciągi po wczytaniu jakiegokolwiek ciągu, który nie pasuje do żadnego z powyższych.
+
+2. Dla każdego wprowadzonego ciągu:
+2.1. Utwórz odpowiedni obiekt [patrz Person.java], np. utwórz obiekt User dla ciągu "user".
+2.2. Przekaż ten obiekt do metody doWork.
+
+3. Napisz implementację metody doWork, która:
+3.1. Wywołuje metodę live() na przekazywanym obiekcie, jeśli osoba to User.
+3.2. Wywołuje metodę doNothing() na przekazywanym obiekcie, jeśli osoba to Loser.
+3.3. Wywołuje metodę writeCode() na przekazywanym obiekcie, jeśli osoba to Coder.
+3.4. Wywołuje metodę enjoy() na przekazywanym obiekcie, jeśli osoba to Programmer.
+
+
+Requirements:
+1.	Metoda main musi wczytywać ciągi z klawiatury.
+2.	Metoda main powinna przerwać wczytywanie ciąg&oacute;w z klawiatury, gdy tylko wprowadzony ciąg nie pasuje do jednego z dozwolonych ciąg&oacute;w (&quot;user&quot;, &quot;loser&quot;, &quot;coder&quot;, &quot;programmer&quot;).
+3.	Dla każdego prawidłowo wprowadzonego ciągu (&quot;user&quot;, &quot;loser&quot;, &quot;coder&quot;, &quot;programmer&quot;) wywołaj metodę doWork z odpowiednim obiektem Person jako argumentem.
+4.	Klasa Solution musi implementować metodę doWork z jednym parametrem Person.
+5.	Metoda doWork powinna wywoływać metodę live() na przekazywanym obiekcie, jeśli jest to User.
+6.	Metoda doWork powinna wywoływać metodę doNothing() na przekazywanym obiekcie, jeśli jest to Loser.
+7.	Metoda doWork powinna wywoływać metodę writeCode() na przekazywanym obiekcie, jeśli jest to Coder.
+8.	Metoda doWork powinna wywoływać metodę enjoy() na przekazywanym obiekcie, jeśli jest to Programmer.
+
+

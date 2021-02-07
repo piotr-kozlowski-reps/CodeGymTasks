@@ -1,0 +1,20 @@
+taskKey="pl.codegym.task.task17.task1712"\n\nRestauracja
+
+1. Dowiedz się, co robi program. Z jakiegoś powodu kelner nie podaje do stolików przygotowanych dań :(
+2. Napraw błąd.
+Wskazówka: do poprawy jest tylko jedna linia
+
+
+Requirements:
+1.	 Klasa Restaurant powinna zawierać listę kucharzy i kelner&oacute;w (public static List&lt;Thread&gt; threads).
+2.	 Klasa Manager musi zawierać kolejkę zam&oacute;wień (private final Queue&lt;Order&gt; orderQueue).
+3.	 Klasa Manager musi mieć kolejkę z przygotowanymi daniami (private final Queue&lt;Dish&gt; dishQueue).
+4.	 Klasa Manager musi implementować wzorzec projektowy Singleton.
+5.	 Klasa Waiter musi implementować interfejs Runnable.
+6.	 Klasa Cook musi implementować interfejs Runnable.
+7.	 Jeśli w kolejce nie ma przygotowanych dań, wątek Waiter powinien przyjąć zam&oacute;wienie od stolika i dodać je do kolejki zam&oacute;wień.
+8.	 Jeśli w kolejce znajdują się przygotowane dania, wątek Waiter powinien wyjąć danie z kolejki i podać zam&oacute;wienie do stolika.
+9.	 Jeśli w kolejce nie ma zam&oacute;wień, wątek Cook powinien odpocząć (tzn. kucharz powinien odpocząć).
+10.	 Jeśli są zam&oacute;wienia w kolejce zam&oacute;wień, wątek Cook powinien przygotować danie i dodać je do kolejki przygotowanych dań.
+
+

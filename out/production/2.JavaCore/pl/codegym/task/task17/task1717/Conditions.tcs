@@ -1,0 +1,14 @@
+taskKey="pl.codegym.task.task17.task1717"\n\nNadmierna synchronizacja
+
+Słowo kluczowe synchronized znacząco spowalnia program, więc usuń niepotrzebne polecenia synchronized zawarte w metodach.
+
+
+Requirements:
+1.	 Metoda append(CharSequence s) klasy Solution nie powinna być synchronized.
+2.	 Metoda appendThis(Solution s) klasy Solution musi być synchronized.
+3.	 Metoda writeObject(java.io.ObjectOutputStream s) klasy Solution musi być synchronized.
+4.	 Metoda readObject(java.io.ObjectInputStream s) klasy Solution nie powinna być synchronized.
+5.	 Metoda main(String[] args) klasy Solution nie powinna być synchronized.
+6.	 W klasie Solution nie powinno być blok&oacute;w synchronized.
+
+

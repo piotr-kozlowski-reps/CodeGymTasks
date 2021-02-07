@@ -1,0 +1,15 @@
+taskKey="pl.codegym.task.task20.task2002"\n\nOdczytywanie i zapisywanie do pliku: CodeGym
+
+Zaimplementuj logikę dla pliku IO dla klasy CodeGym.
+Plik your_file_name.tmp może zawierać kilka obiektów CodeGym.
+Metoda main jest dostępna tylko dla Ciebie i nie jest wykorzystywana do testowania rozwiązania.
+
+
+Requirements:
+1.	Logika odczytu/zapisu w metodach save/load musi działać poprawnie, gdy lista users jest pusta.
+2.	Logika odczytu/zapisu w metodach save/load musi działać poprawnie, gdy lista users nie jest pusta.
+3.	Klasa Solution.CodeGym nie powinna obsługiwać interfejsu Serializable.
+4.	Klasa Solution.CodeGym musi być publiczna.
+5.	Klasa Solution.CodeGym nie powinna obsługiwać interfejsu Externalizable.
+
+

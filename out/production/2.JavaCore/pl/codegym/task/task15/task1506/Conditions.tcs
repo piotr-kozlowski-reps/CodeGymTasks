@@ -1,0 +1,18 @@
+taskKey="pl.codegym.task.task15.task1506"\n\nCoś zbędnego
+
+1. Program powinien wyświetlać następujące komunikaty:
+To jest double
+To jest Object
+To jest double
+To jest liczba całkowita typu Integer
+To jest double
+2. Usuń wszystkie zbędne metody
+
+
+Requirements:
+1.	Klasa Solution musi zachować metodę print z jednym parametrem Integer.
+2.	Klasa Solution musi zachować metodę print z jednym parametrem Object.
+3.	Klasa Solution musi zachować metodę print z jednym parametrem double.
+4.	Wynik na monitorze musi być zgodny z warunkami zadania.
+
+

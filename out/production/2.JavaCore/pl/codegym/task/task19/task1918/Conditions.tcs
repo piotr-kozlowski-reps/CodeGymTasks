@@ -1,0 +1,33 @@
+taskKey="pl.codegym.task.task19.task1918"\n\nWprowadzanie znaczników
+
+Odczytaj z konsoli nazwę pliku zawierającego HTML.
+Przykład:
+Info na temat Leela <span xml:lang="en" lang="en"><b><span>Leela Turanga
+</span></b></span><span>Super</span><span>girl</span>
+Pierwszym parametrem metody main jest nazwa pliku. Na przykład, "span".
+Wyświetl wszystkie znaczniki, które pasują do określonego znacznika.
+Kolejność powinna odpowiadać ich kolejności w pliku, każdy znacznik w nowej linii.
+Liczba spacji, znaków nowej linii (n) lub powrotów karetki (r) nie ma wpływu na wynik.
+Plik nie posiada znacznika CDATA. Każdy znacznik otwierający ma osobny znacznik zamykający i nie ma znaczników samozamykających się.
+Znaczniki mogą mieć zagnieżdżone znaczniki.
+Przykładowy wynik:
+<span xml:lang="en" lang="en"><b><span>Leela Turanga</span></b></span>
+<span>Leela Turanga</span>
+<span>Super</span>
+<span>girl</span>
+Szablony znaczników:
+<tag>text1</tag>
+<tag text2>text1</tag>
+<tag
+text2>text1</tag>
+text1 i text2 mogą być puste
+
+
+Requirements:
+1.	Program musi odczytywać nazwę pliku z konsoli (użyj BufferedReader).
+2.	BufferedReader używany do odczytu danych wejściowych z konsoli musi zostać zamknięty po jego zastosowaniu.
+3.	Program musi odczytywać zawartość pliku (użyj konstruktora FileReader).
+4.	Strumień wejściowy pliku (FileReader) musi zostać zamknięty.
+5.	Program musi zapisywać w konsoli wszystkie znaczniki, kt&oacute;re odpowiadają znacznikowi określonemu przez argument przekazany do metody main.
+
+

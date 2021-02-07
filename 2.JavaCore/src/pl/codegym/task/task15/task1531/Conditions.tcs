@@ -1,0 +1,19 @@
+taskKey="pl.codegym.task.task15.task1531"\n\nSilnia
+
+Napisz metodę, która obliczy silnię, tj. iloczyn wszystkich liczb od 1 do wprowadzonej liczby włącznie.
+Przykładowe obliczenia: 4! = factorial(4) = 1*2*3*4
+Przykładowy wynik: 24
+
+1. Wprowadź liczbę mniejszą lub równą 150 z konsoli.
+2. Zaimplementuj metodę factorial.
+3. Jeśli wprowadzona liczba jest mniejsza niż 0, wówczas wyświetl 0.
+0! = 1
+
+
+Requirements:
+1.	Program musi odczytywać dane z klawiatury.
+2.	Program powinien wyświetlać silnię wprowadzonej liczby.
+3.	Metoda factorial musi zwracać ciąg stanowiący silnię liczby przekazywanej jako argument.
+4.	Metoda factorial musi mieć jeden parametr typu int.
+
+

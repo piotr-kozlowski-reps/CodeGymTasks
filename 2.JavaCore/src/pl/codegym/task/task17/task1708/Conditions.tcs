@@ -1,0 +1,13 @@
+taskKey="pl.codegym.task.task17.task1708"\n\nNotatki dla wszystkich
+
+Wątki będą używać klasy Note.
+W związku z tym musisz mieć pewność, że lista notes będzie znajdować się w pamięci współdzielonej, tzn. że nie będzie przechowywana przez wątki w ich pamięci lokalnej.
+
+
+Requirements:
+1.	 Klasa Note musi mieć metodę addNote(int index, String note).
+2.	 Klasa Note musi mieć metodę removeNote(int index).
+3.	 Klasa Note musi mieć publiczne pole List&lt;String&gt; notes.
+4.	 Pole List&lt;String&gt; notes nie powinno być przechowywane w lokalnej pamięci podręcznej.
+
+

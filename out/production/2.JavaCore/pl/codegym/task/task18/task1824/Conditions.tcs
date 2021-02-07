@@ -1,0 +1,17 @@
+taskKey="pl.codegym.task.task18.task1824"\n\nPliki i wyjątki
+
+Odczytuj nazwy plików z konsoli.
+Jeśli plik nie istnieje (tzn. podano nieprawidłową nazwę pliku), wówczas należy przechwycić FileNotFoundException, wyświetlić nieprawidłową nazwę pliku i wyjść z programu.
+Zamknij strumienie.
+Nie używaj System.exit();
+
+
+Requirements:
+1.	Program powinien odczytywać nazwy plik&oacute;w z konsoli.
+2.	Dla każdego pliku należy utworzyć strumień wejściowy.
+3.	Jeśli plik nie istnieje, program musi przechwytywać FileNotFoundException.
+4.	Po przechwyceniu wyjątku, program powinien wyświetlać nazwę pliku i kończyć działanie.
+5.	Strumienie wejściowe pliku muszą zostać zamknięte.
+6.	Nie używaj &quot;System.exit();&quot;.
+
+

@@ -1,0 +1,15 @@
+taskKey="pl.codegym.task.task15.task1515"\n\nModyfikatory statyczne: część 2
+
+1. W bloku statycznym odczytaj z konsoli dwie zmienne int A i B.
+2. Nie zapomnij o IOException, który musi być obsługiwany w bloku catch.
+3. Zamknij strumień wejściowy za pomocą metody close().
+
+
+Requirements:
+1.	Pole A musi być publiczne i statyczne.
+2.	Pole B musi być publiczne i statyczne.
+3.	Program powinien odczytywać dane z klawiatury w bloku statycznym.
+4.	Program musi inicjalizować pola A i B w bloku statycznym za pomocą wartości wprowadzonych z klawiatury.
+5.	Program powinien wyświetlać minimalną wartość wprowadzoną z klawiatury.
+
+

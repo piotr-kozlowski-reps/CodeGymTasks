@@ -1,0 +1,24 @@
+taskKey="pl.codegym.task.task17.task1715"\n\nApteka
+
+Zaimplementuj interfejs Runnable w klasach Pharmacy i Person.
+Wszystkie wątki powinny być wykonywane dopóki isStopped ma wartość true.
+Oto logika dla klasy Pharmacy: drugController powinien dokonywać zakupu, wzywając metodę void buy(Drug drug, int count), losowo wybranego leku (getRandomDrug) w ilości określonej w losowy sposób (getRandomCount) i czekać 300 ms.
+Oto logika dla klasy Person: drugController powinien dokonywać sprzedaży, wzywając metodę void sell(Drug drug, int count), losowo wybranego leku (getRandomDrug) w ilości określonej w losowy sposób (getRandomCount) i czekać 100 ms.
+Umieść słowo kluczowe synchronized tam, gdzie to konieczne.
+
+
+Requirements:
+1.	 Klasa Solution musi mieć publiczne statyczne pole DrugController o nazwie drugController.
+2.	 Klasa Solution musi mieć publiczne statyczne pole typu boolean o nazwie isStopped.
+3.	 Klasa Solution musi posiadać prywatną statyczną metodę typu void o nazwie waitAMoment(), kt&oacute;ra czeka 100 ms.
+4.	 Klasa Pharmacy musi implementować interfejs Runnable.
+5.	 Wątek Pharmacy powinien być wykonywany tak długo, dop&oacute;ki isStopped ma wartość false.
+6.	 Wątek Pharmacy musi używać drugController do zakupu losowo wybranego leku (getRandomDrug) w ilości określonej w losowy spos&oacute;b (getRandomCount).
+7.	 Wątek Pharmacy powinien używać metody waitAMoment(), aby odczekać 300 ms pomiędzy zakupami.
+8.	 Klasa Person musi implementować interfejs Runnable.
+9.	 Wątek Person powinien być wykonywany tak długo, dop&oacute;ki isStopped ma wartość false.
+10.	 Wątek Person thread musi używać drugController do sprzedaży leku wybranego w spos&oacute;b losowy (getRandomDrug) w losowo określonej ilości (getRandomCount).
+11.	 Wątek Person powinien używać metody waitAMoment(), aby odczekać 100 ms pomiędzy zakupami.
+12.	 Metody klasy DrugController muszą być synchronized.
+
+

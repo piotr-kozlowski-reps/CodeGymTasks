@@ -1,0 +1,16 @@
+taskKey="pl.codegym.task.task18.task1804"\n\nNajrzadziej występujące bajty
+
+Wprowadź nazwę pliku z konsoli.
+Znajdź bajt lub bajty z najmniejszą liczbą powtórzeń.
+Wyświetl je na ekranie, oddzielone spacjami.
+Zamknij strumień IO.
+
+
+Requirements:
+1.	Program powinien odczytywać nazwę pliku z konsoli.
+2.	Użyj FileInputStream do odczytu z pliku.
+3.	Należy wyświetlić wszystkie najrzadziej występujące bajty z pliku, oddzielone spacjami.
+4.	Wynik powinien być wyświetlany na ekranie w jednej linii.
+5.	Strumień wykorzystywany do odczytu pliku musi zostać zamknięty.
+
+

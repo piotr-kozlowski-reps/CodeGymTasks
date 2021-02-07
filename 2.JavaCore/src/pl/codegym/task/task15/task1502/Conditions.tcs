@@ -1,0 +1,21 @@
+taskKey="pl.codegym.task.task15.task1502"\n\nOOP: dziedziczenie w królestwie zwierząt
+
+1. Utwórz publiczną statyczną klasę Goose.
+2. Utwórz publiczną statyczną klasę Dragon.
+3. Spraw, aby klasa Goose dziedziczyła albo BigAnimal albo SmallAnimal. Zastanów się, co byłoby bardziej logiczne.
+4. Spraw, aby klasa Dragon dziedziczyła albo BigAnimal albo SmallAnimal. Zastanów się, co byłoby bardziej logiczne.
+5. Spraw, aby klasy Goose i Dragon nadpisały metodę String getSize() i uczyniły ją tak widoczną, jak to tylko możliwie.
+6. W klasie Goose metoda getSize powinna zwracać frazę "Gęś jest mała, " + <klasa macierzysta>.getSize().
+7. W klasie Dragon metoda getSize powinna zwracać frazę "Smok jest duży, " + <klasa macierzysta>.getSize().
+
+
+Requirements:
+1.	Klasa Goose musi znajdować się wewnątrz klasy Solution i musi być statyczna.
+2.	Klasa Dragon musi znajdować się wewnątrz klasy Solution i musi być statyczna.
+3.	Klasa Goose musi być obiektem podrzędnym klasy SmallAnimal.
+4.	Klasa Dragon musi być obiektem podrzędnym klasy BigAnimal.
+5.	W klasie Goose musi zostać nadpisana metoda getSize. Powinna ona zwracać ciąg sformatowany w następujący spos&oacute;b: &quot;Gęś jest mała, &quot; + &lt;klasa macierzysta&gt;.getSize().
+6.	W klasie Dragon musi zostać nadpisana metoda getSize. Powinna ona zwracać ciąg sformatowany w następujący spos&oacute;b: &quot;Smok jest duży, &quot; + &lt;klasa macierzysta&gt;.getSize().
+7.	Widoczność nadpisanych metod getSize w klasach Goose i Dragon musi być możliwie jak największa.
+
+

@@ -1,0 +1,25 @@
+taskKey="pl.codegym.task.task15.task1503"\n\nOOP: samochody
+
+1. Używaj tylko zmiennych z klasy Constants w swoich danych wyjściowych.
+2. W klasie Ferrari zaimplementuj metodę printlnDesire tak, aby wyświetlała ona frazę "Chcę prowadzić Ferrari".
+3. W klasie GeoMetro zaimplementuj metodę printlnDesire tak, aby wyświetlała ona frazę "Chcę prowadzić Geo Metro".
+4. Utwórz publiczną statyczną klasę LuxuryCar.
+5. Utwórz publiczną statyczną klasę CheapCar.
+6. Spraw, aby klasy Ferrari i GeoMetro dziedziczyły CheapCar lub LuxuryCar. Pomyśl, która klasa byłaby odpowiednia dla każdego z nich.
+7. W klasie LuxuryCar zaimplementuj metodę printlnDesire tak, aby wyświetlała ona frazę "Chcę prowadzić luksusowy samochód".
+8. W klasie CheapCar zaimplementuj metodę printlnDesire tak, aby wyświetlała ona frazę "Chcę prowadzić tani samochód".
+9. W klasach LuxuryCar i CheapCar ustaw inny modyfikator dostępu dla metody printlnDesire tak, aby zwiększyć widoczność w klasach Ferrari i GeoMetro.
+
+
+Requirements:
+1.	Klasa Solution musi zawierać publiczną statyczną klasę LuxuryCar.
+2.	Klasa Solution musi zawierać publiczną statyczną klasę CheapCar.
+3.	Klasa Ferrari musi być obiektem podrzędnym klasy LuxuryCar.
+4.	Klasa GeoMetro musi być obiektem podrzędnym klasy CheapCar.
+5.	Metoda printlnDesire w klasie LuxuryCar powinna wyświetlać frazę &quot;Chcę prowadzić luksusowy samoch&oacute;d&quot;.
+6.	Metoda printlnDesire w klasie CheapCar powinna wyświetlać frazę &quot;Chcę prowadzić tani samoch&oacute;d&quot;.
+7.	Metoda printlnDesire w klasie Ferrari powinna wyświetlać frazę &quot;Chcę prowadzić Ferrari&quot;.
+8.	Metoda printlnDesire w klasie GeoMetro powinna wyświetlać frazę &quot;Chcę prowadzić Geo Metro&quot;.
+9.	Widoczność metod printlnDesire w klasach Ferrari i GeoMetro powinna być większa niż w ich klasach macierzystych.
+
+

@@ -1,0 +1,20 @@
+taskKey="pl.codegym.task.task16.task1605"\n\nPorozmawiajmy o muzyce
+
+1. Zmień klasę Violin tak, aby zrobić z niej zadanie dla wątku. Użyj interfejsu MusicalInstrument
+2. Zaimplementuj odpowiednią metodę w wątku Violin. Implementacja powinna wyglądać następująco:
+2.1. Określ czas, kiedy zaczniesz grać - metoda startPlaying().
+2.2. Poczekaj 1 sekundę - metoda sleepNSeconds(int n), gdzie n jest liczbą sekund.
+2.3. Określ czas, kiedy przestaniesz grać - metoda stopPlaying().
+2.4. Wyświetl, jak długo grałeś na instrumencie. Użyj metod przedstawionych w punktach 2.1 i 2.3.
+Przykład: Grałeś przez 1002 ms
+
+
+Requirements:
+1.	Klasa Violin nie powinna dziedziczyć żadnej dodatkowej klasy.
+2.	Klasa Violin powinna implementować interfejs MusicalInstrument.
+3.	Metoda run klasy Violin powinna wywoływać metodę startPlaying.
+4.	Metoda run klasy Violin powinna wywoływać metodę sleepNSeconds z argumentem 1 sekundy.
+5.	Metoda run klasy Violin powinna wywoływać metodę stopPlaying.
+6.	Metoda run klasy Violin powinna wyświetlać jak długo trwała gra na instrumencie (w milisekundach). Użyj formatu podanego w przykładzie.
+
+

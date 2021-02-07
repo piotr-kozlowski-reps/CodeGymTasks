@@ -1,0 +1,16 @@
+taskKey="pl.codegym.task.task19.task1923"\n\nSłowa z liczbami
+
+Pierwszy parametr metody main to file1, a drugi to file2.
+file1 zawiera wiersze z wyrazami oddzielonymi spacjami.
+Zapisz do file2 wszystkie słowa, które zawierają liczby, np. a1 lub abc3d. Oddziel te słowa spacjami.
+Zamknij strumienie.
+
+
+Requirements:
+1.	Program NIE może wczytywać danych z klawiatury.
+2.	Program musi odczytywać zawartość pierwszego pliku (użyj konstruktora z parametrem String).
+3.	Strumień wejściowy pliku (FileReader) musi zostać zamknięty.
+4.	Program powinien zapisywać do drugiego pliku wszystkie słowa z pierwszego pliku zawierające liczby (użyj FileWriter).
+5.	Strumień wyjściowy pliku (FileWriter) musi zostać zamknięty.
+
+

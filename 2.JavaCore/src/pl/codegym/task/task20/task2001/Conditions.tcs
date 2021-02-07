@@ -1,0 +1,15 @@
+taskKey="pl.codegym.task.task20.task2001"\n\nOdczytywanie i zapisywanie do pliku: Human
+
+Zaimplementuj logikę dla pliku IO dla klasy Human.
+Pole name klasy Human nie może być puste.
+Metoda main jest dostępna tylko dla Ciebie i nie jest wykorzystywana do testowania rozwiązania.
+
+
+Requirements:
+1.	Logika odczytu/zapisu w metodach save/load musi działać poprawnie, gdy lista assets jest pusta.
+2.	Logika odczytu/zapisu w metodach save/load musi działać poprawnie, gdy pole name i lista assets nie są puste.
+3.	Klasa Solution.Human nie powinna obsługiwać interfejsu Serializable.
+4.	Klasa Solution.Human musi być publiczna.
+5.	Klasa Solution.Human nie powinna obsługiwać interfejsu Externalizable.
+
+

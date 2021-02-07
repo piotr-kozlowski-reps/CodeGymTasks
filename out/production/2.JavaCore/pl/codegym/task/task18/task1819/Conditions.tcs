@@ -1,0 +1,16 @@
+taskKey="pl.codegym.task.task18.task1819"\n\nŁączenie plików
+
+Wczytaj 2 nazwy plików z konsoli.
+Zapisz zawartość drugiego pliku na początku pierwszego pliku, łącząc w ten sposób zawartość obu plików.
+Zamknij strumienie.
+
+
+Requirements:
+1.	Program powinien dwukrotnie odczytywać nazwę pliku z konsoli.
+2.	Utw&oacute;rz strumień wejściowy dla pierwszego pliku i odczytaj jego zawartość.
+3.	Następnie utw&oacute;rz strumień wyjściowy dla pierwszego pliku. I strumień wejściowy dla drugiego pliku.
+4.	Zawartość pierwszego i drugiego pliku musi zostać połączona w pierwszym pliku.
+5.	W pierwszej kolejności należy zapisać zawartość drugiego pliku, a po niej zawartość pierwszego pliku.
+6.	Strumienie pliku muszą zostać zamknięte.
+
+

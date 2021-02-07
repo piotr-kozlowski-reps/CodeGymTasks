@@ -1,0 +1,25 @@
+taskKey="pl.codegym.task.task18.task1821"\n\nCzęstotliwość występowania symboli
+
+Program jest uruchamiany z jednym argumentem: nazwą pliku, który zawiera tekst.
+Oblicz, jak często występuje każdy symbol.
+Posortuj wyniki poprzez zwiększenie kodu ASCII (poczytaj na ten temat w internecie).
+Przykład:
+','=44, 's'=115, 't'=116.
+Wyświetl posortowane wyniki:
+[symbol1] częstotliwość1
+[symbol2] częstotliwość2
+Zamknij strumienie.
+Przykładowy wynik:
+, 19
+- 7
+f 361
+
+
+Requirements:
+1.	Nie musisz niczego odczytywać z konsoli.
+2.	Utw&oacute;rz strumień do odczytu z pliku przekazanego jako pierwszy argument metody main.
+3.	Musisz obliczyć częstotliwość występowania każdego symbolu w pliku i wyświetlić wyniki.
+4.	Wyświetlane wyniki powinny być posortowane według rosnącego kodu ASCII.
+5.	Strumień wykorzystywany do odczytu pliku musi zostać zamknięty.
+
+

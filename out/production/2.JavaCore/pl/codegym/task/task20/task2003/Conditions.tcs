@@ -1,0 +1,15 @@
+taskKey="pl.codegym.task.task20.task2003"\n\nWprowadzenie do properties
+
+W metodzie fillInPropertiesMap odczytaj nazwę pliku z konsoli i wypełnij mapę properties danymi z pliku.
+Na temat .properties możesz przeczytać tutaj: http://en.wikipedia.org/wiki/.properties
+Zaimplementuj logikę dla pliku IO dla klasy CodeGym.
+
+
+Requirements:
+1.	Metoda fillInPropertiesMap musi odczytywać dane z konsoli.
+2.	Metoda fillInPropertiesMap musi tworzyć FileInputStream, przekazując odczytany ciąg jako argument.
+3.	Metoda fillInPropertiesMap powinna wywoływać metodę load, przekazując jako argument nowo utworzony FileInputStream.
+4.	Metoda save musi przechowywać mapę properties w obiekcie OutputStream przekazywanym jako argument.
+5.	Metoda load musi przywracać stan mapy properties z obiektu InputStream przekazywanego jako argument.
+
+

@@ -1,0 +1,14 @@
+taskKey="pl.codegym.task.task14.task1420"\n\nNWD
+
+Największy wspólny dzielnik (NWD).
+Wprowadź z klawiatury 2 dodatnie liczby całkowite.
+Wyświetl ich największy wspólny dzielnik.
+
+
+Requirements:
+1.	Program powinien wczytywać 2 linie z klawiatury.
+2.	Jeżeli nie można przekonwertować wprowadzonych wierszy na dodatnie liczby całkowite, wyrzuć wyjątek.
+3.	Program powinien wyświetlać dane na ekranie.
+4.	Program powinien wyświetlać największy wsp&oacute;lny dzielnik (NWD) liczb wczytywanych z klawiatury, a następnie bezproblemowo zakończyć pracę.
+
+

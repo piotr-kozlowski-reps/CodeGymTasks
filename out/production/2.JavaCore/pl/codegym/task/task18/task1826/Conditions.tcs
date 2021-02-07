@@ -1,0 +1,22 @@
+taskKey="pl.codegym.task.task18.task1826"\n\nSzyfrowanie
+
+Opracuj mechanizm szyfrowania/odszyfrowywania.
+Program jest wykonywany z jednym z następujących zestawów argumentów:
+-e fileName fileOutputName
+-d fileName fileOutputName
+gdzie:
+fileName to nazwa pliku, który ma być szyfrowany/odszyfrowany.
+fileOutputName to nazwa pliku, w którym należy zapisać wynik procesu szyfrowania/odszyfrowywania.
+-e oznacza, że należy zaszyfrować dane.
+-d oznacza, że należy odszyfrować dane.
+
+
+Requirements:
+1.	Nie musisz niczego odczytywać z konsoli.
+2.	Utw&oacute;rz strumień wejściowy dla pliku przekazanego jako drugi argument (fileName).
+3.	Utw&oacute;rz strumień wyjściowy dla pliku przekazanego jako trzeci argument (fileOutputName).
+4.	W trybie &quot;-e&quot; program powinien szyfrować plik fileName i zapisywać wynik do pliku fileOutputName.
+5.	W trybie &quot;-d&quot; program powinien odszyfrowywać fileName i zapisywać wynik do pliku fileOutputName.
+6.	Strumienie pliku muszą zostać zamknięte.
+
+

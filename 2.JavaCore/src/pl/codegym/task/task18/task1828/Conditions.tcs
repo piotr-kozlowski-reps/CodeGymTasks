@@ -1,0 +1,31 @@
+taskKey="pl.codegym.task.task18.task1828"\n\nCeny 2
+
+CrUD dla tabeli w pliku
+Odczytaj z konsoli nazwę pliku dla operacji CrUD
+Program jest wykonywany z jednym z następujących zestawów argumentów:
+-u id productName price quantity
+-d id
+Wartości argumentów:
+gdzie id to 8 znaków
+productName to 30 znaków
+price to 8 znaków
+quantity to 4 znaki
+-u aktualizuje dane dotyczące produktu o określonym id
+-d fizycznie usuwa produkt o określonym id (wszystkie dane związane z przekazanym id)
+Dane w pliku są przechowywane w następującej kolejności (bez spacji):
+id productName price quantity
+Każde pole danych jest uzupełniane spacjami na całej długości
+Przykład:
+19847   Swim trunks, blue             159.00  12  
+198479  Swim trunks, black with printe173.00  17  
+19847983Snowboard jacket with reflecti10173.991234
+
+
+Requirements:
+1.	Program powinien odczytywać z konsoli nazwę pliku dla operacji CrUD.
+2.	W przypadku uruchamiania programu bez argument&oacute;w, lista produkt&oacute;w musi pozostać niezmieniona.
+3.	W przypadku uruchamiania programu z argumentami &quot;-u id productName price quantity&quot;, informacje dotyczące produkt&oacute;w znajdujące się w pliku powinny zostać zaktualizowane.
+4.	W przypadku uruchamiania programu z argumentami &quot;-d id&quot;, należy usunąć z pliku linię dotyczącą produktu o określonym id.
+5.	Strumienie pliku muszą zostać zamknięte.
+
+

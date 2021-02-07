@@ -1,0 +1,13 @@
+taskKey="pl.codegym.task.task20.task2010"\n\nJak serializować coś własnego?
+
+Spraw, aby klasa Object mogła być serializowana.
+
+
+Requirements:
+1.	Klasa Object musi znajdować się wewnątrz klasy Solution.
+2.	Klasa Solution.Object musi być statyczna.
+3.	Klasa Solution.Object musi być publiczna.
+4.	Klasa Solution.Object powinna obsługiwać interfejs Serializable.
+5.	Klasa Solution.String powinna obsługiwać interfejs Serializable.
+
+

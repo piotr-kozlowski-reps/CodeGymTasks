@@ -1,0 +1,33 @@
+taskKey="pl.codegym.task.task15.task1522"\n\nPraca nad wzorcem projektowym singleton
+
+1. Znajdź przykład wzorca singleton używanego w celu leniwej inicjalizacji. Użyj swojej ulubionej wyszukiwarki (np. Google).
+2. Utwórz w osobnych plikach trzy klasy singleton na jego obraz i podobieństwo: Sun, Moon i Earth.
+3. Zaimplementuj interfejs Planet w klasach Sun, Moon i Earth.
+4. W bloku statycznym klasy Solution wywołaj metodę readKeyFromConsoleAndInitPlanet.
+5. Zaimplementuj metodę readKeyFromConsoleAndInitPlanet:
+5.1. Odczytaj z konsoli jedną wartość typu String.
+5.2. Jeśli wartość jest równa jednej ze stałych interfejsu Planet, utwórz odpowiedni obiekt i przypisz go do Planet thePlanet, w przeciwnym razie ustaw Planet thePlanet na null.
+
+
+Requirements:
+1.	Klasa Sun powinna zapobiegać tworzeniu obiekt&oacute;w Sun poza klasą.
+2.	Klasa Sun musi mieć prywatne statyczne pole instance.
+3.	Klasa Sun musi implementować publiczną statyczną metodę getInstance, kt&oacute;ra zwraca wartość pola instance.
+4.	Metoda getInstance klasy Sun musi ZAWSZE zwracać ten sam obiekt.
+5.	Pole instance musi być inicjalizowane po pierwszym wywołaniu metody getInstance, ale nie wcześniej.
+6.	Klasa Moon powinna zapobiegać tworzeniu obiekt&oacute;w Moon poza klasą.
+7.	Klasa Moon musi mieć prywatne statyczne pole instance typu Moon.
+8.	Klasa Moon musi implementować publiczną statyczną metodę getInstance, kt&oacute;ra zwraca wartość pola instance.
+9.	Metoda getInstance klasy Moon musi ZAWSZE zwracać ten sam obiekt.
+10.	Pole instance musi być inicjalizowane po pierwszym wywołaniu metody getInstance, ale nie wcześniej.
+11.	Klasa Earth powinna zapobiegać tworzeniu obiekt&oacute;w Earth poza klasą.
+12.	Klasa Earth musi mieć prywatne statyczne pole instance typu Earth.
+13.	Klasa Earth musi implementować publiczną statyczną metodę getInstance, kt&oacute;ra zwraca wartość pola instance.
+14.	Metoda getInstance klasy Earth musi ZAWSZE zwracać ten sam obiekt.
+15.	Pole instance musi być inicjalizowane po pierwszym wywołaniu metody getInstance, ale nie wcześniej.
+16.	Metoda readKeyFromConsoleAndInitPlanet musi być wywoływana w bloku statycznym klasy Solution.
+17.	Metoda readKeyFromConsoleAndInitPlanet powinna odczytywać jedną linię z klawiatury.
+18.	Metoda readKeyFromConsoleAndInitPlanet musi poprawnie aktualizować wartość zmiennej thePlanet zgodnie z warunkami zadania.
+19.	Klasy Sun, Moon i Earth muszą znajdować się w osobnych plikach.
+
+

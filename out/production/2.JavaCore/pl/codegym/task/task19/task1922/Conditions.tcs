@@ -1,0 +1,25 @@
+taskKey="pl.codegym.task.task19.task1922"\n\nWyszukiwanie właściwych linii
+
+Wczytaj nazwę pliku z konsoli.
+Wyświetl wszystkie linie pliku, które zawierają tylko 2 słowa na liście words.
+Zamknij strumienie.
+Przykład:
+words zawiera słowa A, B i C
+Linie:
+C B A D // 3 słowa z words, odrzucone
+A B A D // 3 słowa z words, odrzucone
+D A D // 1 słowa z words, odrzucone
+D A B D // 2 słowa z words, zaakceptowane, wyświetl to
+D A A D // 2 słowa z words, zaakceptowane, wyświetl to
+
+
+Requirements:
+1.	Klasa Solution musi posiadać publiczne statyczne pole List&lt;String&gt; o nazwie words, kt&oacute;re jest natychmiastowo inicjalizowane.
+2.	Klasa Solution musi posiadać statyczny blok, kt&oacute;ry dodaje trzy lub więcej sł&oacute;w do listy words.
+3.	Program musi odczytywać nazwę pliku z konsoli (użyj BufferedReader).
+4.	BufferedReader używany do odczytu danych wejściowych z konsoli musi zostać zamknięty po jego zastosowaniu.
+5.	Program musi odczytywać zawartość pliku (użyj konstruktora FileReader).
+6.	Strumień wejściowy pliku (FileReader) musi zostać zamknięty.
+7.	Program powinien wyświetlać wszystkie linie pliku, kt&oacute;re zawierają tylko 2 słowa na liście words.
+
+

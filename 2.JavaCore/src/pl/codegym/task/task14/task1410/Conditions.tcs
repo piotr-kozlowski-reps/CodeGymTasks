@@ -1,0 +1,21 @@
+taskKey="pl.codegym.task.task14.task1410"\n\nDegustacja win
+
+1. Utwórz klasę abstrakcyjną Drink z zaimplementowaną metodą public void taste(), która wyświetla frazę "Wyśmienite".
+2. Utwórz klasę Wine, która dziedziczy Drink i implementuje metodę public String getCelebrationName(), która zwraca frazę "Urodziny".
+3. Utwórz klasę BubblyWine, która dziedziczy Wine i implementuje metodę public String getCelebrationName(), która zwraca frazę "Nowy Rok".
+4. Napisz implementacje dla metod getDeliciousDrink, getWine i getBubblyWine.
+5. Wszystkie klasy muszą być w osobnych plikach.
+
+
+Requirements:
+1.	Klasa abstrakcyjna Drink musi znajdować się w osobnym pliku.
+2.	Klasa Drink musi implementować metodę publiczną void taste(), kt&oacute;ra wyświetla frazę &quot;Wyśmienite&quot;.
+3.	Klasa Wine musi znajdować się w osobnym pliku i być potomkiem klasy Drink.
+4.	Klasa Wine musi implementować metodę publiczną String getCelebrationName(), kt&oacute;ra zwraca frazę &quot;Urodziny&quot;.
+5.	Klasa BubblyWine musi znajdować się w osobnym pliku i być potomkiem klasy Wine.
+6.	Klasa BubblyWine musi implementować metodę publiczną String getCelebrationName(), kt&oacute;ra zwraca frazę &quot;Nowy Rok&quot;.
+7.	Klasa Solution musi implementować metodę getDeliciousDrink(), kt&oacute;ra zwraca obiekt Wine.
+8.	Klasa Solution musi implementować metodę getWine(), kt&oacute;ra zwraca obiekt Wine.
+9.	Klasa Solution musi implementować metodę getBubblyWine(), kt&oacute;ra zwraca obiekt BubblyWine.
+
+

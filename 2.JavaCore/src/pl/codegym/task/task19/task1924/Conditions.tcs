@@ -1,0 +1,28 @@
+taskKey="pl.codegym.task.task19.task1924"\n\nZastępowanie liczb
+
+1. W bloku statycznym, inicjalizuj mapę zawierającą pary (liczba, słowo) od 0 do 12 włącznie.
+Na przykład, (0, "zero"), (1, "one"), (2, "two")
+2. Odczytaj nazwę pliku z konsoli, a następnie odczytaj zawartość pliku.
+3. Użyj mapy, aby zastąpić wszystkie liczby słowami.
+4. Wyświetl wynik.
+5. Zamknij strumienie.
+Przykładowa zawartość pliku:
+To kosztuje 1 dolara, a to jest 12.
+Nazwa zmiennej to file1.
+110 to liczba.
+Przykładowy wynik konsoli:
+To kosztuje one dolara, a to jest twelve.
+Nazwa zmiennej to file1.
+110 to liczba.
+
+
+Requirements:
+1.	Klasa Solution musi posiadać publiczne statyczne pole Map&lt;Integer, String&gt; o nazwie words, kt&oacute;re jest natychmiastowo inicjalizowane.
+2.	Program musi odczytywać nazwę pliku z konsoli (użyj BufferedReader).
+3.	BufferedReader używany do odczytu danych wejściowych z konsoli musi zostać zamknięty po jego zastosowaniu.
+4.	Program musi odczytywać zawartość pliku (użyj konstruktora FileReader).
+5.	Strumień wejściowy pliku (FileReader) musi zostać zamknięty.
+6.	Program powinien zapisywać wszystkie linie z pliku do konsoli, ale wszystkie numery muszą być zastąpione odpowiadającymi im słowami w map.
+7.	Klasa Solution musi posiadać blok statyczny, kt&oacute;ry dodaje trzynaście par do map.
+
+

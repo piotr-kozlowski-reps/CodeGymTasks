@@ -1,0 +1,20 @@
+taskKey="pl.codegym.task.task16.task1607"\n\nWyścigi konne
+
+Dowiedz się, co robi program.
+Zaimplementuj metodę calculateHorsesFinished.
+Musi ona:
+1. Obliczać i zwracać liczbę koni, które ukończyły wyścig. Użyj metody isFinished().
+2. Jeśli koń nie przekroczył jeszcze linii mety (!IsFinished()), wówczas:
+2.1. Wyświetl "Oczekiwanie na " + horse.getName().
+2.2. Poczekaj, aż ukończy wyścig. Zastanów się, jakiej metody należy użyć, aby to zrobić.
+2.3. Nie traktuj takiego konia jako tego, który ukończył wyścig.
+
+
+Requirements:
+1.	Metoda calculateHorsesFinished musi zwracać liczbę koni, kt&oacute;re ukończyły wyścig.
+2.	Metoda calculateHorsesFinished musi wywoływać metodę isFinished na każdym koniu z przekazanej listy.
+3.	Jeśli kt&oacute;ryś z koni z przekazanej listy jeszcze nie ukończył wyścigu, w&oacute;wczas metoda calculateHorsesFinished powinna wyświetlać &quot;Oczekiwanie na &quot; + horse.getName(). Przykładowy wynik dla pierwszego konia: &quot;Oczekiwanie na Horse_01&quot;.
+4.	Jeśli kt&oacute;ryś z koni z przekazanej listy jeszcze nie ukończył wyścigu, w&oacute;wczas metoda calculateHorsesFinished musi poczekać, aż to nastąpi. Użyj odpowiedniej metody dla oczekiwania.
+5.	Po zakończeniu programu konsola musi wskazać, że wszystkie konie ukończyły wyścig. Przykładowy wynik dla pierwszego konia: &quot;Horse_01 ukończył wyścig!&quot;.
+
+

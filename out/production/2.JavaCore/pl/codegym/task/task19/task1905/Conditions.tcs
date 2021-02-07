@@ -1,0 +1,22 @@
+taskKey="pl.codegym.task.task19.task1905"\n\nWzmocnij adapter
+
+Dostosuj Customer i Contact do RowItem.
+Klasa adaptera to DataAdapter.
+Inicjalizuj countries przed uruchomieniem programu. Mapowanie pomiędzy kodami krajów i nazwami krajów:
+UA Ukraina
+US Stany Zjednoczone
+FR Francja
+
+
+Requirements:
+1.	Klasa Solution musi mieć publiczne statyczne pole Map&lt;String, String&gt; o nazwie countries.
+2.	Inicjalizuj pole countries w bloku statycznym w klasie Solution, korzystając z danych testowych dostarczonych w zadaniu.
+3.	Klasa Solution musi posiadać interfejs RowItem.
+4.	Klasa Solution musi posiadać interfejs Contact.
+5.	Klasa Solution musi posiadać interfejs Customer.
+6.	Klasa DataAdapter musi implementować interfejs RowItem.
+7.	Klasa DataAdapter musi zawierać dwa pola prywatne: Customer customer i Contact contact.
+8.	Klasa DataAdapter musi posiadać Konstruktor z parametrami (Customer customer, Contact contact). Musi on inicjalizować pola contact i customer.
+9.	Implementuj metody interfejsu RowItem w klasie DataAdapter korzystając z podpowiedzi w komentarzach w interfejsach.
+
+

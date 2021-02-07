@@ -1,0 +1,17 @@
+taskKey="pl.codegym.task.task16.task1625"\n\nZakleszczenie
+
+1. Dowiedz się, jak działa program.
+2. Nie zmieniając klas T1 i T2, spraw, aby ich wątki zakończyły się (niekoniecznie powodzeniem).
+3. Nie używaj metody sleep.
+
+
+Requirements:
+1.	Metoda main musi uruchamiać wątek t1.
+2.	Metoda main musi uruchamiać wątek t2.
+3.	Nie zmieniaj klasy T1.
+4.	Nie zmieniaj klasy T2.
+5.	Nie używaj metody sleep.
+6.	Wyjście programu powinno składać się z 2 linii wskazujących, że wątki zostały zakończone. Na przykład: &quot;T1 został przerwany&quot; i &quot;T2 został zakończony&quot;.
+7.	Wątki t1 i t2 muszą się zakończyć (niekoniecznie pomyślnie).
+
+

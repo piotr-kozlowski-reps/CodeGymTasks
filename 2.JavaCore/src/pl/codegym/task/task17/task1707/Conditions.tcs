@@ -1,0 +1,17 @@
+taskKey="pl.codegym.task.task17.task1707"\n\nIMF
+
+Wzorzec projektowy Singleton: synchronizacja w metodzie.
+Klasa IMF to International Monetary Fund (czyli Międzynarodowy Fundusz Walutowy).
+Utwórz blok synchronized w bloku statycznym metody getFund.
+Wewnątrz bloku synchronized inicjalizuj imf tak, aby metoda getFund zawsze zwracała ten sam obiekt.
+
+
+Requirements:
+1.	 Klasa IMF musi mieć prywatne statyczne pole imf typu IMF.
+2.	 Klasa IMF musi zawierać prywatny konstruktor.
+3.	 Klasa IMF musi posiadać publiczną statyczną metodę IMF getFund().
+4.	 Metoda getFund() musi posiadać blok synchronized.
+5.	 Blok synchronized musi inicjalizować imf.
+6.	 Metoda getFund() musi zawsze zwracać ten sam obiekt.
+
+

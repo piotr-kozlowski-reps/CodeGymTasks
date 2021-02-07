@@ -1,0 +1,17 @@
+taskKey="pl.codegym.task.task14.task1405"\n\nJedzonko
+
+1. Zaimplementuj interfejs Selectable w klasie Food.
+2. Metoda onSelect() powinna wyświetlać "Jedzonko zostało wybrane".
+3. Zastanów się, które metody mogą być wywoływane ze zmienną food, a które ze zmienną selectable.
+4. O ile jest to możliwe, w metodzie foodMethods wywołaj metody onSelect i onEat.
+5. O ile jest to możliwe, w metodzie selectableMethods wywołaj metody onSelect i onEat.
+6. Nie używaj jawnej konwersji typów.
+
+
+Requirements:
+1.	Interfejs Selectable musi być zaimplementowany w klasie Food.
+2.	Metoda onSelect() w klasie Food powinna wyświetlać &quot;Jedzonko zostało wybrane&quot;.
+3.	W metodzie foodMethods musisz wywoływać metody na obiekcie Food.
+4.	W metodzie selectableMethods musisz wywoływać metody dostępne z dowolnego obiektu, kt&oacute;ry implementuje interfejs Selectable.
+
+

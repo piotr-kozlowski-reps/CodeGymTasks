@@ -1,0 +1,23 @@
+taskKey="pl.codegym.task.task16.task1624"\n\nNieprzerwane wątki
+
+1. Dowiedz się, co robi program.
+2. Spraw, aby program najpierw wyświetlił wynik wątku i aby po jego zakończeniu metoda main kontynuowała działanie.
+3. Przykładowy wynik:
+wewnątrz MyThread 0
+wewnątrz MyThread 1
+...
+wewnątrz MyThread 9
+wewnątrz MyThread 0
+wewnątrz main 1
+...
+wewnątrz main 9
+
+
+Requirements:
+1.	Metoda main musi wywoływać metodę start na wątku t.
+2.	Metoda main musi wywoływać metodę join na wątku t.
+3.	Na początku program powinien wyświetlać 10 linii zaczynających się od &quot;wewnątrz MyThread&quot;.
+4.	Na końcu program powinien wyświetlać 10 linii zaczynających się od &quot;wewnątrz main&quot;.
+5.	Łącznie program powinien wyświetlać 20 linii.
+
+

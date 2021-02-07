@@ -1,0 +1,42 @@
+taskKey="pl.codegym.task.task19.task1916"\n\nŚledzenie zmian
+
+Odczytaj 2 nazwy plików z konsoli: file1 i file2.
+Oba pliki zawierają tekst, ale file2 jest zaktualizowaną wersją file1. Niektóre linie są nadal takie same.
+Musisz stworzyć połączoną wersję linii, zapisując je na liście lines.
+Etykiety ADDED i REMOVED nie mogą być używane po kolei - muszą być zawsze oddzielone etykietą SAME.
+Przykład zawiera puste linie dla przejrzystości.
+Ani plik oryginalny, ani zaktualizowany nie mają pustych linii!
+Przykład 1:
+original   updated    merged
+file1:     file2:     Result: (lines)
+line1      line1      SAME line1
+line2                 REMOVED line2
+line3      line3      SAME line3
+line4                 REMOVED line4
+line5      line5      SAME line5
+           line0      ADDED line0
+line1      line1      SAME line1
+line2                 REMOVED line2
+line3      line3      SAME line3
+           line4      ADDED line4
+line5      line5      SAME line5
+line0                 REMOVED line0
+Przykład 2:
+original   updated    merged
+file1:     file2:     Result: (lines)
+line1      line1      SAME line1
+           line0      ADDED line0
+W podanym przykładzie puste linie oznaczają, że linia nie znajduje się w podanym pliku.
+
+
+Requirements:
+1.	Klasa Solution musi zawierać klasę LineItem.
+2.	Klasa Solution musi mieć enum o nazwie Type.
+3.	Klasa Solution musi mieć publiczne statyczne pole List&lt;LineItem&gt; o nazwie lines, kt&oacute;re jest natychmiastowo inicjalizowane.
+4.	Program musi odczytywać nazwę pliku z konsoli (użyj BufferedReader).
+5.	W metodzie main(String[] args), BufferedReader używany do odczytu danych wejściowych z konsoli musi zostać zamknięty po zakończeniu korzystania z niego.
+6.	Program musi odczytywać zawartość pierwszego i drugiego pliku (użyj FileReader).
+7.	Strumienie wejściowe pliku (FileReader) muszą zostać zamknięte.
+8.	Lista lines powinna stanowić połączoną wersję linii z plik&oacute;w. Każda linia powinna zaczynać się od etykiety ADDED, REMOVED lub SAME, w zależności od wykonanej operacji.
+
+

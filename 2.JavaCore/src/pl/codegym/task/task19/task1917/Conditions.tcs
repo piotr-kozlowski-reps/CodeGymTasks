@@ -1,0 +1,26 @@
+taskKey="pl.codegym.task.task19.task1917"\n\nTwój własny FileWriter
+
+Implementuj logikę FileConsoleWriter.
+Klasa FileConsoleWriter musi posiadać prywatne pole clFileWriter o nazwie fileWriter.
+Klasa FileConsoleWriter musi posiadać każdy konstruktor użyty do inicjalizowania fileWriter do zapisu.
+Klasa FileConsoleWriter musi posiadać pięć metod write i jedną metodę close:
+public void write(char[] cbuf, int off, int len) throws IOException
+public void write(int c) throws IOException
+public void write(String str) throws IOException
+public void write(String str, int off, int len) throws IOException
+public void write(char[] cbuf) throws IOException
+public void close() throws IOException
+Podczas zapisu danych do pliku, FileConsoleWriter musi zapisać dane również do konsoli.
+
+
+Requirements:
+1.	Klasa FileConsoleWriter musi zawierać prywatne pole FileWriter o nazwie fileWriter, kt&oacute;re nie powinno być natychmiastowo inicjalizowane.
+2.	Klasa FileConsoleWriter musi posiadać pięć konstruktor&oacute;w, kt&oacute;re inicjalizują fileWriter do zapisu.
+3.	Klasa FileConsoleWriter musi posiadać metodę write(char[] cbuf, int off, int len) throws IOException, kt&oacute;ra powinna zapisywać dane zar&oacute;wno do fileWriter jak i do konsoli.
+4.	Klasa FileConsoleWriter musi posiadać metodę write(int c) throws IOException, kt&oacute;ra powinna zapisywać dane zar&oacute;wno do fileWriter jak i do konsoli.
+5.	Klasa FileConsoleWriter musi posiadać metodę write(String str) throws IOException, kt&oacute;ra powinna zapisywać dane zar&oacute;wno do fileWriter jak i do konsoli.
+6.	Klasa FileConsoleWriter musi posiadać metodę write(String str, int off, int len) throws IOException, kt&oacute;ra powinna zapisywać dane zar&oacute;wno do fileWriter jak i do konsoli.
+7.	Klasa FileConsoleWriter musi posiadać metodę write(char[] cbuf) throws IOException, kt&oacute;ra powinna zapisywać dane zar&oacute;wno do fileWriter jak i do konsoli.
+8.	Klasa FileConsoleWriter musi posiadać metodę close() throws IOException, kt&oacute;ra powinna wywoływać odpowiednią metodę w fileWriter.
+
+

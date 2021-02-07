@@ -1,0 +1,19 @@
+taskKey="pl.codegym.task.task19.task1925"\n\nLong words
+
+Pierwszy parametr metody main to file1, a drugi to file2.
+file1 zawiera słowa oddzielone spacjami.
+Zapisz do file2 listę oddzielonych przecinkami słów dłuższych niż 6 znaków.
+file2 nie powinien kończyć się przecinkiem.
+Zamknij strumienie.
+Przykładowe wyjście do file2:
+lengthy,shortened,abbreviation
+
+
+Requirements:
+1.	Program NIE może wczytywać danych z klawiatury.
+2.	Program musi odczytywać zawartość pierwszego pliku (użyj konstruktora z parametrem String).
+3.	Strumień wejściowy pliku (FileReader) musi zostać zamknięty.
+4.	Program powinien zapisywać do drugiego pliku wszystkie słowa z pierwszego pliku o długości większej niż 6 znak&oacute;w, oddzielone przecinkami (użyj FileWriter).
+5.	Strumień wyjściowy pliku (FileWriter) musi zostać zamknięty.
+
+

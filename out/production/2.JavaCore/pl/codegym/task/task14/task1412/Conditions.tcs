@@ -1,0 +1,15 @@
+taskKey="pl.codegym.task.task14.task1412"\n\nZaimplementuj metodę printMainInfo
+
+1. Napisz implementację metody printMainInfo:
+1.1. Jeżeli obiekt Drawable jest przekazywany do metody, to wywołaj metodę draw na obiekcie.
+1.2. Jeżeli obiekt Movable jest przekazywany do metody, wywołaj metodę move na obiekcie.
+
+
+Requirements:
+1.	Klasa Solution musi implementować metodę printMainInfo z jednym parametrem Object.
+2.	Metoda printMainInfo musi być statyczna.
+3.	Metoda printMainInfo musi mieć najszerszy poziom dostępu (publiczny).
+4.	Metoda printMainInfo musi wywołać metodę draw na przekazanym obiekcie, jeśli obiekt implementuje interfejs Drawable.
+5.	Metoda printMainInfo musi wywołać metodę move na przekazanym obiekcie, jeśli obiekt implementuje interfejs Movable.
+
+

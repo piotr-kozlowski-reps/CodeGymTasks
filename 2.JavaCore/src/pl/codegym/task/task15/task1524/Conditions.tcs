@@ -1,0 +1,24 @@
+taskKey="pl.codegym.task.task15.task1524"\n\nKolejność ładowania zmiennych
+
+Sprawdź, co zostanie zainicjalizowane i w jakiej kolejności. Ustaw punkty wstrzymania (breakpointy) i użyj debuggera.
+Popraw kolejność inicjalizacji danych, aby uzyskać następujący wynik:
+static void init()
+Blok statyczny
+public static void main
+Blok niestatyczny
+static void printAllFields
+0
+null
+Konstruktor Solution
+static void printAllFields
+6
+Imię
+
+
+Requirements:
+1.	Program powinien wyświetlać dane na ekranie.
+2.	Wynik na monitorze musi być zgodny z warunkami zadania.
+3.	Statyczny blok inicjalizacyjny klasy Solution powinien powodować wyświetlanie na ekranie &quot;static void init()&quot; i &quot;Blok statyczny&quot;.
+4.	Program nie może wczytywać danych z klawiatury.
+
+

@@ -1,0 +1,16 @@
+taskKey="pl.codegym.task.task20.task2015"\n\nNadpisywanie serializacji
+
+Spraw, aby wątek runner po deserializacji kontynuował pracę.
+Nie zmieniaj słów kluczowych obiektu runner.
+Wskazówka:
+Konstruktor nie jest wywoływany podczas deserializacji. Inicjalizowane są jedynie wszystkie pola.
+
+
+Requirements:
+1.	Klasa Solution powinna obsługiwać interfejs Serializable.
+2.	Klasa Solution powinna obsługiwać interfejs Runnable.
+3.	Pole runner klasy Solution musi być zadeklarowane za pomocą modyfikatora transient.
+4.	Metoda readObject musi tworzyć nowy obiekt Thread z bieżącym obiektem jako argumentem.
+5.	Metoda readObject musi wywoływać metodę start w nowym obiekcie Thread.
+
+

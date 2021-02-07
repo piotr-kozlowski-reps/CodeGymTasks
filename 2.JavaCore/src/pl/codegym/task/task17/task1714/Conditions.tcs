@@ -1,0 +1,14 @@
+taskKey="pl.codegym.task.task17.task1714"\n\nComparable
+
+Zaimplementuj interfejs Comparable<Beach> w klasie Beach. Beaches będzie używane przez wątki, więc musisz się upewnić, że wszystkie metody są synchronized.
+Zaimplementuj metodę compareTo tak, aby przy porównywaniu dwóch plaż metoda zwracała liczbę dodatnią, jeśli pierwsza plaża jest lepsza
+lub liczbę ujemną, jeśli druga plaża jest lepsza. Wielkość tej liczby wskazuje, o ile lepsza jest ta plaża.
+
+
+Requirements:
+1.	 Klasa Beach musi mieć trzy pola: String name, float distance, int quality.
+2.	 Klasa Beach powinna implementować interfejs Comparable&lt;Beach&gt;.
+3.	 Metoda compareTo klasy Beach powinna brać pod uwagę przynajmniej jakość plaży i odległość.
+4.	 Wszystkie metody klasy Beach, za wyjątkiem metody main, muszą być synchronized.
+
+

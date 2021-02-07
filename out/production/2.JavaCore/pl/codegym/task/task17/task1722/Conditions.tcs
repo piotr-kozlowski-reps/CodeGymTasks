@@ -1,0 +1,15 @@
+taskKey="pl.codegym.task.task17.task1722"\n\nPoliczmy
+
+1. Zrób to tak, aby wynik był obliczany dla wszystkich elementów tablicy, BEZ użycia Thread.sleep w metodzie main(String[] args).
+2. Popraw blok synchronized tak, aby tablica values była wypełniona cyframi 1.
+
+
+Requirements:
+1.	 Klasa Solution musi zawierać klasę Counter.
+2.	 Klasa Counter musi być wątkiem.
+3.	 Metoda run() klasy Counter musi mieć blok synchronized.
+4.	 Blok synchronized metody run() nie może blokować this.
+5.	 Metoda main(String[] args) klasy Solution nie powinna używać Thread.sleep().
+6.	 Dla każdego z wątk&oacute;w, w metodzie main(String[] args) klasy Solution, użyj metody oczekującej na zakończenie wątku.
+
+

@@ -1,0 +1,19 @@
+taskKey="pl.codegym.task.task16.task1610"\n\nPrzyporządkowywanie wywołań do join()
+
+1. Dowiedz się, co robi program.
+2. Przyporządkuj wywołania do join() tak, aby każdy kot wykonywał poniższe czynności:
+2.1. Po pierwsze, kot rodzi kocięta.
+2.2. Następnie wszystkie kocięta wydostają się z koszyka w przypadkowej kolejności.
+2.3. W końcu kot przynosi je z powrotem do koszyka.
+2.4. Powyższe czynności jednego kota mogą być przeplatane czynnościami wykonywanymi przez innego kota.
+2.5. Dodaj czas drzemki kociaka (sleep 200 ms) do investigateWorld.
+
+
+Requirements:
+1.	Metoda join powinna być wywoływana na każdym kociaku (obiekcie Kitten).
+2.	Metoda investigateWorld powinna pozwalać kociakowi spać przez 200 ms. Użyj Thread.sleep(200).
+3.	Program powinien stworzyć dwa koty i cztery kocięta.
+4.	Nie zmieniaj metod, kt&oacute;re są odpowiedzialne za wynik na ekranie.
+5.	Wynik programu musi wskazywać, że warunki zadania zostały spełnione.
+
+

@@ -1,0 +1,13 @@
+taskKey="pl.codegym.task.task18.task1811"\n\nWrapper (Dekorator)
+
+Dowiedz się, co robi program.
+Poprzez analogię do klasy DecoratorRunnableImpl, utwórz klasę DecoratorMyRunnableImpl.
+
+
+Requirements:
+1.	Utw&oacute;rz klasę o nazwie DecoratorMyRunnableImpl podobną do DecoratorRunnableImpl.
+2.	Po uruchomieniu programu, każda klasa powinna wyświetlać &quot;&lt;nazwa klasy&gt; body&quot;.
+3.	Nie zmieniaj klas RunnableImpl i DecoratorRunnableImpl.
+4.	Nie zmieniaj metody main.
+
+

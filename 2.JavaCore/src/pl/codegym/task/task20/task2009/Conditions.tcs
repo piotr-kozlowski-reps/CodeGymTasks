@@ -1,0 +1,12 @@
+taskKey="pl.codegym.task.task20.task2009"\n\nW jaki sposób serializuje się pola statyczne?
+
+Spraw, aby klasa ClassWithStatic mogła być serializowana.
+
+
+Requirements:
+1.	Klasa ClassWithStatic musi znajdować się wewnątrz klasy Solution.
+2.	Klasa ClassWithStatic musi być statyczna.
+3.	Klasa ClassWithStatic musi być publiczna.
+4.	Klasa ClassWithStatic powinna obsługiwać interfejs Serializable.
+
+

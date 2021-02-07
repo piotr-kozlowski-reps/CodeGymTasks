@@ -1,0 +1,12 @@
+taskKey="pl.codegym.task.task20.task2007"\n\nJak się serializuje CodeGym?
+
+Spraw, aby klasa CodeGym mogla być serializowana.
+
+
+Requirements:
+1.	Klasa CodeGym musi znajdować się wewnątrz klasy Solution.
+2.	Klasa CodeGym musi być statyczna.
+3.	Klasa CodeGym musi być publiczna.
+4.	Musi istnieć możliwość serializacji klasy CodeGym.
+
+

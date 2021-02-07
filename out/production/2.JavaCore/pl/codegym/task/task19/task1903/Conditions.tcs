@@ -1,0 +1,21 @@
+taskKey="pl.codegym.task.task19.task1903"\n\nDostosowywanie wielu interfejsów
+
+Dostosuj IncomeData do interfejsów Customer i Contact.
+Klasa adaptera to IncomeDataAdapter.
+Inicjalizuj countries przed uruchomieniem programu. Mapowanie pomiędzy kodami krajów i nazwami krajów:
+UA Ukraina
+US Stany Zjednoczone
+FR Francja
+Jeśli to konieczne, podaj numery telefonów z zerami, aby otrzymać 10 cyfr (zobacz przykłady).
+Zwróć uwagę na format imion i nazwisk osób.
+
+
+Requirements:
+1.	Klasa Solution musi mieć publiczne statyczne pole Map&lt;String, String&gt; o nazwie countries.
+2.	Inicjalizuj pole countries w bloku statycznym w klasie Solution, korzystając z danych testowych dostarczonych w zadaniu.
+3.	Klasa IncomeDataAdapter musi implementować interfejsy Customer i Contact.
+4.	Klasa IncomeDataAdapter musi posiadać prywatne pole IncomeData o nazwie data.
+5.	Klasa IncomeDataAdapter musi posiadać konstruktor z parametrem IncomeData.
+6.	Korzystając z podpowiedzi w komentarzach do interfejs&oacute;w, zaimplementuj metody interfejs&oacute;w Customer i Contact w klasie IncomeDataAdapter.
+
+

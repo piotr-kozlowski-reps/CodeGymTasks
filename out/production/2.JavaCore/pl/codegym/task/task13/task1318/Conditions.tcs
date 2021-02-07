@@ -1,0 +1,14 @@
+taskKey="pl.codegym.task.task13.task1318"\n\nWczytywanie pliku
+
+1. Wczytaj nazwę pliku z konsoli.
+2. Wyświetl zawartość pliku w konsoli (na ekranie).
+3. Nie zapomnij o zwolnieniu zasobów. Zamknij strumienie wejściowe pliku oraz danych wprowadzanych z klawiatury.
+
+
+Requirements:
+1.	Program musi odczytywać nazwę pliku z konsoli.
+2.	Program musi wyświetlać zawartość pliku.
+3.	Musisz zamknąć strumień wejściowy pliku (FileInputStream).
+4.	BufferedReader także musi zostać zamknięty.
+
+

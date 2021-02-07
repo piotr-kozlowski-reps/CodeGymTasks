@@ -1,0 +1,30 @@
+taskKey="pl.codegym.task.task15.task1504"\n\nOOP: książki
+
+1. Utwórz publiczną statyczną klasę MarkTwainBook, która dziedziczy Book. Imię i nazwisko autora [Mark Twain].
+Parametrem konstruktora jest tytuł książki.
+2. Zaimplementuj wszystkie metody abstrakcyjne w klasie MarkTwainBook.
+3. Zmień zwracany typ metody getBook, aby uczynić ją bardziej odpowiednią.
+4. W podobny sposób utwórz klasę AgathaChristieBook. Imię i nazwisko autora [Agatha Christie].
+5. W klasie Book zaimplementuj metodę getOutputByBookType tak, aby zwracała:
+5.1. agathaChristieOutput dla książek, których autorem jest Agatha Christie;
+5.2. markTwainOutput dla książek, których autorem jest Mark Twain
+
+
+Requirements:
+1.	Klasa Solution musi zawierać publiczną statyczną klasę MarkTwainBook.
+2.	Klasa MarkTwainBook class musi być obiektem podrzędnym klasy Book.
+3.	Klasa MarkTwainBook musi prawidłowo zaimplementować konstruktor z jednym parametrem typu ciąg (tytuł książki).
+4.	Konstruktor klasy MarkTwainBook powinien wywołać konstruktora klasy macierzystej (Book) z argumentem &quot;Mark Twain&quot;.
+5.	Metoda getBook w klasie MarkTwainBook musi mieć zwracany typ MarkTwainBook i zwracać bieżący obiekt.
+6.	Klasa Solution musi zawierać publiczną statyczną klasę AgathaChristieBook.
+7.	Klasa AgathaChristieBook musi być obiektem podrzędnym klasy Book.
+8.	Klasa AgathaChristieBook musi prawidłowo zaimplementować konstruktor z jednym parametrem typu String (tytuł książki).
+9.	Konstruktor klasy AgathaChristieBook powinien wywołać konstruktor klasy macierzystej (Book) z argumentem &quot;Agatha Christie&quot;.
+10.	Metoda getBook w klasie AgathaChristieBook musi mieć zwracany typ AgathaChristieBook i zwracać bieżący obiekt.
+11.	Metoda getTitle w klasach AgathaChristieBook i MarkTwainBook powinna zwracać tytuł określonej książki.
+12.	Metoda getOutputByBookType musi zwracać prawidłowy ciąg dla obiekt&oacute;w AgathaChristieBook.
+13.	Metoda getOutputByBookType musi zwracać prawidłowy ciąg dla obiekt&oacute;w MarkTwainBook.
+14.	Klasa MarkTwainBook musi mieć pole title typu String (tytuł książki).
+15.	Klasa AgathaChristieBook musi mieć pole title typu String (tytuł książki).
+
+

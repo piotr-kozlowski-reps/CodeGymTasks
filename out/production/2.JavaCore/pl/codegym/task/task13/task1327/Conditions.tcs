@@ -1,0 +1,21 @@
+taskKey="pl.codegym.task.task13.task1327"\n\nRzepka
+
+Rzepka:
+1. Spraw, aby klasa Person implementowała interfejs TurnipItem.
+2. Zaimplementuj metodę pull(Person person) w klasie Person, tak aby wyświetlała frazę "<name> behind <person>".
+
+Przykład:
+Grandma behind Grandpa
+Grandpa behind Turnip
+
+3. Napraw błąd w logice pętli w metodzie tell klasy TurnipStory.
+4. Odpal metodę main i ciesz się tą historią.
+
+
+Requirements:
+1.	Klasa Person musi implementować interfejs TurnipItem.
+2.	Klasa Person musi mieć metodę pull z jednym parametrem Person.
+3.	Metoda pull klasy Person musi wyświetlać frazę &quot;&lt;name&gt; behind &lt;person&gt;&quot;. Na przykład: Grandma behind Grandpa.
+4.	Metoda main powinna wyświetlać na ekranie skr&oacute;coną wersję Monstrualnej Rzepy.
+
+

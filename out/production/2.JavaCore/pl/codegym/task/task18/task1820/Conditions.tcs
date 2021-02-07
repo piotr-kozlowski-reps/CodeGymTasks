@@ -1,0 +1,23 @@
+taskKey="pl.codegym.task.task18.task1820"\n\nZaokrąglanie liczb
+
+Wczytaj 2 nazwy plików z konsoli.
+Pierwszy plik zawiera liczby rzeczywiste (ułamkowe), oddzielone spacjami. Na przykład 3.1415.
+Zaokrąglij liczby do liczb całkowitych i zapisz je, oddzielone spacjami, do drugiego pliku.
+Zamknij strumienie.
+Zaokrąglanie powinno wyglądać w następujący sposób:
+3.49 => 3
+3.50 => 4
+3.51 => 4
+-3.49 => -3
+-3.50 => -3
+-3.51 => -4
+
+
+Requirements:
+1.	Program powinien dwukrotnie odczytywać nazwę pliku z konsoli.
+2.	Utw&oacute;rz strumień wejściowy dla pierwszego pliku. Utw&oacute;rz strumień wyjściowy dla drugiego pliku.
+3.	Odczytaj liczby z pierwszego pliku, zaokrąglij je i zapisz do drugiego pliku, oddzielając je spacjami.
+4.	Zaokrąglanie należy wykonać w spos&oacute;b określony w zadaniu.
+5.	Strumienie pliku muszą zostać zamknięte.
+
+

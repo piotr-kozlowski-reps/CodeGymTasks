@@ -1,0 +1,28 @@
+taskKey="pl.codegym.task.task19.task1915"\n\nPowielanie tekstu
+
+Wczytaj nazwę pliku z konsoli.
+Zastąp obiekt System.out metody main Twoim własnym reader wrapperem podobnym do tego pokazanego na lekcji.
+Twój reader wrapper musi wypisywać cały tekst zarówno do konsoli, jak i do pliku, którego nazwę odczytałeś/aś.
+Wywołaj istniejącą metodę printSomething() testString.
+Przywróć zmienną System.out z powrotem do oryginalnego strumienia.
+Zamknij strumień pliku.
+Przykładowy wynik na ekranie:
+To jest tekst na potrzeby testów
+Przykładowa zawartość pliku:
+To jest tekst na potrzeby testów
+
+
+Requirements:
+1.	Klasa Solution musi zawierać klasę TestString.
+2.	Klasa Solution musi mieć publiczne statyczne pole testString o nazwie TestString, kt&oacute;re jest natychmiastowo inicjalizowane.
+3.	Klasa TestString musi posiadać publiczną metodę printSomething() typu void.
+4.	Metoda printSomething() klasy TestString musi wyświetlać &quot;To jest tekst na potrzeby test&oacute;w&quot;.
+5.	Program musi odczytywać nazwę pliku z konsoli (użyj BufferedReader).
+6.	W metodzie main(String[] args), BufferedReader używany do odczytu danych wejściowych z konsoli musi zostać zamknięty po zakończeniu korzystania z niego.
+7.	Metoda main(String[] args) klasy Solution musi tworzyć obiekt PrintStream (użyj konstruktora PrintStream z parametrem ByteArrayOutputStream).
+8.	Metoda main(String[] args) klasy Solution powinna zastępować, a następnie przywracać strumień wyjściowy konsoli (System.out).
+9.	Metoda main(String[] args) klasy Solution musi jednokrotnie wywoływać metodę printSomething() testString.
+10.	Metoda main(String[] args) klasy Solution musi zapisywać wynik metody printSomething() zar&oacute;wno do konsoli jak i do pliku (użyj FileOutputStream).
+11.	Strumień wyjściowy pliku (FileOutputStream) musi zostać zamknięty.
+
+

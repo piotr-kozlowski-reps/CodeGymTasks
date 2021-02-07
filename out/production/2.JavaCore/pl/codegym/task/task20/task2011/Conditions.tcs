@@ -1,0 +1,15 @@
+taskKey="pl.codegym.task.task20.task2011"\n\nExternalizable dla mieszkań
+
+Zaimplementuj interfejs Externalizable w klasie Apartment.
+
+
+Requirements:
+1.	Klasa Solution.Apartment powinna obsługiwać interfejs Externalizable.
+2.	Klasa Solution.Apartment musi implementować metodę writeExternal z jednym parametrem ObjectOutput.
+3.	Klasa Solution.Apartment musi implementować metodę ReadExternal z jednym parametrem ObjectInput.
+4.	Metoda writeExternal musi wywoływać metodę writeObject z parametrem address w obiekcie ObjectOutput przekazanym jako argument.
+5.	Metoda writeExternal musi wywoływać metodę writeInt z parametrem year w obiekcie ObjectOutput przekazanym jako argument.
+6.	Metoda readExternal powinna prawidłowo przywracać wartość pola address z obiektu ObjectInput.
+7.	Metoda readExternal powinna prawidłowo przywracać wartość pola year z obiektu ObjectInput.
+
+

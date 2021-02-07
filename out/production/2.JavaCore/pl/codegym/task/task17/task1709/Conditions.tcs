@@ -1,0 +1,13 @@
+taskKey="pl.codegym.task.task17.task1709"\n\nPropozycje
+
+Nie używając synchronized, spraw, aby liczba składanych propozycji była równa liczbie zaakceptowanych propozycji.
+
+
+Requirements:
+1.	 Klasa Solution musi mieć wątek MakeProposal.
+2.	 Klasa Solution musi mieć wątek AcceptProposal.
+3.	 Klasa Solution musi mieć publiczną, statyczną zmienną proposal typu int.
+4.	 Program nie powinien mieć metod synchronized ani blok&oacute;w synchronized.
+5.	 Zmienna proposal typu int nie powinna być przechowywana w pamięci podręcznej.
+
+

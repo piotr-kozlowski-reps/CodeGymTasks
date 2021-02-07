@@ -1,0 +1,12 @@
+taskKey="pl.codegym.task.task15.task1507"\n\nOOP: przeciążanie metod
+
+Przeciąż metodę printMatrix na 8 różnych sposobów. Powinieneś skończyć z 10 różnymi metodami printMatrix.
+
+
+Requirements:
+1.	Klasa Solution musi implementować 10 metod printMatrix z r&oacute;żnymi parametrami.
+2.	Klasa Solution musi być publiczna.
+3.	Wszystkie metody klasy Solution muszą być statyczne.
+4.	Wszystkie metody klasy Solution muszą być publiczne.
+
+

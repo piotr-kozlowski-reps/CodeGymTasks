@@ -1,0 +1,16 @@
+taskKey="pl.codegym.task.task15.task1523"\n\nPrzeciążanie konstruktorów
+
+1. W klasie Solution utwórz 4 konstruktory z różnymi modyfikatorami dostępu.
+2. W osobnym pliku utwórz klasę SubSolution będącą obiektem podrzędnym klasy Solution.
+3. W klasie SubSolution użyj komendy Alt+Insert -> Constructors, aby utworzyć konstruktory.
+4. Popraw modyfikatory dostępu konstruktorów SubSolution, tak, aby powstały 3 konstruktory z różnymi modyfikatorami dostępu (wszystkimi oprócz prywatnego).
+
+
+Requirements:
+1.	Klasa SubSolution powinna mieć 3 r&oacute;żne konstruktory.
+2.	Klasa Solution powinna mieć 4 r&oacute;żne konstruktory.
+3.	Klasa Solution musi definiować konstruktory z wszystkimi możliwymi modyfikatorami dostępu.
+4.	Klasa SubSolution musi definiować konstruktory z wszystkimi możliwymi modyfikatorami dostępu poza prywatnym.
+5.	Klasa Solution musi być klasą macierzystą klasy SubSolution.
+
+

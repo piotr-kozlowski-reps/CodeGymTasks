@@ -1,0 +1,23 @@
+taskKey="pl.codegym.task.task16.task1617"\n\nOdliczanie na wyścigach
+
+1. Dowiedz się, co robi program.
+2. Zaimplementuj metodę run tak, aby co sekundę
+wyświetlana była odliczana liczba, oddzielona spacjami i rozpoczynająca się od numSeconds do 1, a następnie "Start!" (patrz przykłady).
+3. Jeżeli wątek jest wykonywany przez 3.5 sekundy lub więcej, przerwij go metodą interrupt i wyświetl w nim komunikat "Przerwany!"
+Przykład dla numSeconds = 4 :
+"4 3 2 1 Przerwany!"
+4. Jeżeli wątek jest wykonywany przez mniej niż 3.5 sekundy, powinien on zakończyć się samoczynnie.
+Przykład dla numSeconds = 3 :
+"3 2 1 Start!"
+P.S.: Metoda sleep wyrzuca InterruptedException.
+
+
+Requirements:
+1.	Metoda run klasy RaceClock musi mieć pętlę.
+2.	Obiekt RaceClock musi co każdą sekundę zmniejszać wartość numSeconds o jeden.
+3.	Metoda main powinna wywoływać Thread.sleep(3500).
+4.	Metoda main musi wywoływać metodę interrupt na obiekcie Clock.
+5.	Jeśli numSeconds wynosi 3, w&oacute;wczas program powinien wyświetlać &quot;3 2 1 Start!&quot;.
+6.	Jeśli numSeconds wynosi 4, w&oacute;wczas program powinien wyświetlać &quot;4 3 2 1 Przerwane!&quot;.
+
+

@@ -1,0 +1,20 @@
+taskKey="pl.codegym.task.task19.task1911"\n\nReader wrapper
+
+Zastąp obiekt System.out metody main Twoim własnym reader wrapperem podobnym do tego pokazanego na lekcji.
+Twój reader wrapper powinien zamieniać cały tekst na wielkie litery.
+Wywołaj istniejącą metodę printSomething() testString.
+Przywróć zmienną System.out z powrotem do oryginalnego strumienia.
+Wyświetl zmodyfikowany ciąg.
+
+
+Requirements:
+1.	Klasa Solution musi zawierać klasę TestString.
+2.	Klasa Solution musi mieć publiczne statyczne pole testString o nazwie TestString, kt&oacute;re jest natychmiastowo inicjalizowane.
+3.	Klasa TestString musi posiadać publiczną metodę printSomething() typu void.
+4.	Metoda printSomething() klasy TestString musi wyświetlać &quot;To jest tekst na potrzeby test&oacute;w&quot;.
+5.	Metoda main(String[] args) klasy Solution musi tworzyć obiekt PrintStream (użyj konstruktora PrintStream z parametrem ByteArrayOutputStream).
+6.	Metoda main(String[] args) klasy Solution powinna zastępować, a następnie przywracać strumień wyjściowy konsoli (System.out).
+7.	Metoda main(String[] args) klasy Solution musi wywoływać metodę printSomething() testString.
+8.	Metoda main(String[] args) klasy Solution musi modyfikować linię wydrukowaną za pomocą metody printSomething(), zgodnie z warunkami zadania i wyprowadzać ją do konsoli.
+
+

@@ -1,0 +1,23 @@
+taskKey="pl.codegym.task.task18.task1825"\n\nTworzenie pliku
+
+Stwórzmy plik złożony z różnych elementów.
+Odczytuj nazwy plików z konsoli.
+Każdy plik ma swoją nazwę: <someName>.partN.
+Na przykład, Lion.avi.part1, Lion.avi.part2, ..., Lion.avi.part37.
+Nazwy plików są podawane w kolejności losowej. Słowo "end" jest używane do zatrzymywania odczytu nazw plików.
+W folderze, w którym znajdują się wszystkie pliki, utwórz plik bez rozszerzenia "part", tzn. bez ".<partN>".
+Na przykład, Lion.avi.
+Użyj bufora, aby skopiować wszystkie bajty z plików częściowych do utworzonego pliku.
+Skopiuj pierwszy w odpowiedniej kolejności, najpierw pierwszą część, potem drugą, ..., w końcu - część ostatnią.
+Zamknij strumienie.
+
+
+Requirements:
+1.	Program musi odczytywać nazwy plik&oacute;w z konsoli do momentu wprowadzenia słowa &quot;end&quot;.
+2.	Utw&oacute;rz strumień do zapisu do pliku bez sufiksu &quot;part&quot; (&quot;.&lt;partN&gt;&quot;) w folderze z wszystkimi plikami &quot;part&quot;.
+3.	Skopiuj wszystkie bajty z plik&oacute;w *.partN do nowego pliku.
+4.	Do odczytu i zapisu należy używać bufora.
+5.	Strumienie pliku muszą zostać zamknięte.
+6.	Nie używaj zmiennych statycznych.
+
+
