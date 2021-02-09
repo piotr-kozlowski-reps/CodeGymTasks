@@ -26,4 +26,23 @@ public class Solution {
 
         System.out.format("%b %b %b\n", isItem, isBig, isSmall);
     }
+
+    public <T extends Item> T getProxy(Class<T> type, Class<?>...moreInterfaces) {
+
+        Class<?>[] interfaces = new Class<?>[moreInterfaces.length + 1];
+        interfaces[0] = type;
+
+        for (int i = 1; i < moreInterfaces.length + 1; i++) {
+            interfaces[i] = moreInterfaces[i - 1];
+        }
+
+        Object instance = Proxy.newProxyInstance(
+                this.getClass().getClassLoader(),
+                interfaces,
+                new ItemInvocationHandler());
+
+        return (T) instance;
+
+
+    }
 }
