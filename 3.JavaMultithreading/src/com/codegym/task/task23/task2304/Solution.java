@@ -5,18 +5,6 @@ Inner 3
 
 */
 
-//Inside the Solution class:
-//1) use Task and MockDB to implement the private class TaskDataProvider, whose purpose is to update the tasks field.
-//2) use String and MockDB to implement the private class NameDataProvider, whose purpose is to update the names field.
-
-
-
-//3. The TaskDataProvider class must implement the DbDataProvider interface with a Task parameter.
-//4. The NameDataProvider class must implement the DbDataProvider interface with a String parameter.
-//5. The refreshAllData method in the TaskDataProvider class must save the result of the MockDB class's getFakeTasks method in the tasks list.
-//6. The refreshAllData method in the NameDataProvider class must save the result of the MockDB class's getFakeNames method in the names list.
-
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
