@@ -1,4 +1,40 @@
-taskKey="com.codegym.task.task22.task2213.big14"\n\nTetris (part 14)
+taskKey="com.codegym.task.task22.task2213.big17"\n\nTetris (part 17)
+
+
+I've corrected the code a little bit.
+But overall, well done.
+Enjoy playing Tetris!
+P.S.
+Just don't forget to adjust the height of the console.
+
+
+Requirements:
+1.	Your big task for Level 32 is done!
+
+
+Tetris (part 16)
+
+
+Write your own implementation of the left(), right(), up(), and down() methods in the GamePiece class.
+What do you think these methods should do?
+
+
+
+Tetris (part 15)
+
+
+Implement the step() method in the Tetris class.
+This method should drop the game piece down by one step.
+
+If the game piece cannot be placed in the new location, then:
+a) put it back (bring it back up)
+b) land it (the game piece "lands")
+c) delete all full lines in the field object
+d) create a new game piece to replace the previous one.
+
+
+
+Tetris (part 14)
 
 
 Implement the removeFullLines() method in the Field class.
@@ -20,10 +56,6 @@ matrix[i+1] = matrix[i];
 c) create a new line:
 matrix[i] = new int[width];
 
-
-Requirements:
-1.	After the removeFullLines() method is run, no lines consisting of only ones should be left in the matrix array.
-2.	The remaining lines should be correctly shifted, and new lines should be added to replace the lines that are removed.
 
 
 Tetris (part 13)
@@ -68,46 +100,6 @@ a) createRandomGamePiece() in GamePieceFactory
 b) run() in Tetris
 
 Study them carefully and then proceed.
-
-
-
-Tetris (part 11)
-
-
-Now create a GamePieceFactory class.
-We'll use it to create game pieces of various shapes.
-For now, it will have only one static createRandomGamePiece() method:
-static GamePiece createRandomGamePiece(int x, int y)
-
-
-
-Tetris (part 10)
-
-
-We also need methods to control the game piece.
-
-Add the following methods to the GamePiece class:
-left() - For moving game pieces to the left.
-right() - For moving game pieces to the right.
-down() - For moving game pieces down.
-up() - For moving game pieces up.
-rotate() For rotating the game piece about the main diagonal.
-downMaximum() - Drop the game piece to the bottom.
-boolean isCurrentPositionAvailable() - Checks whether the game piece can be placed in the current position. For the test, hardcode the a return value of true. We won't implement the logic now.
-land() - Called when the game piece reaches the bottom or lands on another game piece
-All of its occupied cells should now be added to Field.
-
-
-
-Tetris (part 9)
-
-
-You may have noticed that we're writing the program "top down".
-First, we decide what classes we need. Then we decide about the methods.
-And then we start writing the code for the methods.
-We're breaking a big task into many small ones.
-When the code for all the methods is ready, we'll only need to check whether everything works as it should.
-And if necessary — make some changes.
 
 
 

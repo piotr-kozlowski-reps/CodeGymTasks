@@ -1,7 +1,6 @@
 package com.codegym.task.task22.task2213;
 
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * The Field class describes the Tetris game field
@@ -14,7 +13,7 @@ public class Field {
     // Matrix representing the field: 1 means that part of the field is occupied, 0 means it is available
     private int[][] matrix;
 
-    public Field(int height, int width) {
+    public Field(int width, int height) {
         this.width = width;
         this.height = height;
         matrix = new int[height][width];
@@ -106,41 +105,28 @@ public class Field {
      * Remove the completed lines
      */
     public void removeFullLines() {
-
-        List<int[]> lines = new ArrayList<>();
+        // Create a list to store the lines
+        ArrayList<int[]> lines = new ArrayList<>();
 
         // Copy all the non-empty lines into a list.
-        // Add incomplete lines to the beginning of the list.
-        boolean isFull = true;
-        for (int arrayHeight = 0; arrayHeight < height; arrayHeight++) {
-
-            for (int arrayWidth = 0; arrayWidth < width; arrayWidth++) {
-                if (matrix[arrayHeight][arrayWidth] == 0) isFull = false;
+        for (int i = 0; i < height; i++) {
+            // Count the number of occupied cells in the line - simply sum up all its values
+            int count = 0;
+            for (int j = 0; j < width; j++) {
+                count += matrix[i][j];
             }
 
-            if (isFull) lines.add(matrix[height]);
-
+            // If the line's sum is not equal to its width, then add it to the list
+            if (count != width)
+                lines.add(matrix[i]);
         }
 
-        //add new empty lines if needed
-        int howManyEmptyLinesToBeFilled = height - lines.size();
-
-        for (int i = 0; i < howManyEmptyLinesToBeFilled; i++) {
-
-            int[] newEmptyLine = new int[width];
-            for (int cellOfMatrix : newEmptyLine) {
-                cellOfMatrix = 0;
-            }
-
-            lines.add(0, newEmptyLine);
-
+        // Add incomplete lines to the beginning of the list.
+        while (lines.size() < height) {
+            lines.add(0, new int[width]);
         }
 
         // Convert the list back into a matrix
-        for (int arrayHeight = 0; arrayHeight < height; arrayHeight++) {
-            matrix[arrayHeight] = lines.get(arrayHeight);
-        }
-
-
+        matrix = lines.toArray(new int[height][width]);
     }
 }
