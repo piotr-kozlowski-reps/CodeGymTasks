@@ -1,0 +1,11 @@
+package com.codegym.task.task25.task2515;
+
+public class Ufo extends BaseObject{
+
+    //constr
+    public Ufo(double x, double y, double radius) {
+        super(x, y, radius);
+    }
+
+
+}
