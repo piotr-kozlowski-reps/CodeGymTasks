@@ -1,10 +1,27 @@
 package com.codegym.task.task25.task2515;
 
-public class Rocket extends BaseObject{
+/**
+ * Rocket class
+ */
+public class Rocket extends BaseObject {
 
-    //constr
-    public Rocket(double x, double y, double radius) {
-        super(x, y, radius);
+    public Rocket(double x, double y) {
+        super(x, y, 1);
     }
 
+    /**
+     * This method draws the object on the canvas.
+     */
+    @Override
+    public void draw(Canvas canvas) {
+        canvas.setPoint(x, y, 'R');
+    }
+
+    /**
+     * Move the object up by one step.
+     */
+    @Override
+    public void move() {
+        y--;
+    }
 }

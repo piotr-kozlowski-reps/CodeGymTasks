@@ -1,130 +1,107 @@
-taskKey="com.codegym.task.task25.task2515.big06"\n\nSpace (part 6)
+taskKey="com.codegym.task.task25.task2515.big18"\n\nSpace (part 18)
 
 
-But there's more.
-The BaseObject class needs more methods.
-For now, these will be empty draw() and move() methods.
-Subclasses will have to override them and implement the necessary functionality.
-
-Also add a die() method, which causes the object to die (isAlive = false)
-
-We'll also need to determine whether the ship was hit by a bomb hit or a UFO was hit by a missile.
-This is how we'll do that:
-Create a special method: public boolean intersects(BaseObject o)
-It will determine whether objects intersect. If they intersect, return true; if not, false.
-
-Because we're treating objects as circles for convenience, I propose the following collision-detection algorithm:
-if the center of the circle of one object lies within the circle of another, then we'll conclude that they've collided.
-Or to put it more simply:
-distance_between_objects < max(radius_of_the_first_object, radius_of_the_second_object).
+Make width and height bigger and you can play!
+Enjoy the game :)
 
 
 Requirements:
-1.	Create an empty draw() method in the BaseObject class.
-2.	Create an empty move() method in the BaseObject class.
-3.	In the BaseObject class, create a die() method that sets the isAlive field to false.
-4.	In the BaseObject class, create an intersects(BaseObject o) method that returns a boolean.
-5.	Implement the intersects(BaseObject o) method. If the objects collide, return true; otherwise, false.
+1.	Relax and enjoy.
 
 
-Space (part 5)
+Space (part 17)
 
 
-Now let's move on to the BaseObject class.
-I want to make some suggestions.
+We need to finish the draw() method.
+We'll do something similar with the move method. I'll write it myself today.
 
-First, for simplicity, treat all of our objects in space as circles.
-We'll draw them as shapes, just as before.
-But when calculating object collisions, we'll assume they are round.
-Doing it this way is much simpler.
 
-Second. Let the objects' coordinates and radius be real numbers.
-This will ensure smooth motion and accurate calculations.
-And we'll round them when drawing.
 
+Space (part 16)
+
+
+And a little bit more:
+
+Implement the createUfo() method:
+If the list of UFOs is empty, create a ship in the center at the top of the screen.
+
+Implement the checkBombs() method:
+You need to check whether a bomb collided with the ship.
+If there was a collision, then the ship and the bomb die: call the die() method.
+A bomb also dies if it moves beyond the limits of the screen (y > height).
+
+Implement the checkRockets() method:
+You need to check whether a rocket collided with a UFO.
+If there was a collision, then the rocket and the UFO die: call the die() method.
+A rocket also dies if it moves beyond the limits of the screen (y < 0).
+
+Implement the removeDead() method:
+This method should remove all dead objects (isAlive() == false) from the ufos, rockets, and bombs lists.
+
+
+
+Space (part 15)
+
+
+We still have to finish the Space class.
+
+Implement the getAllItems method:
+The method should return one common list of all BaseObject objects.
+
+Implement the moveAllItems method:
+The method should move all the objects all at the same time.
 Here's what we need:
-a) Add to the BaseObject class the variables double x, double y, and double radius, as well as getters and setters for them.
-b) Add a boolean isAlive variable (to indicate whether the object is alive).
-c) Add a getter (an isAlive() method for the isAlive variable).
-d) Add a BaseObject(double x, double y, double radius) constructor.
-e) Be sure that isAlive is set to true in the constructor (stillborn objects are of no use to us).
-f) You need to go through all the subclasses and fix their constructors.
-If you use IntelliJ IDEA, Alt+Insert will help you.
+a) get a list of all BaseObjects;
+b) call the move() method on each of them.
 
 
 
-Space (part 4)
+Space (part 14)
 
 
-What is Space class missing?
-That's right! run() and draw() methods.
-If you recall, the run method manages all the game logic.
-And the draw method is responsible for drawing the next "frame".
+Now write the Ufo class.
+It's a bit more complicated than the Bomb class and simpler than Spaceship.
+You will need draw(), move(), and fire() methods.
+Also, don't forget about the constructor. The parameters are doubles, and UFO's radius will be equal to 3.
 
-We'll also benefit from a sleep(int ms) method.
-Create them.
+We'll implement the draw() method by analogy with Spaceship. We'll use 'U' to draw UFOs.
+Add a matrix by analogy with Spaceship.
 
+You need to implement the move() method as follows:
+a) the UFO moves randomly;
+Hint:
+double dx = Math.random() * 2 - 1;  // -1..1
+double dy = Math.random() * 2 - 1;  // -1..1
+b) the UFO does not move into the bottom half of the screen;
+y <= height/2
+c) the UFO has a 10% chance of shooting (calling the fire method).
 
-
-Space (part 3)
-
-
-Why do we need the Space class?
-To store all the objects and control how they interact.
-What fields should it have?
-width and height.
-What else?
-a) ship (our spaceship),
-b) a list to store all the UFOs (List<Ufo>),
-c) a list to store all the rockets (List<Rocket>),
-d) a list to store all the bombs (List<Bomb>).
-
-Task:
-Add all these variables to the Space class.
-Initialize the collections.
-And don't forget to add getters for the variables, and also a setter for the ship field!
-
-What should the constructor have?
-Parameters for the width and height will suffice.
+The fire() method:
+The UFO drops the bomb from its center.
+Implement it by analogy with the Spaceship class.
 
 
 
-Space (part 2)
+Space (part 13)
 
 
-We will have bombs and rockets.
-That means we need Bomb and Rocket classes.
-Create them.
+We now turn to the draw and move methods.
+In the move() method, you need to:
+a) increase x by dx;
+b) check to see whether the ship has moved beyond the boundaries of outer space [0, Space.game.getWidth()]. Use the checkBorders method.
+Bear in mind that the ship's width is equal to twice its radius.
 
-Our classes will have a lot in common.
-They will move about in space and be drawn on the screen.
-That means that they'll all have coordinates and a size.
-And a move() method for moving and a draw() method for drawing them on the screen.
+I'll implement the draw method myself: just declare an empty method.
 
-Here's an interesting suggestion: let's make one base class for all the objects.
-Let this be the BaseObject class.
-And the Ufo, Spaceship, Rocket, and Bomb classes will inherit it.
-Create an abstract BaseObject class and add it as the parent of the Ufo, Spaceship, Rocket, and Bomb classes.
+We also need a fire() method, since our ship can shoot.
+This method is called when we need to fire a shot.
+In this method, you need to:
+a) create two rockets;
+b) set their coordinates equal to the left and right edges of the ship (the guns are located a distance of 2 from the center of the ship);
+c) add these rockets to the list of rockets in the game object.
 
-We also need a Canvas class.
-It will be responsible for drawing the objects.
-Objects will use it to draw themselves.
-Or rather, they will draw themselves on it.
-Create this class as well.
-
-
-
-Space (part 1)
-
-
-Let's write a new computer game.
-We'll have a spaceship that will shoot rockets at UFOs.
-For their part, the UFOs will lob bombs at the spaceship.
-And, of course, all this is happening in outer space.
-
-We're going to need the following classes: Space, Spaceship, and Ufo.
-Create the following classes: Space, SpaceShip, Ufo.
-Add a main method to the Space class.
+You can get it as follows:
+Space.game.getRockets()
 
 
 
