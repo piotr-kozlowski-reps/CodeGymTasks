@@ -12,6 +12,20 @@ public class Solution {
     }
 
     public static void moveRing(char a, char b, char c, int numRings) {
-        //write your code here
+        if (numRings == 0) {
+            return;
+        } else {
+            moveRing(a, c, b, numRings -1);
+            System.out.println("from " + a + " to " + b);
+            moveRing(c, b, a, numRings - 1);
+        }
     }
 }
+
+//from A to B
+//from A to C
+//from B to C
+//from A to B
+//from C to A
+//from C to B
+//from A to B
