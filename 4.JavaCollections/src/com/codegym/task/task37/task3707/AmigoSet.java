@@ -1,5 +1,8 @@
 package com.codegym.task.task37.task3707;
 
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.util.*;
 
@@ -88,5 +91,32 @@ public class AmigoSet<E> extends AbstractSet implements Serializable, Cloneable,
 
     }
 
+    private void writeObject(ObjectOutputStream out) throws IOException {
+
+        out.defaultWriteObject();
+
+        Class clazz = map.getClass();
+        float loadFactor = HashMapReflectionHelper.callHiddenMethod(map, "loadFactor");
+        int capacity = HashMapReflectionHelper.callHiddenMethod(map, "capacity");
+        Set<E> setOfKeys = new HashSet<>(map.keySet());
+        out.writeObject(loadFactor);
+        out.writeObject(capacity);
+        out.writeObject(setOfKeys);
+    }
+
+
+    private void readObject(ObjectInputStream in) throws IOException, ClassNotFoundException {
+
+        in.defaultReadObject();
+        float loadFactor = (float) in.readObject();
+        int capacity = (int) in.readObject();
+        Set<E> setOfKeys = (Set<E>) in.readObject();
+        map = new HashMap(capacity, loadFactor);
+
+        for (E entry : setOfKeys) {
+            map.put(entry, PRESENT);
+        }
+
+    }
 
 }
