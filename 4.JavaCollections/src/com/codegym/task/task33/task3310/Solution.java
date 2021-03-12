@@ -1,9 +1,6 @@
 package com.codegym.task.task33.task3310;
 
-import com.codegym.task.task33.task3310.strategy.FileStorageStrategy;
-import com.codegym.task.task33.task3310.strategy.HashMapStorageStrategy;
-import com.codegym.task.task33.task3310.strategy.OurHashMapStorageStrategy;
-import com.codegym.task.task33.task3310.strategy.StorageStrategy;
+import com.codegym.task.task33.task3310.strategy.*;
 
 import java.util.Date;
 import java.util.HashSet;
@@ -19,10 +16,14 @@ public class Solution {
         StorageStrategy storageStrategyHashMap = new HashMapStorageStrategy();
         StorageStrategy storageStrategyOurHashMap = new OurHashMapStorageStrategy();
         StorageStrategy storageStrategyFile = new FileStorageStrategy();
+        StorageStrategy storageStrategyBiMap = new OurHashBiMapStorageStrategy();
+        StorageStrategy storageStrategyHashBiMapGuava = new HashBiMapStorageStrategy();
 
         solution.testStrategy(storageStrategyHashMap, 200);
         solution.testStrategy(storageStrategyOurHashMap, 200);
         solution.testStrategy(storageStrategyFile, 200);
+        solution.testStrategy(storageStrategyBiMap, 200);
+        solution.testStrategy(storageStrategyHashBiMapGuava, 200);
 
         
     }
