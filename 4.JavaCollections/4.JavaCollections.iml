@@ -17,5 +17,7 @@
     <orderEntry type="library" name="slf4j-api-1.7.30" level="project" />
     <orderEntry type="library" name="org.slf4j:slf4j-api:1.7.30" level="application" />
     <orderEntry type="library" name="guava-30.1-jre" level="project" />
+    <orderEntry type="library" name="commons-collections4-4.4" level="project" />
+    <orderEntry type="library" name="junit-4.3-src" level="project" />
   </component>
 </module>

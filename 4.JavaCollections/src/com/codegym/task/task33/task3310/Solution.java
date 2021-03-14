@@ -18,12 +18,14 @@ public class Solution {
         StorageStrategy storageStrategyFile = new FileStorageStrategy();
         StorageStrategy storageStrategyBiMap = new OurHashBiMapStorageStrategy();
         StorageStrategy storageStrategyHashBiMapGuava = new HashBiMapStorageStrategy();
+        StorageStrategy storageStrategyHashBiDiMapApache = new DualHashBidiMapStorageStrategy();
 
-        solution.testStrategy(storageStrategyHashMap, 200);
-        solution.testStrategy(storageStrategyOurHashMap, 200);
-        solution.testStrategy(storageStrategyFile, 200);
-        solution.testStrategy(storageStrategyBiMap, 200);
-        solution.testStrategy(storageStrategyHashBiMapGuava, 200);
+        solution.testStrategy(storageStrategyHashMap, 300);
+        solution.testStrategy(storageStrategyOurHashMap, 300);
+        solution.testStrategy(storageStrategyFile, 300);
+        solution.testStrategy(storageStrategyBiMap, 300);
+        solution.testStrategy(storageStrategyHashBiMapGuava, 300);
+        solution.testStrategy(storageStrategyHashBiDiMapApache, 300);
 
         
     }
