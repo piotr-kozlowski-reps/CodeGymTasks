@@ -1111,53 +1111,20 @@ public class LogParser implements IPQuery, UserQuery, DateQuery, EventQuery, QLQ
 
         Set<Object> result = new HashSet<>();
 
-        Pattern pattern = Pattern.compile("get (ip|user|date|event|status)");
-        Matcher matcher = pattern.matcher(query);
-        if (!matcher.matches()) return result;
+        Pattern patternSimple = Pattern.compile("get (ip|user|date|event|status)");
+        Matcher matcherSimple = patternSimple.matcher(query);
+
+        Pattern patternExtended = Pattern.compile("get (ip|user|date|event|status) for (ip|user|date|event|status) = \".+\"");  //get field1 for field2 = "value1"
+        Matcher matcherExtended = patternExtended.matcher(query);
+
+        if (matcherSimple.matches()) result = execureSimpleQuery(query);
+        if (matcherExtended.matches()) result = execureExtendedQuery(query);
 
 
-        String queryToLowerCase = query.toLowerCase();
-        switch (queryToLowerCase) {
-
-            case "get ip":
-                Set<String> resultIPStringSet = getUniqueIPs(null, null);
-                for (String entry : resultIPStringSet) {
-                    result.add(entry);
-                }
-                return result;
-
-            case "get user":
-                for (LogItem item : logItemsList) {
-                    result.add(item.getName());
-                }
-                return result;
-
-            case "get date":
-                for (LogItem item : logItemsList) {
-                    result.add(item.getDate());
-                }
-                return result;
-
-            case "get event":
-                for (LogItem item : logItemsList) {
-                    result.add(item.getEvent());
-                }
-                return result;
-
-            case "get status":
-                for (LogItem item : logItemsList) {
-                    result.add(item.getStatus());
-                }
-                return result;
-
-            default:
-                return result;
-                
-        }
-
-
-
+        return result;
     }
+
+
 
 
     //5.1.5. get status
@@ -1381,5 +1348,209 @@ public class LogParser implements IPQuery, UserQuery, DateQuery, EventQuery, QLQ
 
         return false;
     }
+
+    private Set<Object> execureSimpleQuery(String query) {
+
+        Set<Object> result = new HashSet<>();
+
+        String queryToLowerCase = query.toLowerCase();
+        switch (queryToLowerCase) {
+
+            case "get ip":
+                Set<String> resultIPStringSet = getUniqueIPs(null, null);
+                for (String entry : resultIPStringSet) {
+                    result.add(entry);
+                }
+                return result;
+
+            case "get user":
+                for (LogItem item : logItemsList) {
+                    result.add(item.getName());
+                }
+                return result;
+
+            case "get date":
+                for (LogItem item : logItemsList) {
+                    result.add(item.getDate());
+                }
+                return result;
+
+            case "get event":
+                for (LogItem item : logItemsList) {
+                    result.add(item.getEvent());
+                }
+                return result;
+
+            case "get status":
+                for (LogItem item : logItemsList) {
+                    result.add(item.getStatus());
+                }
+                return result;
+
+            default:
+                return result;
+
+        }
+
+    }
+
+    private Set<Object> execureExtendedQuery(String query) {
+
+        Set<Object> result = new HashSet<>();
+
+        String[] splittedQuery = query.split("\\s+");
+
+        String field1 = splittedQuery[1];
+        String field2 = splittedQuery[3];
+        String parameter = splittedQuery[5];
+        if (parameter.startsWith("\"") && parameter.endsWith(("\""))) {
+            parameter = parameter.substring(1, parameter.length() - 1);
+        } else {
+            parameter = parameter + " " + splittedQuery[6];
+            parameter = parameter.substring(1, parameter.length() - 1);
+        }
+
+        //ip|user|date|event|status
+        //ips
+        if (field1.equals("ip") && field2.equals("user")) result = extendedQueryIpForUser(parameter);
+        if (field1.equals("ip") && field2.equals("date")) result = extendedQueryIpForDate(parameter);
+        if (field1.equals("ip") && field2.equals("event")) result = extendedQueryIpForEvent(parameter);
+        if (field1.equals("ip") && field2.equals("status")) result = extendedQueryIpForStatus(parameter);
+        //users
+        if (field1.equals("user") && field2.equals("ip")) result = extendedQueryUserForIP(parameter);
+        if (field1.equals("user") && field2.equals("date")) result = extendedQueryUserForDate(parameter);
+        if (field1.equals("user") && field2.equals("event")) result = extendedQueryUserForEvent(parameter);
+        if (field1.equals("user") && field2.equals("status")) result = extendedQueryUserForStatus(parameter);
+        //date
+
+
+
+
+        return result;
+
+    }
+
+
+
+
+    private Set<Object> extendedQueryIpForUser(String parameter) {
+        Set<Object> result = new HashSet<>();
+
+        Set<String> temporarySet = getIPsForUser(parameter, null, null);
+        for (String item : temporarySet) {
+            result.add(item);
+        }
+        return result;
+    }
+
+    private Set<Object> extendedQueryIpForDate(String parameter) {
+        Set<Object> result = new HashSet<>();
+
+        Date passedDate = parseDateFromParameter(parameter);
+        Set<String> temporarySet = getUniqueIPs(passedDate, passedDate);
+        for (String item : temporarySet) {
+            result.add(item);
+        }
+        return result;
+    }
+
+    private Set<Object> extendedQueryIpForEvent(String parameter) {
+        Set<Object> result = new HashSet<>();
+
+        Event passedEvent = parseEventFromParameter(parameter);
+        Set<String> temporarySet = getIPsForEvent(passedEvent, null, null);
+        for (String item : temporarySet) {
+            result.add(item);
+        }
+        return result;
+    }
+
+    private Set<Object> extendedQueryIpForStatus(String parameter) {
+        Set<Object> result = new HashSet<>();
+
+        Status passedStatus = parseStatusFromParameter(parameter);
+        Set<String> temporarySet = getIPsForStatus(passedStatus, null, null);
+        result = pasteDataToResult(temporarySet);
+        return result;
+    }
+
+    private Set<Object> extendedQueryUserForIP(String parameter) {
+        Set<Object> result = new HashSet<>();
+        Set<String> temporarySet = getUsersForIP(parameter, null, null);
+        result = pasteDataToResult(temporarySet);
+        return result;
+    }
+
+    private Set<Object> extendedQueryUserForDate(String parameter) {
+        Set<Object> result = new HashSet<>();
+
+        Date passedDate = parseDateFromParameter(parameter);
+        for (LogItem item : logItemsList) {
+            if (item.getDate().equals(passedDate)) result.add(item.getName());
+        }
+
+        return result;
+    }
+
+    private Set<Object> extendedQueryUserForEvent(String parameter) {
+        Set<Object> result = new HashSet<>();
+
+        Event passedEvent = parseEventFromParameter(parameter);
+        for (LogItem item : logItemsList) {
+            if (item.getEvent().equals(passedEvent)) result.add(item.getName());
+        }
+
+        return result;
+    }
+
+    private Set<Object> extendedQueryUserForStatus(String parameter) {
+        Set<Object> result = new HashSet<>();
+
+        Status passedStatus = parseStatusFromParameter(parameter);
+        for (LogItem item : logItemsList) {
+            if (item.getStatus().equals(passedStatus)) result.add(item.getName());
+        }
+
+        return result;
+    }
+
+
+
+
+    private Date parseDateFromParameter(String parameter) {
+        Date date = null;
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd.MM.yyyy HH:mm:ss");  // <day.month.year hour:minute:second>
+        try {
+            date = simpleDateFormat.parse(parameter);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return date;
+    }
+    private Event parseEventFromParameter(String parameter) {
+        Event eventLogged = null;
+        if (parameter.equals("LOGIN")) eventLogged = Event.LOGIN;
+        if (parameter.equals("DOWNLOAD_PLUGIN")) eventLogged = Event.DOWNLOAD_PLUGIN;
+        if (parameter.equals("SEND_MESSAGE")) eventLogged = Event.SEND_MESSAGE;
+        if (parameter.equals("ATTEMPT_TASK")) eventLogged = Event.ATTEMPT_TASK;
+        if (parameter.equals("COMPLETE_TASK")) eventLogged = Event.COMPLETE_TASK;
+        return eventLogged;
+    }
+    private Status parseStatusFromParameter(String parameter) {
+        Status status = null;
+        if (parameter.equals("OK")) status = Status.OK;
+        if (parameter.equals("FAILED")) status = Status.FAILED;
+        if (parameter.equals("ERROR")) status = Status.ERROR;
+        return status;
+    }
+
+    private Set<Object> pasteDataToResult(Set<? extends Object> temporarySet) {
+        Set<Object> result = new HashSet<>();
+        for (Object item : temporarySet) {
+            result.add(item);
+        }
+        return result;
+    }
+
 
 }
