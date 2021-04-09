@@ -18,20 +18,20 @@ public class ConsoleHelper {
         System.out.println(message);
     }
 
-    public static String readString() {
-
-        String message = null;
+    public static String readString() throws InterruptedOperationException {
         try {
-            message = bis.readLine();
+            String text = bis.readLine();
+            if ("exit".equals(text.toLowerCase())) {
+                throw new InterruptedOperationException();
+            }
 
-        } catch (IOException e) {
-            e.printStackTrace();
+            return text;
+        } catch (IOException ignored) {
         }
-
-        return message;
+        return null;
     }
 
-    public static String requestCurrencyCode() {
+    public static String requestCurrencyCode() throws InterruptedOperationException{
 
         while (true) {
             writeMessage("Enter a currency code, please.");
@@ -53,7 +53,7 @@ public class ConsoleHelper {
 
     }
 
-    public static String[] getTwoValidNumbers(String currencyCode) {
+    public static String[] getTwoValidNumbers(String currencyCode) throws InterruptedOperationException{
 
         String[] denominationAndNumberOfBanknotes = new String[2];
 
@@ -96,10 +96,11 @@ public class ConsoleHelper {
                 continue;
             } else {
                 return Operation.getAllowableOperationByOrdinal(Integer.parseInt(textEntered));
-            } 
+            }
 
         }
 
     }
 
 }
+
