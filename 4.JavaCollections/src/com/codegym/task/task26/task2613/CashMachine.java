@@ -6,20 +6,19 @@ import com.codegym.task.task26.task2613.exception.InterruptedOperationException;
 import java.util.Locale;
 
 public class CashMachine {
+    public static final String RESOURCE_PATH = com.codegym.task.task26.task2613.CashMachine.class.getPackage().getName() + ".resources.";
 
     public static void main(String[] args) {
         Locale.setDefault(Locale.ENGLISH);
         try {
-
-            CommandExecutor.execute(Operation.LOGIN);
-
-            Operation operation;
+            Operation operation = Operation.LOGIN;
+            CommandExecutor.execute(operation);
             do {
                 operation = ConsoleHelper.requestOperation();
                 CommandExecutor.execute(operation);
             } while (operation != Operation.EXIT);
         } catch (InterruptedOperationException ignored) {
-            ConsoleHelper.writeMessage("Session terminated. Thank you for using the CodeGym ATM. Good luck.");
+            ConsoleHelper.printExitMessage();
         }
     }
 }
