@@ -1,0 +1,117 @@
+taskKey="com.codegym.task.task34.task3410.big11"\n\nSokoban (part 11)
+
+
+Let's begin fleshing out the Model class' functionality. Add the following:
+11.1. A GameObjects gameObjects field. It will store our game objects.
+11.2. An int currentLevel field that stores the current level. Initialize it
+to 1.
+11.3. A LevelLoader levelLoader field that stores the level loader.
+Initialize it using the levels.txt file from the res folder.
+11.4. A GameObjects getGameObjects() method that must return all of the game
+objects.
+11.5. A restartLevel(int level) method that must receive the new game objects
+from levelLoader for the specified level and save them in the gameObjects field.
+11.6. The restart() method must restart the current level by calling restartLevel
+with the appropriate argument.
+11.7. The startNextLevel() method must increase the value of the
+currentLevel variable, which stores the current level number, and restart the new level.
+
+
+Requirements:
+1.	Add a GameObjects gameObjects field to the Model class.
+2.	Add an int currentLevel field to the Model class. Initialize it to 1.
+3.	Add a LevelLoader levelLoader field to the Model class.
+4.	Implement the GameObjects getGameObjects() method in the Model class.
+5.	Implement the restartLevel(int level) method in the Model class.
+6.	Implement the restart() method in the Model class.
+7.	Implement the startNextLevel() method in the Model class.
+
+
+Sokoban (part 10)
+
+
+The game will have several levels, and all of them will be stored in a text file. Now we'll
+write a LevelLoader test stub. Why a test stub? We don't
+need the full functionality yet. It's pretty complicated, so we'll leave it for later. For now:
+10.1. Create a LevelLoader class in the model package.
+10.2. Add a constructor that accepts a Path levels argument. The levels parameter is
+the path to the test file containing the level descriptions.
+10.3. Add the GameObjects getLevel(int level) method to the LevelLoader class. For now, it doesn't
+matter what this method returns. For now, have it always return a set with: one player,
+one storage location, one box, and several walls. That will make it easier to debug the game.
+The coordinates of each object must be non-zero and multiples of half of
+BOARD_CELL_SIZE (the center of each object must be in the middle of a cell).
+
+
+
+Sokoban (part 9)
+
+
+Various events will occur during the game. Let's create an
+EventListener interface. Every class that wants to handle events must
+implement it. And classes that generate events will call
+this interface's methods.
+9.1. Add the EventListener interface to the controller package.
+9.2. Add these void methods to the interface:
+9.2.1. move(Direction direction) - moves the object in the specified direction.
+9.2.2. restart() - restart the current level.
+9.2.3. startNextLevel() - start the next level.
+9.2.4. levelCompleted(int level) - the level with the passed index has been completed.
+9.3. Add the EventListener interface to the Controller class, and write the stubs required to
+implement the interface.
+9.4. Add an EventListener eventListener field to the Model and Board classes.
+9.5. Add the setEventListener(EventListener eventListener) method
+to the Model, View, and Board classes. In the View class, this method must call the analogous method on the
+board object. In the Model and Field classes, it must set the value of the internal eventListener fields.
+
+
+
+Sokoban (part 8)
+
+
+You've created the complete collection of game objects. Let's create a class to
+store these objects.
+8.1. Create a GameObjects class in the model package.
+8.2. Add the following:
+8.2.1. Set<Wall> walls, Set<Box> boxes, Set<StorageLocation> storageLocations, and Player player fields.
+8.2.2. Getters for these fields.
+8.2.3. A class constructor that accepts Set<Wall> walls, Set<Box> boxes, Set<StorageLocation> storageLocations,
+and Player player arguments, and that initializes the class's fields.
+8.2.4. A Set<GameObject> getAll() method. It must return a set containing
+all of the objects stored in the object.
+
+
+
+
+Sokoban (part 7)
+
+
+Let's make the Wall class. A wall can collide with other objects, but it
+can't move.
+7.1. Add a Wall class to the model package.
+7.2. Make the class inherit the appropriate parent class.
+7.3. Implement a constructor with int x and int y parameters.
+7.4. Implement the method for drawing.
+Hint: you could draw walls as brown squares, but
+no one is limiting your choice of color. Show your full creative potential.
+
+
+
+Sokoban (part 6)
+
+
+It's time to create the StorageLocation class. This class will be responsible for the game board cells
+that all the boxes must be moved to. Objects of this type must not move
+across the board or collide with other game objects.
+6.1. Add a StorageLocation class to the model package.
+6.2. The class must inherit the most appropriate base class.
+6.3. Add a constructor that accepts int x and int y arguments. The width and height
+of storage locations must be equal to 2.
+6.4. Implement the method for drawing a storage location. Hint: you can use red and
+an unfilled circle.
+
+As with previous game objects, you can test the draw method in the
+Board class's paint() method.
+
+
+
